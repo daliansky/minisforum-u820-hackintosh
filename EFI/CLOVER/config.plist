@@ -214,7 +214,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 -no_compat_check -igfxdvmt -igfxsku dart=0 -igfxnohdmi -cdfon igfxonln=1 -v -igfxmpc alcverbs=1</string>
+		<string>npci=0x2000 -no_compat_check -igfxdvmt -igfxsku dart=0 -igfxnohdmi -cdfon igfxonln=1 -igfxmpc alcverbs=1</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -469,8 +469,10 @@
 			<string>BOOTX64.EFI</string>
 			<string>Windows</string>
 		</array>
+		<key>KbdPrevLang</key>
+		<true/>
 		<key>Language</key>
-		<string>zh_CN:0</string>
+		<string>en-US:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -496,9 +498,7 @@
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>CrispyOSX</string>
-		<key>Timezone</key>
-		<integer>3</integer>
+		<string>DiscBlackC</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
