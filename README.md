@@ -64,6 +64,10 @@
 
 
 
+## QQ群
+
+minisforum U820黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
+
 ## 感谢名单：
 
 - [Apple](https://apple.com/) for macOS;
