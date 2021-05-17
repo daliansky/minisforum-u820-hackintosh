@@ -61,3 +61,14 @@
 ## 截屏
 
 ![clover](./screenshots/screenshot3.png)
+
+
+
+## 感谢名单：
+
+- [Apple](https://apple.com/) for macOS;
+- [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
+- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html) For great and detailed guides.
+
+- [jozews321](https://github.com/jozews321) For the injection information in the U820 device properties
+
