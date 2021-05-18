@@ -56,17 +56,34 @@
 
 - 其它参数默认即可
 
-  
+## CLOVER替换成OC引导的必要操作步骤
+
+1. 替换三码，[下载](https://mackie100projects.altervista.org/opencore-configurator/)`OpenCore Configurator`，以及[下载](https://mackie100projects.altervista.org/download-clover-configurator/)`Clover Configurator`，分别打开`config.plist`文件，按下图进行替换操作，然后保存![SN](./screenshots/SN.jpg)
+2. 重启，在`OpenCore`主引导界面，按`空格`键，光标移动到`Reset NVRAM`图标回车即可![OC_resetNVRAM](./screenshots/OC_resetNVRAM.png)
+3. 替换`EFI`的操作请参考其它教程
 
 ## 截屏
 
-![clover](./screenshots/screenshot3.png)
+![clover](./screenshots/OC.png)
 
+![Hackintool](./screenshots/Hackintool.png)
 
+![Hackintool_Miscs](./screenshots/Hackintool_Miscs.png)
 
-## QQ群
+![Hackintool_Audio](./screenshots/Hackintool_Audio.png)
+
+![Hackintool_USBPorts](./screenshots/Hackintool_USBPorts.png)
+
+![DualDisplays](./screenshots/DualDisplays.png)
+
+![HDMI_Audio](./screenshots/HDMI_Audio.png)
+
+![Monitors](./screenshots/Monitors.png)
+
+## 其它信息
 
 minisforum U820黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
+minisforum U820购买链接：[黑果小兵的部落阁](https://hackintosher.taobao.com/) 
 
 ## 感谢名单：
 
