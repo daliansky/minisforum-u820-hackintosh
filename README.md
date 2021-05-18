@@ -83,6 +83,7 @@
 ## 其它信息
 
 minisforum U820黑苹果交流群：[869792897](https://qm.qq.com/cgi-bin/qm/qr?k=TdIS59sEdBCjbz8NbdrQ2IyPG6bMza3_&jump_from=webapi)
+
 minisforum U820购买链接：[黑果小兵的部落阁](https://hackintosher.taobao.com/) 
 
 ## 感谢名单：
