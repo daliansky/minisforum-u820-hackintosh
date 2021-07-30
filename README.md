@@ -1,5 +1,7 @@
 # minisforum-u820-hackintosh
 
+[![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
+
 ## 电脑配置
 
 |   规格   |                           详细信息                           |
