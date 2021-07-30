@@ -1,0 +1,30 @@
+
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "1M1-gz-Hea"; */
+"1M1-gz-Hea.title" = "Revision to install:";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "564-pv-rZ2"; */
+"564-pv-rZ2.title" = "Download";
+
+/* Class = "NSSegmentedCell"; BAJ-2N-Ers.ibShadowedLabels[0] = "Release"; ObjectID = "BAJ-2N-Ers"; */
+"BAJ-2N-Ers.ibShadowedLabels[0]" = "Release";
+
+/* Class = "NSSegmentedCell"; BAJ-2N-Ers.ibShadowedLabels[1] = "Debug"; ObjectID = "BAJ-2N-Ers"; */
+"BAJ-2N-Ers.ibShadowedLabels[1]" = "Debug";
+
+/* Class = "NSTextFieldCell"; title = "Location"; ObjectID = "EN9-Xo-d0v"; */
+"EN9-Xo-d0v.title" = "Location";
+
+/* Class = "NSWindow"; title = "OpenCore Downloader"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "OpenCore Downloader";
+
+/* Class = "NSTextFieldCell"; title = "Current booted version:"; ObjectID = "WYE-0s-lZa"; */
+"WYE-0s-lZa.title" = "Current booted version:";
+
+/* Class = "NSButtonCell"; title = "Backup files"; ObjectID = "cMH-BQ-DfF"; */
+"cMH-BQ-DfF.title" = "Backup files";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "hP3-xg-Qme"; */
+"hP3-xg-Qme.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "mYy-0A-70y"; */
+"mYy-0A-70y.title" = "Check Now";

@@ -1,0 +1,39 @@
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "4QN-tn-Uy6"; */
+"4QN-tn-Uy6.title" = "主题";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "G1R-VP-3DQ"; */
+"G1R-VP-3DQ.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "J33-pe-Iky"; */
+"J33-pe-Iky.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "Lqt-Vc-rkf"; */
+"Lqt-Vc-rkf.title" = "好";
+
+/* Class = "NSTextFieldCell"; title = "Recovery Icon"; ObjectID = "PRq-62-AiI"; */
+"PRq-62-AiI.title" = "恢复图标";
+
+/* Class = "NSWindow"; title = "Themes Validator"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "主题验证器";
+
+/* Class = "NSTextFieldCell"; title = "Icon"; ObjectID = "TRg-90-mtm"; */
+"TRg-90-mtm.title" = "图标";
+
+/* Class = "NSButtonCell"; title = "Add Audio Files"; ObjectID = "U3J-cz-yl1"; */
+"U3J-cz-yl1.title" = "添加音频文件";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "Wax-4m-qof"; */
+"Wax-4m-qof.headerCell.title" = "名称";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "d7F-NQ-01Q"; */
+"d7F-NQ-01Q.title" = "好";
+
+/* Class = "NSTextFieldCell"; title = "Download OCBinaryData"; ObjectID = "pjM-Sg-hK6"; */
+"pjM-Sg-hK6.title" = "下载OCBinaryData";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "rOG-XT-3Wy"; */
+"rOG-XT-3Wy.headerCell.title" = "作者";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "veW-zj-E2v"; */
+"veW-zj-E2v.title" = "分区:";

@@ -1,0 +1,69 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "6on-lJ-yiP"; */
+"6on-lJ-yiP.headerCell.title" = "Value";
+
+/* Class = "NSWindow"; title = "Presets"; ObjectID = "7dM-hm-O9O"; */
+"7dM-hm-O9O.title" = "Presets";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "9kg-WA-Eir"; */
+"9kg-WA-Eir.headerCell.title" = "Devices";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key*"; ObjectID = "F6A-yy-QfQ"; */
+"F6A-yy-QfQ.headerCell.title" = "Key*";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "JHu-SN-nN7"; */
+"JHu-SN-nN7.title" = "List of PCI Devices";
+
+/* Class = "NSTabViewItem"; label = "Selected Platform"; ObjectID = "Lb7-g2-RyE"; */
+"Lb7-g2-RyE.label" = "Selected Platform";
+
+/* Class = "NSButtonCell"; title = "Spoof ID"; ObjectID = "LcB-f7-aNX"; */
+"LcB-f7-aNX.title" = "Spoof ID";
+
+/* Class = "NSTabViewItem"; label = "CPU Codenames"; ObjectID = "MD8-eq-jtV"; */
+"MD8-eq-jtV.label" = "CPU Codenames";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "NLq-sd-yYz"; */
+"NLq-sd-yYz.label" = "Add";
+
+/* Class = "NSMenuItem"; title = "DATA"; ObjectID = "POL-aB-DNF"; */
+"POL-aB-DNF.title" = "DATA";
+
+/* Class = "NSTabViewItem"; label = "Current System"; ObjectID = "QNk-Ut-xrk"; */
+"QNk-Ut-xrk.label" = "Current System";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "V5x-oc-YnL"; */
+"V5x-oc-YnL.title" = "List of PCI Devices";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "dpG-4m-Tya"; */
+"dpG-4m-Tya.headerCell.title" = "Type";
+
+/* Class = "NSTabViewItem"; label = "Device IDs"; ObjectID = "ej0-LP-73g"; */
+"ej0-LP-73g.label" = "Device IDs";
+
+/* Class = "NSTabViewItem"; label = "Framebuffer"; ObjectID = "ews-BC-kwq"; */
+"ews-BC-kwq.label" = "Framebuffer";
+
+/* Class = "NSMenuItem"; title = "Add all PCI devices"; ObjectID = "gGR-Wj-H5N"; */
+"gGR-Wj-H5N.title" = "Add all PCI devices";
+
+/* Class = "NSMenuItem"; title = "NUMBER"; ObjectID = "lI7-XR-ash"; */
+"lI7-XR-ash.title" = "NUMBER";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "n3V-ht-3yU"; */
+"n3V-ht-3yU.label" = "Delete";
+
+/* Class = "NSTabViewItem"; label = "Platform IDs"; ObjectID = "n7N-Fd-plx"; */
+"n7N-Fd-plx.label" = "Platform IDs";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "pxh-MR-ISe"; */
+"pxh-MR-ISe.headerCell.title" = "Key";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "rqc-Sa-r83"; */
+"rqc-Sa-r83.headerCell.title" = "Devices";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "sdh-x3-Y0z"; */
+"sdh-x3-Y0z.title" = "Add";
+
+/* Class = "NSMenuItem"; title = "STRING"; ObjectID = "ycS-j8-cj1"; */
+"ycS-j8-cj1.title" = "STRING";

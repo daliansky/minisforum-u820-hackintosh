@@ -1,0 +1,36 @@
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "3Oi-0Q-hbH"; */
+"3Oi-0Q-hbH.title" = "Partition:";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "43f-g7-wu4"; */
+"43f-g7-wu4.title" = "Download";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "8nv-uX-5Ip"; */
+"8nv-uX-5Ip.headerCell.title" = "Author";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "MWO-1d-HAf"; */
+"MWO-1d-HAf.ibShadowedToolTip" = "Reload Data";
+
+/* Class = "NSWindow"; title = "Themes Downloader"; ObjectID = "S8M-dA-IOh"; */
+"S8M-dA-IOh.title" = "Themes Downloader";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "VdQ-Vm-3jd"; */
+"VdQ-Vm-3jd.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "g13-ie-ifT"; */
+"g13-ie-ifT.headerCell.title" = "Name";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "hRh-os-HKE"; */
+"hRh-os-HKE.title" = "Status";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "ppx-bm-rJC"; */
+"ppx-bm-rJC.ibShadowedToolTip" = "Open Folder";
+
+/* Class = "NSTableColumn"; headerCell.title = "Preview"; ObjectID = "sHS-9P-uFS"; */
+"sHS-9P-uFS.headerCell.title" = "Preview";
+
+/* Class = "NSTableColumn"; headerCell.title = "Compatibility"; ObjectID = "tRK-3m-DuH"; */
+"tRK-3m-DuH.headerCell.title" = "Compatibility";
+
+/* Class = "NSButtonCell"; title = "Set as default"; ObjectID = "trK-Ji-Qid"; */
+"trK-Ji-Qid.title" = "Set as default";

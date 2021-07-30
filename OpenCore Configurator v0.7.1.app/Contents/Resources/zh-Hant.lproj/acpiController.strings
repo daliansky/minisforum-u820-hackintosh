@@ -1,0 +1,114 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "4j9-uJ-Gbu"; */
+"4j9-uJ-Gbu.headerCell.title" = "Mask";
+
+/* Class = "NSButtonCell"; title = "NormalizeHeaders"; ObjectID = "6NS-cZ-NZu"; */
+"6NS-cZ-NZu.title" = "NormalizeHeaders";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "7g0-XW-xjy"; */
+"7g0-XW-xjy.title" = "正在載入線上資源文件";
+
+/* Class = "NSButtonCell"; title = "SyncTableIds"; ObjectID = "7nt-3d-eth"; */
+"7nt-3d-eth.title" = "SyncTableIds";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "A4Q-If-0AG"; */
+"A4Q-If-0AG.headerCell.title" = "跳過次數後開始替換";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "CVl-gt-v4L"; */
+"CVl-gt-v4L.headerCell.title" = "ACPI表長度";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "CbM-86-go4"; */
+"CbM-86-go4.headerCell.title" = "路徑*";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "DxA-Lh-I4Q"; */
+"DxA-Lh-I4Q.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "FLp-3q-DSv"; */
+"FLp-3q-DSv.headerCell.title" = "啟用";
+
+/* Class = "NSButtonCell"; title = "EnableForAll"; ObjectID = "HdU-pu-zKX"; */
+"HdU-pu-zKX.title" = "EnableForAll\n針對全部系统";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "Ite-rF-5H2"; */
+"Ite-rF-5H2.headerCell.title" = "替換次數";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "JFF-S2-t99"; */
+"JFF-S2-t99.headerCell.title" = "替換Mask";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "JjS-7V-0PV"; */
+"JjS-7V-0PV.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "K4n-vm-jxn"; */
+"K4n-vm-jxn.headerCell.title" = "尋找";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "Kbb-Cq-tfz"; */
+"Kbb-Cq-tfz.title" = "修補文件列表";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "MtH-av-7W0"; */
+"MtH-av-7W0.headerCell.title" = "ACPI表長度";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "Ndv-7C-25y"; */
+"Ndv-7C-25y.title" = "快照增加";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "NtB-gi-4nw"; */
+"NtB-gi-4nw.headerCell.title" = "替換";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "Nxc-pO-D4k"; */
+"Nxc-pO-D4k.headerCell.title" = "OemTableId";
+
+/* Class = "NSButtonCell"; title = "RebaseRegions"; ObjectID = "OG6-fc-Q9m"; */
+"OG6-fc-Q9m.title" = "RebaseRegions";
+
+/* Class = "NSButtonCell"; title = "ResetHwSig"; ObjectID = "Z6k-wb-4yC"; */
+"Z6k-wb-4yC.title" = "ResetHwSig";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "c8a-dM-DNw"; */
+"c8a-dM-DNw.headerCell.title" = "啟用";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "cAx-1U-xJ9"; */
+"cAx-1U-xJ9.headerCell.title" = "注釋";
+
+/* Class = "NSButtonCell"; title = "ResetLogoStatus"; ObjectID = "fCv-Py-taQ"; */
+"fCv-Py-taQ.title" = "Resetlogostatus";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "gIS-d5-pG5"; */
+"gIS-d5-pG5.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "ger-9o-NnS"; */
+"ger-9o-NnS.headerCell.title" = "限制";
+
+/* Class = "NSTableColumn"; headerCell.title = "Base"; ObjectID = "h4B-GA-PeX"; */
+"h4B-GA-PeX.headerCell.title" = "Base";
+
+/* Class = "NSTableColumn"; headerCell.title = "BaseSkip"; ObjectID = "hIr-Vr-rVp"; */
+"hIr-Vr-rVp.headerCell.title" = "BaseSkip";
+
+/* Class = "NSTableColumn"; headerCell.title = "All"; ObjectID = "iwn-0u-n3y"; */
+"iwn-0u-n3y.headerCell.title" = "全部";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "jB3-Fa-Mq9"; */
+"jB3-Fa-Mq9.label" = "修補文件";
+
+/* Class = "NSButtonCell"; title = "Download/Update Acpi"; ObjectID = "l2s-yf-wZB"; */
+"l2s-yf-wZB.title" = "下載/更新 ACPI文件";
+
+/* Class = "NSButtonCell"; title = "FadtEnableReset"; ObjectID = "l7b-Bk-2B3"; */
+"l7b-Bk-2B3.title" = "FadtEnableReset";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "mHJ-L1-J8M"; */
+"mHJ-L1-J8M.headerCell.title" = "ACPI表名 *";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "qk5-w1-h2Q"; */
+"qk5-w1-h2Q.headerCell.title" = "OemTableId";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "swX-ck-WbC"; */
+"swX-ck-WbC.label" = "删除";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "wld-sU-lGp"; */
+"wld-sU-lGp.headerCell.title" = "ACPI表名 *";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "y3O-8J-sex"; */
+"y3O-8J-sex.label" = "增加";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "z8k-hB-WoQ"; */
+"z8k-hB-WoQ.headerCell.title" = "啟用";

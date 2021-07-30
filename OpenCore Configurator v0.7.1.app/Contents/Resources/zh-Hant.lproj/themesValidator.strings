@@ -1,0 +1,39 @@
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "4QN-tn-Uy6"; */
+"4QN-tn-Uy6.title" = "Theme";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "G1R-VP-3DQ"; */
+"G1R-VP-3DQ.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "J33-pe-Iky"; */
+"J33-pe-Iky.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "Lqt-Vc-rkf"; */
+"Lqt-Vc-rkf.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Recovery Icon"; ObjectID = "PRq-62-AiI"; */
+"PRq-62-AiI.title" = "Recovery Icon";
+
+/* Class = "NSWindow"; title = "Themes Validator"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Themes Validator";
+
+/* Class = "NSTextFieldCell"; title = "Icon"; ObjectID = "TRg-90-mtm"; */
+"TRg-90-mtm.title" = "Icon";
+
+/* Class = "NSButtonCell"; title = "Add Audio Files"; ObjectID = "U3J-cz-yl1"; */
+"U3J-cz-yl1.title" = "Add Audio Files";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "Wax-4m-qof"; */
+"Wax-4m-qof.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "d7F-NQ-01Q"; */
+"d7F-NQ-01Q.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Download OCBinaryData"; ObjectID = "pjM-Sg-hK6"; */
+"pjM-Sg-hK6.title" = "Download OCBinaryData";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "rOG-XT-3Wy"; */
+"rOG-XT-3Wy.headerCell.title" = "Author";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "veW-zj-E2v"; */
+"veW-zj-E2v.title" = "Partition:";

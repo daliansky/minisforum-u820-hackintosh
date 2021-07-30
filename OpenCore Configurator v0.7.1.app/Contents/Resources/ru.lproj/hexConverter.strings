@@ -1,0 +1,57 @@
+
+/* Class = "NSTextFieldCell"; placeholderString = "decimal string"; ObjectID = "1JV-bN-KRu"; */
+"1JV-bN-KRu.placeholderString" = "decimal string";
+
+/* Class = "NSTextFieldCell"; placeholderString = "text string"; ObjectID = "8Wn-hg-GPm"; */
+"8Wn-hg-GPm.placeholderString" = "text string";
+
+/* Class = "NSBox"; title = "decimal <-> HEX "; ObjectID = "AbW-Wf-IH2"; */
+"AbW-Wf-IH2.title" = "decimal <-> HEX ";
+
+/* Class = "NSSegmentedCell"; CBm-Dw-zMx.ibShadowedLabels[0] = "encode"; ObjectID = "CBm-Dw-zMx"; */
+"CBm-Dw-zMx.ibShadowedLabels[0]" = "encode";
+
+/* Class = "NSSegmentedCell"; CBm-Dw-zMx.ibShadowedLabels[1] = "decode"; ObjectID = "CBm-Dw-zMx"; */
+"CBm-Dw-zMx.ibShadowedLabels[1]" = "decode";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "DEE-Cf-wUo"; */
+"DEE-Cf-wUo.placeholderString" = "HEX string";
+
+/* Class = "NSWindow"; title = "HEX Converter"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "HEX Converter";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "Gie-E9-zgo"; */
+"Gie-E9-zgo.title" = "Convert";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "Krf-zs-rxt"; */
+"Krf-zs-rxt.placeholderString" = "HEX string";
+
+/* Class = "NSBox"; title = "Base64 <-> HEX"; ObjectID = "Kzm-Gy-aa0"; */
+"Kzm-Gy-aa0.title" = "Base64 <-> HEX";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "SIA-8M-VIR"; */
+"SIA-8M-VIR.title" = "Convert";
+
+/* Class = "NSButtonCell"; title = "Convert"; ObjectID = "WJd-p8-WBC"; */
+"WJd-p8-WBC.title" = "Convert";
+
+/* Class = "NSTextFieldCell"; placeholderString = "HEX string"; ObjectID = "b4C-Sn-H77"; */
+"b4C-Sn-H77.placeholderString" = "HEX string";
+
+/* Class = "NSBox"; title = "text <-> HEX"; ObjectID = "e5z-PY-uGW"; */
+"e5z-PY-uGW.title" = "text <-> HEX";
+
+/* Class = "NSTextFieldCell"; placeholderString = "base64 string"; ObjectID = "eFe-vG-d6F"; */
+"eFe-vG-d6F.placeholderString" = "base64 string";
+
+/* Class = "NSSegmentedCell"; iqQ-72-2SG.ibShadowedLabels[0] = "decode"; ObjectID = "iqQ-72-2SG"; */
+"iqQ-72-2SG.ibShadowedLabels[0]" = "decode";
+
+/* Class = "NSSegmentedCell"; iqQ-72-2SG.ibShadowedLabels[1] = "encode"; ObjectID = "iqQ-72-2SG"; */
+"iqQ-72-2SG.ibShadowedLabels[1]" = "encode";
+
+/* Class = "NSSegmentedCell"; kUZ-Lv-wLW.ibShadowedLabels[0] = "encode"; ObjectID = "kUZ-Lv-wLW"; */
+"kUZ-Lv-wLW.ibShadowedLabels[0]" = "encode";
+
+/* Class = "NSSegmentedCell"; kUZ-Lv-wLW.ibShadowedLabels[1] = "decode"; ObjectID = "kUZ-Lv-wLW"; */
+"kUZ-Lv-wLW.ibShadowedLabels[1]" = "decode";

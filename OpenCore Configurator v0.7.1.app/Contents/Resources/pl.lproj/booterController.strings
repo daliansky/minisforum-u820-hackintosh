@@ -1,0 +1,57 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "3Ee-Qq-8wZ"; */
+"3Ee-Qq-8wZ.headerCell.title" = "Mask";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "6o1-1f-ghJ"; */
+"6o1-1f-ghJ.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "7mi-i8-NsB"; */
+"7mi-i8-NsB.headerCell.title" = "Find";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "82c-6J-7Bc"; */
+"82c-6J-7Bc.headerCell.title" = "Arch";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier"; ObjectID = "BvG-CB-C9w"; */
+"BvG-CB-C9w.headerCell.title" = "Identifier";
+
+/* Class = "NSTextFieldCell"; title = "ProvideMaxSlide"; ObjectID = "Dis-CN-0f1"; */
+"Dis-CN-0f1.title" = "ProvideMaxSlide";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "N9f-29-rB5"; */
+"N9f-29-rB5.label" = "Patch";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "PeB-9S-Amz"; */
+"PeB-9S-Amz.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address*"; ObjectID = "XBA-aR-mC0"; */
+"XBA-aR-mC0.headerCell.title" = "Address*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "c3O-jR-hal"; */
+"c3O-jR-hal.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "cCx-7g-cuM"; */
+"cCx-7g-cuM.headerCell.title" = "Count";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "dwb-DP-v4I"; */
+"dwb-DP-v4I.headerCell.title" = "Skip";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "f4e-pW-Orc"; */
+"f4e-pW-Orc.headerCell.title" = "Comment";
+
+/* Class = "NSButtonCell"; title = "EnableForAll"; ObjectID = "hF2-W3-w6Y"; */
+"hF2-W3-w6Y.title" = "EnableForAll";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "jK8-UP-6rI"; */
+"jK8-UP-6rI.headerCell.title" = "ReplaceMask";
+
+/* Class = "NSTabViewItem"; label = "MmioWhitelist"; ObjectID = "mrQ-IT-UQ3"; */
+"mrQ-IT-UQ3.label" = "MmioWhitelist";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "mtD-yq-Tub"; */
+"mtD-yq-Tub.headerCell.title" = "Replace";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "ndf-NP-2rM"; */
+"ndf-NP-2rM.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "xEr-hF-nBr"; */
+"xEr-hF-nBr.headerCell.title" = "Limit";

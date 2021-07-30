@@ -21,18 +21,18 @@
 
 - 7-30-2021
   - Release `v1.5.0`
-  - 修复了`TYPE-C`显示输出问题
-- 修复了`Intel I225-V`的驱动问题，支持`Catalina` / `Bigsur` / `Monterey`
+    - 修复了`TYPE-C`显示输出问题
+    - 修复了`Intel I225-V`的驱动问题，支持`Catalina` / `Bigsur` / `Monterey`
   
 - 7-19-2021
 
   - Release `v1.4.0`
-  - 支持`macOS Monterey`的安装使用
+    - 支持`macOS Monterey`的安装使用
   
 - 5-18-2021
 
   - Release `v1.3.0`
-  - 修复了睡眠唤醒问题
+    - 修复了睡眠唤醒问题
   
 - 5-17-2021
 
@@ -48,8 +48,8 @@
 - 4-23-2021
 
   - CLOVER `v5133`
-  - 更换主题为`DiscBlackC`
-  - 移除了`-v`引导参数
+    - 更换主题为`DiscBlackC`
+    - 移除了`-v`引导参数
 
   
 

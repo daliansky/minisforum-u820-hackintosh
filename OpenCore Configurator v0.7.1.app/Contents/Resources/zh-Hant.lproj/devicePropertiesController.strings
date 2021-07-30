@@ -1,0 +1,75 @@
+
+/* Class = "NSView"; ibShadowedToolTip = "2. Delete\nType: plist dict\nDescription: Removes device properties from a map (plist dict) of device paths to an array (plist array) of variable names in plist string format."; ObjectID = "1eh-jH-TX2"; */
+"1eh-jH-TX2.ibShadowedToolTip" = "從設備路徑投射（plist dict）到plist字串格式的變量名數組（plist數組）中删除設備属性。這裡的設定等同於 Clover 裡的 ACPI 重新命名 _DSM → XDSM + TgtBridge";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "6on-lJ-yiP"; */
+"6on-lJ-yiP.headerCell.title" = "值";
+
+/* Class = "NSWindow"; title = "Presets"; ObjectID = "7dM-hm-O9O"; */
+"7dM-hm-O9O.title" = "預設值";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "9kg-WA-Eir"; */
+"9kg-WA-Eir.headerCell.title" = "裝置";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key*"; ObjectID = "F6A-yy-QfQ"; */
+"F6A-yy-QfQ.headerCell.title" = "鍵*";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "JHu-SN-nN7"; */
+"JHu-SN-nN7.title" = "PCI裝置列表";
+
+/* Class = "NSTabViewItem"; label = "Selected Platform"; ObjectID = "Lb7-g2-RyE"; */
+"Lb7-g2-RyE.label" = "選定平台";
+
+/* Class = "NSButtonCell"; title = "Spoof ID"; ObjectID = "LcB-f7-aNX"; */
+"LcB-f7-aNX.title" = "仿冒ID";
+
+/* Class = "NSTabViewItem"; label = "CPU Codenames"; ObjectID = "MD8-eq-jtV"; */
+"MD8-eq-jtV.label" = "CPU架構";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "NLq-sd-yYz"; */
+"NLq-sd-yYz.label" = "增加";
+
+/* Class = "NSMenuItem"; title = "DATA"; ObjectID = "POL-aB-DNF"; */
+"POL-aB-DNF.title" = "DATA類型";
+
+/* Class = "NSTabViewItem"; label = "Current System"; ObjectID = "QNk-Ut-xrk"; */
+"QNk-Ut-xrk.label" = "當前資訊";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "V5x-oc-YnL"; */
+"V5x-oc-YnL.title" = "PCI裝置列表";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "dpG-4m-Tya"; */
+"dpG-4m-Tya.headerCell.title" = "數據類型";
+
+/* Class = "NSTabViewItem"; label = "Device IDs"; ObjectID = "ej0-LP-73g"; */
+"ej0-LP-73g.label" = "裝置ID";
+
+/* Class = "NSTabViewItem"; label = "Framebuffer"; ObjectID = "ews-BC-kwq"; */
+"ews-BC-kwq.label" = "Framebuffer";
+
+/* Class = "NSMenuItem"; title = "Add all PCI devices"; ObjectID = "gGR-Wj-H5N"; */
+"gGR-Wj-H5N.title" = "增加所有PCI裝置";
+
+/* Class = "NSMenuItem"; title = "NUMBER"; ObjectID = "lI7-XR-ash"; */
+"lI7-XR-ash.title" = "數字類型";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "n3V-ht-3yU"; */
+"n3V-ht-3yU.label" = "刪除";
+
+/* Class = "NSTabViewItem"; label = "Platform IDs"; ObjectID = "n7N-Fd-plx"; */
+"n7N-Fd-plx.label" = "平台ID";
+
+/* Class = "NSView"; ibShadowedToolTip = "1. Add\nType: plist dict\nDescription: Sets device properties from a map (plist dict) of device paths to a map (plist dict) of variable names and their values in plist metadata format. Device paths must be provided in canonic string format (e.g. PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)). Properties will only be set if not present and not deleted.\nNote: Currently properties may only be (formerly) added by the original driver, so unless a separate driver was installed, there is no reason to delete the variables."; ObjectID = "ogK-XX-Zb9"; */
+"ogK-XX-Zb9.ibShadowedToolTip" = "此項是用来注入你的裝置的，主要是顯示卡和音效卡兩部分。同樣你也可以訂製一些裝置到你的關於本機–系统報告–PCI列表中，儘管沒有多大的意義。";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "pxh-MR-ISe"; */
+"pxh-MR-ISe.headerCell.title" = "鍵";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "rqc-Sa-r83"; */
+"rqc-Sa-r83.headerCell.title" = "裝置";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "sdh-x3-Y0z"; */
+"sdh-x3-Y0z.title" = "增加";
+
+/* Class = "NSMenuItem"; title = "STRING"; ObjectID = "ycS-j8-cj1"; */
+"ycS-j8-cj1.title" = "字串類型";

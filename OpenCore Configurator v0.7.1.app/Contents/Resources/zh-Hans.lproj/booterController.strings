@@ -1,0 +1,174 @@
+
+/* Class = "NSButtonCell"; title = "DiscardHibernateMap"; ObjectID = "2QZ-Md-QHk"; */
+"2QZ-Md-QHk.title" = "DiscardHibernateMap";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "3Ee-Qq-8wZ"; */
+"3Ee-Qq-8wZ.headerCell.title" = "Mask";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean \nFailsafe: false\nDescription: Protect UEFI services from being overridden by the firmware.\n\nSome modernfirmware, including on virtual machines such as VMware, may update pointers to UEFI services during driver loading and related actions. Consequentially this directly breaks other quirks that affect memory management, such as DevirtualiseMmio, ProtectMemoryRegions, or RebuildAppleMemoryMap, and may also break other quirks depending on the effects of these.\n\nNote: On VMware the need for this quirk may be diagnosed by “Your Mac OS guest might run unreliably with more than one virtual core.” message."; ObjectID = "3fG-t6-MF7"; */
+"3fG-t6-MF7.ibShadowedToolTip" = "保护UEFI服务不被固件覆盖.\n包括硬件和虚拟机(例如VMware)在内的某些现代固件可能会在驱动程序加载和相关操作期间更新指向UEFI服务的指针.因此,这直接破坏了影响内存管理的其他怪癖,例如DevirtualiseMmio,并且还可能破坏其他怪癖,具体取决于这些怪癖的影响.\n\n注意：在VMware上,可以通过“您的Mac OS来宾系统可能不可靠地在多个虚拟内核上运行(Your Mac OS guest might run unreliably with more than one virtual core.)”信息来诊断此问题.\n\nZ390芯片建议使用!";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Protect memory regions from incorrect access.\n\nSome types of firmware incorrectly map select memory regions:\n• CSM region can be marked as boot services code or data, which leaves it as free memory for XNU kernel. \n• MMIO regions can be marked as reserved memory and stay unmapped, but may be required to be accessible at runtime for NVRAM support.\n\nThis quirk attempts to fix types of these regions, e.g. ACPI NVS for CSM or MMIO for MMIO.\n\nNote: The necessity of this quirk is determined by artifacts, sleep wake issues, and boot failures. Only very old firmware typically need this quirk."; ObjectID = "5Km-5w-nkl"; */
+"5Km-5w-nkl.ibShadowedToolTip" = "保护内存区域免受错误访问.\n一些固件错误地映射了选定的存储区域:\n• 可以将CSM区域标记为引导服务代码或数据,从而将其留作XNU内核的可用内存. \n• MMIO区域可以标记为保留内存并保持未映射状态,但是可能需要在运行时对其进行访问以支持NVRAM.\n\n注意:有睡眠唤醒问题或引导失败问题可尝试开启.只有非常老的固件才需要此怪癖.一般选NO";
+
+/* Class = "NSButtonCell"; title = "ForceExitBootServices"; ObjectID = "5sK-91-1dQ"; */
+"5sK-91-1dQ.title" = "ForceExitBootServices";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "6o1-1f-ghJ"; */
+"6o1-1f-ghJ.headerCell.title" = "启用";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "7mi-i8-NsB"; */
+"7mi-i8-NsB.headerCell.title" = "查找";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "82c-6J-7Bc"; */
+"82c-6J-7Bc.headerCell.title" = "架构";
+
+/* Class = "NSButtonCell"; title = "SignalAppleOS"; ObjectID = "9fL-0g-rLi"; */
+"9fL-0g-rLi.title" = "SignalAppleOS";
+
+/* Class = "NSButtonCell"; title = "EnableSafeModeSlide"; ObjectID = "9lc-VM-DSq"; */
+"9lc-VM-DSq.title" = "EnableSafeModeSlide";
+
+/* Class = "NSButtonCell"; title = "ProtectUefiServices"; ObjectID = "9qv-tK-N7C"; */
+"9qv-tK-N7C.title" = "ProtectUefiServices";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier"; ObjectID = "BvG-CB-C9w"; */
+"BvG-CB-C9w.headerCell.title" = "识别码";
+
+/* Class = "NSTextFieldCell"; title = "ProvideMaxSlide"; ObjectID = "Dis-CN-0f1"; */
+"Dis-CN-0f1.title" = "ProvideMaxSlide";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Reuse original hibernate memory map.\nThis option forces XNU kernel to ignore newly supplied memory map and assume that it did not change after waking from hibernation. This behaviour is required to work by Windows, which mandates to preserve runtime memory size and location after S4 wake.\nNote: This may be used to workaround buggy memory maps on older hardware, and is now considered rare legacy. Examples of such hardware are Ivy Bridge laptops with Insyde firmware, such as Acer V3-571G. Do not use this unless you fully understand the consequences."; ObjectID = "ELB-6s-GBW"; */
+"ELB-6s-GBW.ibShadowedToolTip" = "当电脑从休眠(hibernation)中唤醒时,硬盘里的资料会恢复到内存中去,但这个时候OC的内核以及内核缓存等也会写入,这样可能导致冲突,这个选项是帮助我们解决这个问题的.而目前来看,除了z370/x299/c422都无法进行休眠（注意睡眠sleep和休眠hibernation是两个概念）,台式机的话就更不需要休眠功能了,一般选择NO.\n开启后会重用原始休眠内存映射,仅某些旧硬件需要.";
+
+/* Class = "NSButtonCell"; title = "DisableVariableWrite"; ObjectID = "FY9-MP-Vsp"; */
+"FY9-MP-Vsp.title" = "DisableVariableWrite";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Generate Memory Map compatible with macOS.\n\nApple kernel has several limitations in parsing UEFI memory map:\n• Memory map size must not exceed 4096 bytes as Apple kernel maps it as a single 4K page. Since some firmwares have very large memory maps (approximately over 100 entries) Apple kernel will crash at boot.\n• Memory attributes table is ignored. EfiRuntimeServicesCode memory statically gets RX permissions, and all other memory types get RW permissions. Since some firmware drivers may write to global variables at runtime, Apple kernel will crash at calling UEFI runtime services, unless driver .data section has EfiRuntimeServicesData type. \n\nTo workaround these limitations this quirk applies memory attribute table permissions to the memory map passed to the Apple kernel and optionally attempts to unify contiguous slots of similar types if the resulting memory map exceeds 4 KB.\n\nNote 1: Since several types of firmware come with incorrect memory protection tables, this quirk often comes paired with SyncRuntimePermissions.\n\nNote 2 : The necessity of this quirk is determined by early boot failures. This quirk replaces EnableWriteUnprotector on firmware supporting Memory Attribute Tables (MAT). This quirk is usually unnecessary when using OpenDuetPkg, but may be required to boot macOS 10.6, and earlier, for reasons that are not clear."; ObjectID = "JMF-hg-GgC"; */
+"JMF-hg-GgC.ibShadowedToolTip" = "生成与macOS兼容的内存映射.Dell 5490如有启动故障,可启用此项!\n\n注意：此怪癖的必要性取决于早期启动故障.该怪癖在大多数平台上替代了EnableWriteUnprotector.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Protect from macOS NVRAM write access.\nThis is a security option allowing one to restrict NVRAM access in macOS. This quirk requires OC_FIRMWARE_RUNTIME protocol implemented in OpenRuntime.efi.\nNote: This quirk can also be used as an ugly workaround to buggy UEFI runtime services implementations that fail to write variables to NVRAM and break the rest of the operating system."; ObjectID = "KE8-rd-Ty5"; */
+"KE8-rd-Ty5.ibShadowedToolTip" = "非原生NVRAM主板需要模拟nvram.plist进而写入variable值,因此我们要禁止此项来防止其他程序对nvram进行写入,我们这里选YES.需要注意一点,如果你的主板支持原生nvram(z370/x299/c422),请选择NO!\n在 Z390/HM370 等没有原生 macOS 支持 NVRAM 的主板上需要开启.";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "N9f-29-rB5"; */
+"N9f-29-rB5.label" = "补丁";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Remove runtime attribute from select MMIO regions.\nThis option reduces stolen memory footprint from the memory map by removing runtime bit for known memory regions. This quirk may result in the increase of KASLR slides available, but is not necessarily compatible with the target board without additional measures. In general this frees from 64 to 256 megabytes of memory (present in the debug log), and on some platforms it is the only way to boot macOS, which otherwise fails with allocation error at bootloader stage.\nThis option is generally useful on all  types of firmware except some very old ones such as Sandy Bridge. On some types of firmware, a list of addresses that need virtual addresses for proper NVRAM and hibernation\nfunctionality may be required. Use the MmioWhitelist section for this."; ObjectID = "NUB-EN-5ql"; */
+"NUB-EN-5ql.ibShadowedToolTip" = "内存注入方式包括KASLR方式(分布式注射到各个内存地址中）以及连续性方式.在使用KASLR时,PCIE加载到内存,可能会占据所有所有avaliable值而导致OC的内核以及内核缓存无法注入,导致启动失败.使用KASLR方式很容易出错,我们更适合使用连续性的内存注入方式,并在boot args中添加slide=1.因为我们之后会添加这个slide=1去使用连续性的内存注入方式,所以这个选项一般选择NO.";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "PeB-9S-Amz"; */
+"PeB-9S-Amz.title" = "Quirks";
+
+/* Class = "NSButtonCell"; title = "RebuildAppleMemoryMap"; ObjectID = "Qht-28-YA5"; */
+"Qht-28-YA5.title" = "RebuildAppleMemoryMap";
+
+/* Class = "NSScrollView"; ibShadowedToolTip = "1. Address\nType: plist integer\nFailsafe: 0\nDescription: Exceptional MMIO address, which memory descriptor should be left virtualised (unchanged) by DevirtualiseMmio. This means that the firmware will be able to directly communicate with this memory region during operating system functioning, because the region this value is in will be assigned a virtual address.\nThe addresses written here must be part of the memory map, have EfiMemoryMappedIO type and EFI_MEMORY_RUNTIME attribute (highest bit) set. To find the list of the candidates the debug log can be used.\n2. Comment\nType: plist string\nFailsafe: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nFailsafe: false\nDescription: This address will be devirtualised unless set to true."; ObjectID = "RWw-Gp-0A4"; */
+"RWw-Gp-0A4.ibShadowedToolTip" = "默认的第一项是为Haswell芯片提供的内存寻址修复,如果此类芯片碰到内存相关问题,请开启它(enable选择yes).\n默认第二项是开机卡PCI Configuration这里.ACPI、PCI device同时释放到内存时发生0x1000内存地址被占用而卡在PCI Configration.如果碰到此类问题,请开启它.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean \nFailsafe: false \nDescription: Report macOS being loaded through OS Info for any OS. \n\nThis quirk is useful on Mac firmwares, which behaves differently in different OS. For example, it is supposed to enable Intel GPU in Windows and Linux in some dual-GPU MacBook models."; ObjectID = "Ryj-m2-2MI"; */
+"Ryj-m2-2MI.ibShadowedToolTip" = "报告通过OS Info加载的任何OS的macOS. \nMac OS固件在不同的OS上具有不同的行为,因此该功能非常有用.例如,应该在某些双GPU MacBook型号中在Windows和Linux中启用Intel GPU.\一般用不到,选NO";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Disable single user mode.\nThis is a security option allowing one to restrict single user mode usage by ignoring CMD+S hotkey and -s boot argument. The behaviour with this quirk enabled is supposed to match T2-based model behaviour. Read this article to understand how to use single user mode with this quirk enabled."; ObjectID = "Ssn-0z-qIb"; */
+"Ssn-0z-qIb.ibShadowedToolTip" = "这里关乎主机是否能开启单用户模式.开启后会禁止 Cmd + S 和 -s 的使用,使设备更加接近于 T2 白苹果,如果你觉得有用就开启它,一般选NO.";
+
+/* Class = "NSButtonCell"; title = "ProtectMemoryRegions"; ObjectID = "USC-aA-F2K"; */
+"USC-aA-F2K.title" = "ProtectMemoryRegions";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean \nFailsafe: false\nDescription: Protect UEFI Secure Boot variables from being written.\nReports security violation during attempts to write to db, dbx, PK, and KEK variables from the operating system.\n\nNote: This quirk mainly attempts to avoid issues with NVRAM implementations with problematic defragmentation, such as select Insyde or MacPro5,1."; ObjectID = "VnZ-XI-LOq"; */
+"VnZ-XI-LOq.ibShadowedToolTip" = "保护UEFI安全启动变量不被写入.\n报告尝试从操作系统写入db,dbx,PK和KEK变量期间发生的安全冲突.\n\n注意：此怪癖主要尝试避免碎片整理问题对NVRAM实施的影响,例如选择Insyde或MacPro5,1.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address*"; ObjectID = "XBA-aR-mC0"; */
+"XBA-aR-mC0.headerCell.title" = "地址*";
+
+/* Class = "NSButtonCell"; title = "SyncRuntimePermissions"; ObjectID = "XIy-K6-Der"; */
+"XIy-K6-Der.title" = "SyncRuntimePermissions";
+
+/* Class = "NSButtonCell"; title = "EnableWriteUnprotector"; ObjectID = "XaK-gI-0aI"; */
+"XaK-gI-0aI.title" = "EnableWriteUnprotector";
+
+/* Class = "NSButtonCell"; title = "ProvideCustomSlide"; ObjectID = "a8S-kc-6sK"; */
+"a8S-kc-6sK.title" = "ProvideCustomSlide";
+
+/* Class = "NSButtonCell"; title = "DisableSingleUser"; ObjectID = "bMR-Kw-wwp"; */
+"bMR-Kw-wwp.title" = "DisableSingleUser";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Allows booting macOS through a relocation block.\n\nRelocation block is a scratch buffer allocated in lower 4 GB to be used for loading the kernel and related structures by EfiBoot on firmwares where lower memory is otherwise occupied by the (assumed to be) non-runtime data.\nRight before kernel startup the relocation block is copied back to lower addresses. Similarly all the other addresses pointing to relocation block are also carefully adjusted. Relocation block can be used when:\n• No better slide exists (all the memory is used)\n• slide=0 is forced (by an argument or safe mode)\n• KASLR (slide) is unsupported (this is macOS 10.7 or older)\n\nThis quirk requires ProvideCustomSlide to also be enabled and generally needs AvoidRuntimeDefrag to work correctly. Hibernation is not supported when booting with a relocation block (but relocation block is not always used when the quirk is enabled).\n\nNote: While this quirk is required to run older macOS versions on platforms with used lower memory it is not compatible with some hardware and macOS 11. In this case you may try to use EnableSafeModeSlide instead."; ObjectID = "bib-aL-YwI"; */
+"bib-aL-YwI.ibShadowedToolTip" = "允许通过重定位块引导macOS.\n\n重定位块是分配给较低的4 GB的暂存缓冲区,用于由EfiBoot在固件上加载内核和相关结构,在该固件上,较低的内存被(假设是)非运行时数据占用.\n在内核启动之前,重定位块被复制回较低的地址.同样,所有其他指向重定位块的地址也进行了仔细调整. 在以下情况下可以使用重定位块:\n•没有更好的幻灯片存在（已使用所有内存）\n• slide = 0被强制(通过参数或安全模式)\n• 不支持KASLR(slide)(这是macOS 10.7或更旧的版本)\n\n此怪癖需要同时启用ProvideCustomSlide,并且通常需要避免RuntimeDefrag才能正常工作. 使用重定位块引导时不支持休眠(但是启用了怪癖时,并不总是使用重定位块).\n\n注意:虽然需要在具有较低内存的平台上运行旧版macOS,但需要执行该操作,但它与某些硬件和macOS 11不兼容. 在这种情况下,您可以尝试改用EnableSafeModeSlide.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "c3O-jR-hal"; */
+"c3O-jR-hal.headerCell.title" = "启用";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "cCx-7g-cuM"; */
+"cCx-7g-cuM.headerCell.title" = "计数";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Retry ExitBootServices with new memory map on failure.\nTry to ensure that ExitBootServices call succeeds even with outdated MemoryMap key argument by obtaining current memory map and retrying ExitBootServices call.\nNote: The necessity of this quirk is determined by early boot crashes of the firmware. Do not use this without a full understanding of the consequences."; ObjectID = "cTN-CD-c3M"; */
+"cTN-CD-c3M.ibShadowedToolTip" = "这个选项是让那些非常老旧的主板也能使用内存寻址,正常情况下选NO.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "dwb-DP-v4I"; */
+"dwb-DP-v4I.headerCell.title" = "跳过";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "f4e-pW-Orc"; */
+"f4e-pW-Orc.headerCell.title" = "注释";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Type: plist integer\nFailsafe: 0\nDescription: Provide maximum KASLR slide when higher ones are unavailable.\n\nThis option overrides the maximum slide instead of TOTAL_SLIDE_NUM (256) when ProvideCustomSlide is enabled. It is believed that modern firmware allocates pool memory from top to bottom, effectively resulting in free memory when slide scanning is used later as temporary memory during kernel loading. When such memory is not available, this option can stop the evaluation of higher slides.\n\nNote: The necessity of this quirk is determined by random boot failure when ProvideCustomSlide is enabled  and the randomized slide fall into the unavailable range. When AppleDebug is enabled, usually the debug log may contain messages such as AAPL: [EB|‘LD:LKC] } Err(0x9). To find the optimal value, manually append slide=X to boot-args and log the largest one that will not result in boot failures."; ObjectID = "gi2-WY-dKJ"; */
+"gi2-WY-dKJ.ibShadowedToolTip" = "当没有更高KASLR slide时,提供最大的KASLR slide.\n启用ProvideCustomSlide时,此选项会覆盖最大slide,而不是TOTAL_SLIDE_NUM（256）.可以相信,现代固件从上到下分配池内存,有效地导致了slide扫描时的空闲内存,后来被用作内核加载期间的临时内存.如果这些内存不可用,此选项可以停止评估更高的幻灯片.\n\n注意：此问题的必要性由启用ProvideCustomSlide且随机slide落入不可用范围时的随机引导失败确定. 启用AppleDebug时,通常调试日志中可能包含诸如AAPL之类的消息: [EB|‘LD:LKC] } Err(0x9). 要找到最佳值,请手动将slide = X附加到boot-args并记录不会导致启动失败的最大参数.";
+
+/* Class = "NSButtonCell"; title = "EnableForAll"; ObjectID = "hF2-W3-w6Y"; */
+"hF2-W3-w6Y.title" = "EnableForAll\n针对全部系统";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "jK8-UP-6rI"; */
+"jK8-UP-6rI.headerCell.title" = "替换Mask";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Setup virtual memory at SetVirtualAddresses.\n\nSome types of firmware access memory by virtual addresses after a SetVirtualAddresses call, resulting in early boot crashes. This quirk workarounds the problem by performing early boot identity mapping of assigned virtual addresses to physical memory.\n\nNote: The necessity of this quirk is determined by early boot failures. Currently, new firmware with memory protection support (such as OVMF) do not support this quirk."; ObjectID = "l3S-mh-5k0"; */
+"l3S-mh-5k0.ibShadowedToolTip" = "是否建立虚拟内存并对物理内存进行映射.我们在开机时,OC的程序需要一块连续性的内存进行存放内核等东西,而实际的物理内存一般都是分散的.因此,我们通过虚拟内存建立连续性内存供OC使用,并映射到分散的物理内存中.一般我们选择YES.";
+
+/* Class = "NSTabViewItem"; label = "MmioWhitelist"; ObjectID = "mrQ-IT-UQ3"; */
+"mrQ-IT-UQ3.label" = "MmioWhitelist内存映射IO白名单";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "mtD-yq-Tub"; */
+"mtD-yq-Tub.headerCell.title" = "替换";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "ndf-NP-2rM"; */
+"ndf-NP-2rM.headerCell.title" = "注释";
+
+/* Class = "NSButtonCell"; title = "AllowRelocationBlock"; ObjectID = "oFh-ac-Blm"; */
+"oFh-ac-Blm.title" = "AllowRelocationBlock";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "1. Arch\nType: plist string\nFailsafe: Any\nDescription: Booter patch architecture (Any, i386, x86_64).\n2. Comment\nType: plist string\nFailsafe: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Count\nType: plist integer\nFailsafe: 0\nDescription: Number of patch occurrences to apply. 0 applies the patch to all occurrences found.\n4. Enabled\nType: plist boolean\nFailsafe: false\nDescription: This booter patch will not be used unless set to true.\n5. Find\nType: plist data\nFailsafe: Empty data\nDescription: Data to find. This must equal to Replace in size.\n6. Identifier\nType: plist string\nFailsafe: Empty string\nDescription: Apple for macOS booter (generally boot.efi); or a name with suffix (e.g. bootmgfw.efi) for a specific booter; or Any / empty string (failsafe) to match any booter.\n7. Limit\nType: plist integer\nFailsafe: 0\nDescription: Maximum number of bytes to search for. Can be set to 0 to look through the whole booter.\n8. Mask\nType: plist data\nFailsafe: Empty data\nDescription: Data bitwise mask used during find comparison. Allows fuzzy search by ignoring not masked (set to zero) bits. Can be set to empty data to be ignored. Must equal to Find in size otherwise.\n9. Replace\nType: plist data\nFailsafe: Empty data\nDescription: Replacement data of one or more bytes.\n10. ReplaceMask\nType: plist data\nFailsafe: Empty data\nDescription: Data bitwise mask used during replacement. Allows fuzzy replacement by updating masked (set to non-zero) bits. Can be set to empty data to be ignored. Must equal to Replace in size otherwise.\n11. Skip\nType: plist integer\nFailsafe: 0\nDescription: Number of found occurrences to be skipped before replacement is done."; ObjectID = "oWj-qp-bH5"; */
+"oWj-qp-bH5.ibShadowedToolTip" = "1. Arch\n引导程序补丁架构 (Any, i386, x86_64).\n2. Comment\n用于为条目提供可读参考的任意ASCII字符串.\n3. Count\n要应用的补丁出现次数. 设置为0将补丁应用于发现的所有事件.\n4. Enabled\n除非设置为true,否则将不使用此启动程序补丁.\n5. Find\n数据查找.长度必须等于替换.\n6. Identifier\nApple for macOS引导程序（通常为boot.efi）; 或带有特定后缀的后缀名称（例如bootmgfw.efi）;或任何/空字符串（故障安全）以匹配任何引导程序.\n7. Limit\n搜索的最大字节数. 可以设置为 0 以查看整个引导程序.\n8. Mask\n查找比较期间使用的数据按位掩码.通过忽略未屏蔽（设置为零）位来允许模糊搜索.可以设置为空数据以忽略.否则长度必须等于查找.\n9. Replace\n一个或多个字节的替换数据.\n10. ReplaceMask\n替换期间使用的数据按位掩码.通过更新屏蔽（设置为非零）位来允许模糊替换. 可以设置为空数据忽略. 否则必须等于替换长度.\n11. Skip\n完成替换之前要跳过的发现事件次数.";
+
+/* Class = "NSButtonCell"; title = "DevirtualiseMmio"; ObjectID = "pkh-Nr-Lgr"; */
+"pkh-Nr-Lgr.title" = "DevirtualiseMmio";
+
+/* Class = "NSButtonCell"; title = "AvoidRuntimeDefrag"; ObjectID = "quR-9w-VV5"; */
+"quR-9w-VV5.title" = "AvoidRuntimeDefrag";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Patch bootloader to have KASLR enabled in safe mode.\nThis option is relevant to the users that have issues booting to safe mode (e.g. by holding shift or using -x boot argument). By default safe mode forces 0 slide as if the system was launched with slide=0 boot argument. This quirk tries to patch boot.efi to lift that limitation and let some other value (from 1 to 255) be used. This quirk requires ProvideCustomSlide to be enabled.\nNote: The necessity of this quirk is determined by safe mode availability. If booting to safe mode fails, this option can be tried to be enabled."; ObjectID = "qyH-8f-uTZ"; */
+"qyH-8f-uTZ.ibShadowedToolTip" = "开启后会允许在安全模式下使用 Slide 值.这个不是那么重要,你不会每天进安全模式的.像z390这样本来也不用分布式注入内存方式的（KASLR）,选择YES,与正常情况下保持一致.";/* Class = "NSScrollView"; ibShadowedToolTip = "1. Address\nType: plist integer\nFailsafe: 0\nDescription: Exceptional MMIO address, which memory descriptor should be left virtualised (unchanged) by DevirtualiseMmio. This means that the firmware will be able to directly communicate with this memory region during operating system functioning, because the region this value is in will be assigned a virtual address.\nThe addresses written here must be part of the memory map, have EfiMemoryMappedIO type and EFI_MEMORY_RUNTIME attribute (highest bit) set. To find the list of the candidates the debug log can be used.\n2. Comment\nType: plist string\nFailsafe: Empty string\nDescription: Arbitrary ASCII string used to provide human readable reference for the entry. It is implementation defined whether this value is used.\n3. Enabled\nType: plist boolean\nFailsafe: false\nDescription: This address will be devirtualised unless set to true."; ObjectID = "RWw-Gp-0A4"; */
+
+/* Class = "NSButtonCell"; title = "ProtectSecureBoot"; ObjectID = "rWG-6j-Mxs"; */
+"rWG-6j-Mxs.title" = "ProtectSecureBoot";
+
+/* Class = "NSButtonCell"; title = "ForceBooterSignature"; ObjectID = "sHw-qr-Pag"; */
+"sHw-qr-Pag.title" = "ForceBooterSignature";
+
+/* Class = "NSButtonCell"; title = "SetupVirtualMap"; ObjectID = "sNx-S4-Yhl"; */
+"sNx-S4-Yhl.title" = "SetupVirtualMap";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Protect from boot.efi runtime memory defragmentation.\nThis option fixes UEFI runtime services (date, time, NVRAM, power control, etc.) support on firmware that uses SMM backing for select services such as variable storage. SMM may try to access physical addresses, but they get moved by boot.efi.\n\nNote: Most types of firmware, apart from Apple and VMware, need this quirk."; ObjectID = "ubm-2i-zPE"; */
+"ubm-2i-zPE.ibShadowedToolTip" = "大部分UEFI都会写入时间、电源管理等信息,这个所有黑苹果主板都应该选择YES.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Provide custom KASLR slide on low memory.\nThis option performs memory map analysis of the firmware and checks whether all slides (from 1 to 255) can be used. As boot.efi generates this value randomly with rdrand or pseudo randomly rdtsc, there is a chance of boot failure when it chooses a conflicting slide. In case potential conflicts exist, this option forces macOS to use a pseudo random value among the available ones. This also ensures that slide= argument is never passed to the operating system for security reasons.\nNote: The necessity of this quirk is determined by OCABC: Only N/256 slide values are usable! message in the debug log. If the message is present, this option is to be enabled."; ObjectID = "wGH-hP-xhD"; */
+"wGH-hP-xhD.ibShadowedToolTip" = "是否使用slide值.一般选择连续性注入内存并配合slide,所以选择YES.\nBat.bat解释:\n如果 Slide 值存在冲突, 此选项将强制 macOS 执行以下操作:\n使用一个伪随机值. 只有在遇到 Only N/256 slide values are usable! 时需要.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Set macOS boot-signature to OpenCore launcher.\n\nBooter signature, essentially a SHA-1 hash of the loaded image, is used by Mac EFI to verify the authenticity of the bootloader when waking from hibernation. This option forces macOS to use OpenCore launcher SHA-1 hash as a booter signature to let OpenCore shim hibernation wake on Mac EFI firmware.\n\nNote: OpenCore launcher path is determined from LauncherPath property."; ObjectID = "woE-nK-MFN"; */
+"woE-nK-MFN.ibShadowedToolTip" = "为OpenCore启动器设置macOS引导签名.\n\n引导器签名, 本质上是加载映像的SHA-1哈希值, 从休眠状态唤醒时,由Mac EFI使用它来验证引导加载程序的真实性. 此选项强制macOS使用OpenCore启动器SHA-1哈希作为启动器签名,以使OpenCore休眠在Mac EFI固件上唤醒.\n\n注意：OpenCore启动器路径由LauncherPath属性确定.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "xEr-hF-nBr"; */
+"xEr-hF-nBr.headerCell.title" = "限制";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Permit write access to UEFI runtime services code.\nThis option bypasses RˆX permissions in code pages of UEFI runtime services by removing write protection (WP) bit from CR0 register during their execution. This quirk requires OC_FIRMWARE_RUNTIME protocol implemented in OpenRuntime.efi.\nNote: This quirk may potentially weaken firmware security, please use RebuildAppleMemoryMap if the firmware supports memory attributes table (MAT). Refer to OCABC: MAT support is 1/0 log entry to determine whether\nMAT is supported."; ObjectID = "xH6-La-kRg"; */
+"xH6-La-kRg.ibShadowedToolTip" = "允许对UEFI运行时服务代码的写访问\n保证nvram能正常写入而不受到UEFI内的一些服务的影响,无论什么主板都要选择YES.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Type: plist boolean\nFailsafe: false\nDescription: Update memory permissions for OpenRuntime to function. \n\nSome types of firmware fail to properly handle runtime permissions:\n• They incorrectly mark OpenRuntime as not executable in the memory map.\n• They incorrectly mark OpenRuntime as not executable in the memory attributes table.\n• They lose entries from the memory attributes table after OpenRuntime is loaded.\n• They mark items in the memory attributes table as read-write-execute.\n\nThis quirk tries to update memory map and memory attributes table to correct this.\n\nNote: The need for this quirk is indicated by early boot failures . Only firmware released after 2017 is typically affected."; ObjectID = "ymv-yt-Lvn"; */
+"ymv-yt-Lvn.ibShadowedToolTip" = "更新内存权限以使OpenRuntime起作用. \n\n某些固件可能会错误地将OpenRuntime标记为不可执行,此选项会更新内存映射和内存属性表以更正此错误.\n\n注意：此怪癖的必要性取决于macOS或Linux/Windows中的早期启动故障. 一般而言,仅2018年或之后发布的固件会受到影响.";

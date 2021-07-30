@@ -1,0 +1,45 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "21B-Cb-fUA"; */
+"21B-Cb-fUA.headerCell.title" = "Description";
+
+/* Class = "NSButton"; ibShadowedToolTip = "reload data"; ObjectID = "3Ug-4D-KT5"; */
+"3Ug-4D-KT5.ibShadowedToolTip" = "reload data";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "65j-hw-8RJ"; */
+"65j-hw-8RJ.title" = "Status";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "B3V-wJ-Liu"; */
+"B3V-wJ-Liu.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "GKG-QM-bIL"; */
+"GKG-QM-bIL.title" = "Download";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Not Installed"; ObjectID = "LIE-Ta-kNn"; */
+"LIE-Ta-kNn.title" = "Acpi Not Installed";
+
+/* Class = "NSButton"; ibShadowedToolTip = "open partition"; ObjectID = "Pa0-us-lAL"; */
+"Pa0-us-lAL.ibShadowedToolTip" = "open partition";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "PcY-xL-GAd"; */
+"PcY-xL-GAd.title" = "Box";
+
+/* Class = "NSWindow"; title = "ACPI Downloader"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "ACPI Downloader";
+
+/* Class = "NSTextFieldCell"; title = "target partition"; ObjectID = "Rpn-xn-uy7"; */
+"Rpn-xn-uy7.title" = "target partition";
+
+/* Class = "NSButtonCell"; title = "Backup Acpi"; ObjectID = "WeO-Rr-T3c"; */
+"WeO-Rr-T3c.title" = "Backup Acpi";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "eVi-uB-Nnf"; */
+"eVi-uB-Nnf.headerCell.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "g7H-EN-grT"; */
+"g7H-EN-grT.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "jcQ-eq-FLX"; */
+"jcQ-eq-FLX.headerCell.title" = "Installed";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Installed"; ObjectID = "yDU-1k-6MS"; */
+"yDU-1k-6MS.title" = "Acpi Installed";

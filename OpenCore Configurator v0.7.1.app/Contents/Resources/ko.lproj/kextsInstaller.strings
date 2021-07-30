@@ -1,0 +1,96 @@
+
+/* Class = "NSButtonCell"; title = "SMCProcessor"; ObjectID = "0Hr-0F-FV6"; */
+"0Hr-0F-FV6.title" = "SMCProcessor";
+
+/* Class = "NSButtonCell"; title = "Backup kext"; ObjectID = "39o-Ir-A0m"; */
+"39o-Ir-A0m.title" = "벡업 kext";
+
+/* Class = "NSTableColumn"; headerCell.title = "Category"; ObjectID = "47C-Wy-wbp"; */
+"47C-Wy-wbp.headerCell.title" = "카테고리";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "6OG-eK-0wo"; */
+"6OG-eK-0wo.headerCell.title" = "제작자";
+
+/* Class = "NSTextFieldCell"; title = "[*]drag and drop to table for manual installation"; ObjectID = "9WO-06-2fp"; */
+"9WO-06-2fp.title" = "[*]수동 설치는 드래그&드랍";
+
+/* Class = "NSButtonCell"; title = "Select"; ObjectID = "Cu7-TT-odD"; */
+"Cu7-TT-odD.title" = "선택";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "DPO-a9-fnK"; */
+"DPO-a9-fnK.title" = "파티션:";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "EAo-vi-RTS"; */
+"EAo-vi-RTS.title" = "인스톨";
+
+/* Class = "NSButtonCell"; title = "HWMonitor"; ObjectID = "Gc8-yC-f8T"; */
+"Gc8-yC-f8T.title" = "HWMonitor";
+
+/* Class = "NSButtonCell"; title = "SMCSuperIO"; ObjectID = "Oqq-A2-PX5"; */
+"Oqq-A2-PX5.title" = "SMCSuperIO";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "Pss-ZT-2YR"; */
+"Pss-ZT-2YR.ibShadowedToolTip" = "데이터 리로드";
+
+/* Class = "NSWindow"; title = "Kexts Installer"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Kexts 인스톨러";
+
+/* Class = "NSWindow"; title = "NoVPAJpeg Selection"; ObjectID = "T0X-Ss-Wv0"; */
+"T0X-Ss-Wv0.title" = "NoVPAJpeg Selection";
+
+/* Class = "NSButtonCell"; title = "GPUSensors"; ObjectID = "Z6y-49-dIn"; */
+"Z6y-49-dIn.title" = "GPUSensors";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "aPa-sD-90t"; */
+"aPa-sD-90t.headerCell.title" = "이름";
+
+/* Class = "NSWindow"; title = "VirtualSMC Detected"; ObjectID = "c22-Ac-LFY"; */
+"c22-Ac-LFY.title" = "VirtualSMC 발견됨";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "eiG-ge-aFx"; */
+"eiG-ge-aFx.title" = "다운로드";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "ghD-a1-XG4"; */
+"ghD-a1-XG4.title" = "박스";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "haE-Pd-ckC"; */
+"haE-Pd-ckC.title" = "인스톨";
+
+/* Class = "NSTableColumn"; headerCell.title = "Version"; ObjectID = "mCG-e2-oRh"; */
+"mCG-e2-oRh.headerCell.title" = "버전";
+
+/* Class = "NSButtonCell"; title = "SMCBatteryManager"; ObjectID = "mgy-Nm-mcA"; */
+"mgy-Nm-mcA.title" = "SMCBatteryManager";
+
+/* Class = "NSButtonCell"; title = "ACPISensors"; ObjectID = "neN-8J-DX9"; */
+"neN-8J-DX9.title" = "ACPISensors";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "o31-92-wcY"; */
+"o31-92-wcY.ibShadowedToolTip" = "폴더 열기";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "rk5-54-iPh"; */
+"rk5-54-iPh.title" = "상태";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "s02-B6-VcE"; */
+"s02-B6-VcE.headerCell.title" = "설명";
+
+/* Class = "NSButtonCell"; title = "SMCLightSensor"; ObjectID = "skX-jk-rAB"; */
+"skX-jk-rAB.title" = "SMCLightSensor";
+
+/* Class = "NSButtonCell"; title = "LPCSensors"; ObjectID = "uyn-gU-95T"; */
+"uyn-gU-95T.title" = "LPCSensors";
+
+/* Class = "NSButtonCell"; title = "SMMSensors"; ObjectID = "vLi-FS-kKr"; */
+"vLi-FS-kKr.title" = "SMMSensors";
+
+/* Class = "NSWindow"; title = "FakeSMC Detected"; ObjectID = "wJK-pT-UcH"; */
+"wJK-pT-UcH.title" = "FakeSMC Detected";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "xLd-aS-xuu"; */
+"xLd-aS-xuu.ibShadowedToolTip" = "지우기";
+
+/* Class = "NSButtonCell"; title = "CPUSensors"; ObjectID = "yyM-ue-Kqj"; */
+"yyM-ue-Kqj.title" = "CPUSensors";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "zsE-Kv-XLB"; */
+"zsE-Kv-XLB.title" = "위치:";
