@@ -13,10 +13,17 @@
 |   显卡   |                 Intel Iris Plus Graphics 655                 |
 |  显示器  |                              无                              |
 |   声卡   |                  Realtek ALC255 `alcid=82`                   |
-|   网卡   | m.2 NGFF插槽，已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| 无线网卡 | m.2 NGFF插槽，已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+|  网卡1   |      **Intel I225-V 2.5G Gigabit Ethernet Controller**       |
+|  网卡2   |   **Realtek RTL8168H/8111H PCI Express Gigabit Ethernet**    |
 
 ## 更新日志
 
+- 7-30-2021
+  - Release `v1.5.0`
+  - 修复了`TYPE-C`显示输出问题
+- 修复了`Intel I225-V`的驱动问题，支持`Catalina` / `Bigsur` / `Monterey`
+  
 - 7-19-2021
 
   - Release `v1.4.0`
