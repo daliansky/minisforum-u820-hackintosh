@@ -4,24 +4,30 @@
 
 ## 电脑配置
 
-|   规格   |                           详细信息                           |
-| :------: | :----------------------------------------------------------: |
-| 电脑型号 |                       minisforum U820                        |
-| 操作系统 |                        macOS Big Sur                         |
-|  处理器  |               英特尔 酷睿 i5-8259U / i5-8279U                |
-|   内存   |                        16 GB 2400MHz                         |
-|  硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
-| 硬盘2/3  |                    可接SATA 2.5寸硬盘/SSD                    |
-|   显卡   |                 Intel Iris Plus Graphics 655                 |
-|  显示器  |                              无                              |
-|   声卡   |                  Realtek ALC255 `alcid=82`                   |
-| 无线网卡 | m.2 NGFF插槽，已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
-|  网卡1   |      **Intel I225-V 2.5G Gigabit Ethernet Controller**       |
-|  网卡2   |   **Realtek RTL8168H/8111H PCI Express Gigabit Ethernet**    |
+|   规格    |                           详细信息                           |
+| :-------: | :----------------------------------------------------------: |
+| 电脑型号  |                       minisforum U820                        |
+| 操作系统  |                 macOS `Big Sur` / `Monterey`                 |
+|  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
+|   内存    |                        16 GB 2400MHz                         |
+|   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
+|  硬盘2/3  |                    可接SATA 2.5寸硬盘/SSD                    |
+|   显卡    |                 Intel Iris Plus Graphics 655                 |
+|  显示器   |                              无                              |
+|   声卡    |                  Realtek ALC255 `alcid=82`                   |
+| 无线网卡  | m.2 NGFF插槽，默认出厂为 `Intel AX200` 已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| 有线网卡1 |      **Intel I225-V 2.5G Gigabit Ethernet Controller**       |
+| 有线网卡2 |   **Realtek RTL8168H/8111H PCI Express Gigabit Ethernet**    |
 
 ## 更新日志
 
+- 9-3-2021
+  
+  - Release `v1.6.0`
+    - 适配 `Monterey`
+  
 - 7-30-2021
+  
   - Release `v1.5.0`
     - 修复了`TYPE-C`显示输出问题
     - 修复了`Intel I225-V`的驱动问题，支持`Catalina` / `Bigsur` / `Monterey`
@@ -75,6 +81,20 @@
 
 - 其它参数默认即可
 
+
+
+## `TYPE-C` / `DP` 显示输出参数修改
+
+默认参数为[`TYPE-C加DP双显输出，HDMI不工作`]
+
+![OC_TYPE-C_and_DP](screenshots/OC_TYPE-C_and_DP.png)
+
+## `DP` / `HDMI` 显示输出参数修改
+
+如果显示器接的是 `HDMI` 接口，那么需要调整下配置文件中的参数，见截图右侧说明
+
+![OC_DP_and_HDMI](screenshots/OC_DP_and_HDMI.png)
+
 ## CLOVER替换成OC引导的必要操作步骤
 
 1. 替换三码，[下载](https://mackie100projects.altervista.org/opencore-configurator/)`OpenCore Configurator`，以及[下载](https://mackie100projects.altervista.org/download-clover-configurator/)`Clover Configurator`，分别打开`config.plist`文件，按下图进行替换操作，然后保存![SN](./screenshots/SN.jpg)
@@ -84,6 +104,8 @@
 ## 截屏
 
 ![clover](./screenshots/OC.png)
+
+![U820_Sensei](screenshots/U820_Sensei.png)
 
 ![Hackintool](./screenshots/Hackintool.png)
 
@@ -98,6 +120,8 @@
 ![HDMI_Audio](./screenshots/HDMI_Audio.png)
 
 ![Monitors](./screenshots/Monitors.png)
+
+
 
 ## 其它信息
 

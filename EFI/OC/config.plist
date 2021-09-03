@@ -251,8 +251,10 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<key>#0 【TYPE-C+DP双显】PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key># 说明</key>
+				<string>TYPE-C加DP双显输出，HDMI不工作</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>CQClPg==</data>
 				<key>device-id</key>
@@ -277,8 +279,97 @@
 				<data>AQAAAA==</data>
 				<key>model</key>
 				<string>Intel Iris Plus Graphics 655</string>
-				<key>#说明</key>
-				<data>AAAA9AAAAAAAAA==</data>
+			</dict>
+			<key>#1 【DP+HDMI双显】PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key># 说明</key>
+				<string>DP加HDMI双显模式，TYPE-C不提供显示输出</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAClPg==</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAAYAAAIAACHAQAA</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQEYAAAIAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgIYAAAIAACHAQAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+			</dict>
+			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key># 说明</key>
+				<string>DP加HDMI双显模式，TYPE-C不提供显示输出</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAClPg==</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-alldata</key>
+				<data>AAAYAAAIAACHAQAA</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AQEYAAAIAACHAQAA</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-alldata</key>
+				<data>AgIYAAAIAACHAQAA</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key># 说明</key>
+				<string>TYPE-C加DP双显输出，HDMI不工作</string>
+				<key>#No-hda-gfx</key>
+				<string>onboard-1</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>CQClPg==</data>
+				<key>device-id</key>
+				<data>pT4AAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>enable-lspcon-support</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-busid</key>
+				<data>BgAAAA==</data>
+				<key>framebuffer-con1-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con2-busid</key>
+				<data>BAAAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
 			<dict>
@@ -289,16 +380,16 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
+				<key>#device-id</key>
+				<data>cKEAAA==</data>
+				<key>#layout-id</key>
+				<integer>82</integer>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>cJ0AAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>layout-id</key>
-				<integer>82</integer>
 				<key>model</key>
 				<string>Cannon Point-LP High Definition Audio Controller</string>
 			</dict>
@@ -376,7 +467,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/FakePCIID</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -394,25 +485,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>FakePCIID_Intel_I225-V.kext</string>
-				<key>Comment</key>
-				<string>Intel I225-V</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string>20.4.0</string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -584,24 +657,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>SATA-unsupported.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -663,24 +718,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>XHCI-unsupported.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -913,7 +950,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1022,7 +1059,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku</string>
+				<string>dk.e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1129,7 +1166,7 @@
 			<key>EnableJumpstart</key>
 			<true/>
 			<key>GlobalConnect</key>
-			<false/>
+			<true/>
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
@@ -1144,6 +1181,8 @@
 			<key>AppleEvent</key>
 			<string>Auto</string>
 			<key>CustomDelays</key>
+			<false/>
+			<key>GraphicsInputMirroring</key>
 			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>50</integer>

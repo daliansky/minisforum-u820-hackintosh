@@ -12,6 +12,7 @@
 #include <Headers/kern_compat.hpp>
 
 #include <libkern/libkern.h>
+#include <libkern/c++/OSObject.h>
 #include <libkern/OSDebug.h>
 #include <mach/vm_types.h>
 #include <mach/vm_prot.h>
@@ -342,10 +343,44 @@ extern "C" {
 	EXPORT void lilu_os_free(void *addr);
 }
 
+#if defined(__i386__)
+/**
+ *  ml_get_interrupts_enabled implementation as ml_get_interrupts_enabled is not exported on 10.5 or older
+ */
+inline bool lilu_get_interrupts_enabled() {
+	uint32_t flags;
+
+	__asm__ volatile ("pushf; pop	%0" :  "=r" (flags));
+	return (flags & EFL_IF) != 0;
+}
+
+/**
+ *  Wrapper around PE_parse_boot_arg as PE_parse_boot_argn is not exported in 10.4
+ */
+inline bool lilu_get_boot_args(const char *arg_string, void *arg_ptr, int max_len) {
+	return PE_parse_boot_arg(arg_string, arg_ptr);
+}
+
+/**
+ *  Implementation of strlcpy for 32-bit as strlcpy is not exported in 10.4
+ */
+EXPORT size_t lilu_strlcpy(char *dst, const char *src, size_t siz);
+
+#elif defined(__x86_64__)
+#define lilu_get_interrupts_enabled   ml_get_interrupts_enabled
+#define lilu_get_boot_args            PE_parse_boot_argn
+#define lilu_strlcpy                  strlcpy
+
+#else
+#error Unsupported arch.
+#endif
+
 /**
  *  Known kernel versions
  */
 enum KernelVersion {
+	Tiger         = 8,
+	Leopard       = 9,
 	SnowLeopard   = 10,
 	Lion          = 11,
 	MountainLion  = 12,
@@ -392,7 +427,7 @@ inline KernelMinorVersion getKernelMinorVersion() {
  */
 inline bool checkKernelArgument(const char *name) {
 	int val[16];
-	return PE_parse_boot_argn(name, val, sizeof(val));
+	return lilu_get_boot_args(name, val, sizeof(val));
 }
 
 /**
@@ -909,5 +944,277 @@ public:
 */
 template <typename T, void (*deleter)(T)=emptyDeleter<T>>
 class evector : public evector_base<typename remove_reference<T>::type, T, deleter> { };
+
+/**
+ *  Represents a circular buffer protected by a recursive mutex lock
+ */
+template <typename T>
+struct CircularBuffer {
+private:
+	/**
+	 *  The internal storage
+	 */
+	T *storage {nullptr};
+	
+	/**
+	 *  The buffer capacity
+	 */
+	IOItemCount size {0};
+	
+	/**
+	 *  The current index for the next read operation
+	 */
+	IOItemCount indexr {0};
+	
+	/**
+	 *  The current index for the next write operation
+	 */
+	IOItemCount indexw {0};
+	
+	/**
+	 *  The current number of elements in the buffer
+	 */
+	IOItemCount count {0};
+	
+	/**
+	 *  The recursive mutex lock that protects the buffer
+	 */
+	IORecursiveLock *lock {nullptr};
+	
+public:
+	/**
+	 *  Initialize a circular buffer
+	 *
+	 *  @param buffer A non-null storage buffer
+	 *  @param capacity The total number of elements
+	 *  @return `true` on success, `false` otherwise.
+	 *  @warning The caller is responsbile for managing the lifecycle of the given storage buffer.
+	 */
+	bool init(T *buffer, IOItemCount capacity) {
+		storage = buffer;
+		size = capacity;
+		lock = IORecursiveLockAlloc();
+		return lock != nullptr;
+	}
+	
+	/**
+	 *  Initialize a circular buffer
+	 *
+	 *  @param storage A storage buffer
+	 *  @return `true` on success, `false` otherwise.
+	 *  @warning The caller is responsbile for managing the lifecycle of the given storage buffer.
+	 */
+	template <size_t N>
+	bool init(T (&storage)[N]) {
+		return init(storage, N);
+	}
+	
+	/**
+	 *  Deinitialize the circular buffer
+	 */
+	void deinit() {
+		IORecursiveLockFree(lock);
+	}
+	
+	/**
+	 *  Create a circular buffer with the given capacity
+	 *
+	 *  @param size The total number of elements
+	 *  @return A non-null instance on success, `nullptr` if no memory.
+	 *  @warning The caller must invoke `CircularBuffer::destory()` to release the returned buffer.
+	 */
+	static CircularBuffer<T> *withCapacity(IOItemCount size) {
+		auto storage = Buffer::create<T>(size);
+		if (storage == nullptr)
+			return nullptr;
+		
+		auto instance = new CircularBuffer<T>();
+		if (instance == nullptr) {
+			Buffer::deleter(storage);
+			return nullptr;
+		}
+		
+		if (!instance->init(storage, size)) {
+			delete instance;
+			Buffer::deleter(storage);
+			return nullptr;
+		}
+		
+		return instance;
+	}
+	
+	/**
+	 *  Destroy the given circular buffer
+	 *
+	 *  @param buffer A non-null circular buffer returned by `CircularBuffer::withCapacity()`.
+	 */
+	static void deleter(CircularBuffer<T> *buffer NONNULL) {
+		Buffer::deleter(buffer->storage);
+		buffer->deinit();
+		delete buffer;
+	}
+	
+	/**
+	 *  Destory the given circular buffer if it is non-null and set it to nullptr
+	 *
+	 *  @param buffer A nullable circular buffer returned by `CircularBuffer::withCapacity()`.
+	 *  @note This function mimics the macro `OSSafeReleaseNULL()`.
+	 */
+	static void safeDeleter(CircularBuffer<T> *&buffer) {
+		if (buffer != nullptr) {
+			deleter(buffer);
+			buffer = nullptr;
+		}
+	}
+	
+	/**
+	 *  Check whether the circular buffer is empty
+	 *
+	 *  @return `true` if the buffer is empty, `false` otherwise.
+	 */
+	bool isEmpty() {
+		IORecursiveLockLock(lock);
+		bool retVal = (count == 0) && (indexr == indexw);
+		IORecursiveLockUnlock(lock);
+		return retVal;
+	}
+	
+	/**
+	 *  Check whether the circular buffer is full
+	 *
+	 *  @return `true` if the buffer is full, `false` otherwise.
+	 */
+	bool isFull() {
+		IORecursiveLockLock(lock);
+		bool retVal = (count == size) && (indexr == indexw);
+		IORecursiveLockUnlock(lock);
+		return retVal;
+	}
+	
+	/**
+	 *  Get the number of elements in the circular buffer
+	 *
+	 *  @return The current number of elements in the buffer.
+	 */
+	IOItemCount getCount() {
+		IORecursiveLockLock(lock);
+		IOItemCount retVal = count;
+		IORecursiveLockUnlock(lock);
+		return retVal;
+	}
+	
+	/**
+	 *  Write the given element to the circular buffer
+	 *
+	 *  @param element The element to write
+	 *  @return `true` on success, `false` if the buffer is full.
+	 */
+	bool push(const T &element) {
+		IORecursiveLockLock(lock);
+		if (isFull()) {
+			IORecursiveLockUnlock(lock);
+			return false;
+		}
+		storage[indexw] = element;
+		indexw += 1;
+		indexw %= size;
+		count += 1;
+		IORecursiveLockUnlock(lock);
+		return true;
+	}
+	
+	/**
+	 *  Read the next element from the circular buffer
+	 *
+	 *  @param element The element read from the buffer
+	 *  @return `true` on success, `false` if the buffer is empty.
+	 */
+	bool pop(T& element) {
+		IORecursiveLockLock(lock);
+		if (isEmpty()) {
+			IORecursiveLockUnlock(lock);
+			return false;
+		}
+		element = storage[indexr];
+		indexr += 1;
+		indexr %= size;
+		count -= 1;
+		IORecursiveLockUnlock(lock);
+		return true;
+	}
+};
+
+/**
+ *  Wrap an object that is not an instance of OSObject
+ */
+class EXPORT OSObjectWrapper: public OSObject {
+	/**
+	 *  Constructors & Destructors
+	 */
+	OSDeclareDefaultStructors(OSObjectWrapper);
+	
+	using super = OSObject;
+	
+	/**
+	 *  Wrapped object
+	 */
+	void *object {nullptr};
+	
+public:
+	/**
+	 *  Initialize the wrapper with the given object
+	 *
+	 *  @param object The wrapped object that is not an `OSObject`
+	 *  @return `true` on success, `false` otherwise.
+	 */
+	EXPORT bool init(void *object);
+	
+	/**
+	 *  Reinterpret the wrapped object as the given type
+	 *
+	 *  @return The wrapped object of the given type.
+	 */
+	template <typename T>
+	T *get() {
+		return reinterpret_cast<T *>(object);
+	}
+	
+	/**
+	 *  Create a wrapper for the given object that is not an `OSObject`
+	 *
+	 *  @param object A non-null object
+	 *  @return A non-null wrapper on success, `nullptr` otherwise.
+	 *  @warning The caller is responsbile for managing the lifecycle of the given object.
+	 */
+	EXPORT static OSObjectWrapper *with(void *object);
+};
+
+namespace Value {
+	template <typename T>
+	struct Value {
+		const T &value;
+
+		explicit Value(const T &value) : value(value) {}
+
+	#if __cplusplus >= 201703L
+		// Available as of C++17
+		template<typename... Ts>
+		bool isOneOf(const Ts&... args) {
+			return ((value == args) || ...);
+		}
+
+		// Available as of C++17
+		template <typename... Ts>
+		bool isNotOneOf(const Ts&... args) {
+			return ((value != args) && ...);
+		}
+	#endif
+	};
+	
+	template <typename T>
+	static Value<T> of(const T &value) {
+		return Value<T>(value);
+	}
+}
 
 #endif /* kern_util_hpp */
