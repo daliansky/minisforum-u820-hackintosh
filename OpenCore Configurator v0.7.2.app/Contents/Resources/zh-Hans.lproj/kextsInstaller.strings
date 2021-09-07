@@ -1,0 +1,120 @@
+
+/* Class = "NSButtonCell"; title = "SMCProcessor"; ObjectID = "0Hr-0F-FV6"; */
+"0Hr-0F-FV6.title" = "SMCProcessor";
+
+/* Class = "NSButtonCell"; title = "Backup kext"; ObjectID = "39o-Ir-A0m"; */
+"39o-Ir-A0m.title" = "备份kext";
+
+/* Class = "NSButtonCell"; title = "AirportItlwm for Catalina"; ObjectID = "3lJ-l4-KlP"; */
+"3lJ-l4-KlP.title" = "用于Catalina的Intel WIFI Airport";
+
+/* Class = "NSTableColumn"; headerCell.title = "Category"; ObjectID = "47C-Wy-wbp"; */
+"47C-Wy-wbp.headerCell.title" = "类别";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "6OG-eK-0wo"; */
+"6OG-eK-0wo.headerCell.title" = "作者";
+
+/* Class = "NSButtonCell"; title = "AirportItlwm for Mojave"; ObjectID = "92p-Im-Jc8"; */
+"92p-Im-Jc8.title" = "用于Mojave的Intel WIFI Airport";
+
+/* Class = "NSTextFieldCell"; title = "[*]drag and drop to table for manual installation"; ObjectID = "9WO-06-2fp"; */
+"9WO-06-2fp.title" = "[*]拖放到表格以进行手动安装";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "9xo-8M-eT4"; */
+"9xo-8M-eT4.title" = "安装";
+
+/* Class = "NSButtonCell"; title = "Select"; ObjectID = "Cu7-TT-odD"; */
+"Cu7-TT-odD.title" = "选择";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "DPO-a9-fnK"; */
+"DPO-a9-fnK.title" = "分区：";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "EAo-vi-RTS"; */
+"EAo-vi-RTS.title" = "安装";
+
+/* Class = "NSButtonCell"; title = "HWMonitor"; ObjectID = "Gc8-yC-f8T"; */
+"Gc8-yC-f8T.title" = "HWMonitor";
+
+/* Class = "NSWindow"; title = "Intel Wi-Fi Detected"; ObjectID = "Kmy-Be-n8o"; */
+"Kmy-Be-n8o.title" = "检测到英特尔WiFi无线网卡";
+
+/* Class = "NSButtonCell"; title = "SMCSuperIO"; ObjectID = "Oqq-A2-PX5"; */
+"Oqq-A2-PX5.title" = "SMCSuperIO";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "Pss-ZT-2YR"; */
+"Pss-ZT-2YR.ibShadowedToolTip" = "重新加载数据";
+
+/* Class = "NSButtonCell"; title = "AirportItlwm for BigSur"; ObjectID = "QHt-mk-P9w"; */
+"QHt-mk-P9w.title" = "用于BigSur的Intel WIFI Airport";
+
+/* Class = "NSWindow"; title = "Kexts Installer"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Kexts安装程序";
+
+/* Class = "NSWindow"; title = "NoVPAJpeg Selection"; ObjectID = "T0X-Ss-Wv0"; */
+"T0X-Ss-Wv0.title" = "NoVPAJpeg选择";
+
+/* Class = "NSButtonCell"; title = "AirportItlwm for Monterey"; ObjectID = "Tde-8F-xjy"; */
+"Tde-8F-xjy.title" = "用于Monterey的Intel WIFI Airport";
+
+/* Class = "NSButtonCell"; title = "GPUSensors"; ObjectID = "Z6y-49-dIn"; */
+"Z6y-49-dIn.title" = "GPUSensors";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "aPa-sD-90t"; */
+"aPa-sD-90t.headerCell.title" = "名称";
+
+/* Class = "NSWindow"; title = "VirtualSMC Detected"; ObjectID = "c22-Ac-LFY"; */
+"c22-Ac-LFY.title" = "检测到VirtualSMC";
+
+/* Class = "NSButtonCell"; title = "SMCDellSensors"; ObjectID = "dcN-Jh-fs2"; */
+"dcN-Jh-fs2.title" = "SMCDellSensors";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "eiG-ge-aFx"; */
+"eiG-ge-aFx.title" = "下载";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "ghD-a1-XG4"; */
+"ghD-a1-XG4.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "haE-Pd-ckC"; */
+"haE-Pd-ckC.title" = "安装";
+
+/* Class = "NSTableColumn"; headerCell.title = "Version"; ObjectID = "mCG-e2-oRh"; */
+"mCG-e2-oRh.headerCell.title" = "版本";
+
+/* Class = "NSButtonCell"; title = "SMCBatteryManager"; ObjectID = "mgy-Nm-mcA"; */
+"mgy-Nm-mcA.title" = "SMCBatteryManager";
+
+/* Class = "NSButtonCell"; title = "ACPISensors"; ObjectID = "neN-8J-DX9"; */
+"neN-8J-DX9.title" = "ACPISensors";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "o31-92-wcY"; */
+"o31-92-wcY.ibShadowedToolTip" = "打开文件夹";
+
+/* Class = "NSButtonCell"; title = "AirportItlwm for High Sierra "; ObjectID = "ptP-W8-Rro"; */
+"ptP-W8-Rro.title" = "用于High Sierra的Intel WIFI Airport ";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "rk5-54-iPh"; */
+"rk5-54-iPh.title" = "状态";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "s02-B6-VcE"; */
+"s02-B6-VcE.headerCell.title" = "描述";
+
+/* Class = "NSButtonCell"; title = "SMCLightSensor"; ObjectID = "skX-jk-rAB"; */
+"skX-jk-rAB.title" = "SMCLightSensor";
+
+/* Class = "NSButtonCell"; title = "LPCSensors"; ObjectID = "uyn-gU-95T"; */
+"uyn-gU-95T.title" = "LPCSensors";
+
+/* Class = "NSButtonCell"; title = "SMMSensors"; ObjectID = "vLi-FS-kKr"; */
+"vLi-FS-kKr.title" = "SMMSensors";
+
+/* Class = "NSWindow"; title = "FakeSMC Detected"; ObjectID = "wJK-pT-UcH"; */
+"wJK-pT-UcH.title" = "检测到FakeSMC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "xLd-aS-xuu"; */
+"xLd-aS-xuu.ibShadowedToolTip" = "删除";
+
+/* Class = "NSButtonCell"; title = "CPUSensors"; ObjectID = "yyM-ue-Kqj"; */
+"yyM-ue-Kqj.title" = "CPUSensors";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "zsE-Kv-XLB"; */
+"zsE-Kv-XLB.title" = "位置：";
