@@ -108,6 +108,12 @@
 2. 重启，在`OpenCore`主引导界面，按`空格`键，光标移动到`Reset NVRAM`图标回车即可![OC_resetNVRAM](./screenshots/OC_resetNVRAM.png)
 3. 替换`EFI`的操作请参考其它教程
 
+## 注意事项
+
+登录 `Apple ID` 之前，请务必重新生成三码，否则有可能会导致无法登录 `App Store`，教程详见群公告里的链接
+
+
+
 ## 截屏
 
 ![clover](./screenshots/OC.png)
