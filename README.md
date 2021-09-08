@@ -21,6 +21,13 @@
 
 ## 更新日志
 
+- 9-8-2021
+  
+  - Release `v1.7.0`
+  - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
+  - 更新 `OpenCore` 为 `v0.7.3`
+  - 请使用工具  [OCAT_Mac.dmg](./OCAT_Mac.dmg) 编辑 `config.plist` 
+  
 - 9-3-2021
   
   - Release `v1.6.0`
