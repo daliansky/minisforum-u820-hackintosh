@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "Opencore Version"; ObjectID = "5Yb-KF-2Ys"; */
+"5Yb-KF-2Ys.title" = "Opencore版本";
+
+/* Class = "NSWindow"; title = "Config Checker"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Config完整性檢查;
+
+/* Class = "NSTextFieldCell"; title = "CPU Family"; ObjectID = "K8h-i1-pzV"; */
+"K8h-i1-pzV.title" = "CPU平台";
+
+/* Class = "NSButtonCell"; title = "Drag and Drop"; ObjectID = "ltY-Ma-fgV"; */
+"ltY-Ma-fgV.title" = "拖放配置文件";
+
+/* Class = "NSButtonCell"; title = "Current Configurations"; ObjectID = "pkq-Kt-jHM"; */
+"pkq-Kt-jHM.title" = "使用當前配置";
+
+/* Class = "NSButtonCell"; title = "Import"; ObjectID = "y4M-4p-teE"; */
+"y4M-4p-teE.title" = "本機配置文件";
+
+/* Class = "NSButtonCell"; title = "Check"; ObjectID = "zPH-fV-BKT"; */
+"zPH-fV-BKT.title" = "開始檢查";

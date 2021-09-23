@@ -1,0 +1,45 @@
+
+/* Class = "NSTextFieldCell"; title = "N/A"; ObjectID = "8qh-Kt-MSO"; */
+"8qh-Kt-MSO.title" = "N/A";
+
+/* Class = "NSButtonCell"; title = "unMount partition"; ObjectID = "9m5-em-cDq"; */
+"9m5-em-cDq.title" = "卸载分区";
+
+/* Class = "NSBox"; title = "Partition Scheme"; ObjectID = "Ags-Fc-odA"; */
+"Ags-Fc-odA.title" = "分区方案";
+
+/* Class = "NSTextFieldCell"; title = "Device BSD Name"; ObjectID = "As9-X4-iHB"; */
+"As9-X4-iHB.title" = "设备BSD名称";
+
+/* Class = "NSTextFieldCell"; title = "Disk Type"; ObjectID = "Edn-Sq-BEn"; */
+"Edn-Sq-BEn.title" = "磁盘类型";
+
+/* Class = "NSTextFieldCell"; title = "Volume Name"; ObjectID = "K7n-YQ-8gF"; */
+"K7n-YQ-8gF.title" = "卷名";
+
+/* Class = "NSTextFieldCell"; title = "Disk UUID"; ObjectID = "NnL-DI-BWs"; */
+"NnL-DI-BWs.title" = "磁盘UUID";
+
+/* Class = "NSWindow"; title = "Mount EFI"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "挂载EFI";
+
+/* Class = "NSSegmentedCell"; Yd4-Rh-oPW.ibShadowedLabels[0] = "Open Partition"; ObjectID = "Yd4-Rh-oPW"; */
+"Yd4-Rh-oPW.ibShadowedLabels[0]" = "打开分区";
+
+/* Class = "NSSegmentedCell"; Yd4-Rh-oPW.ibShadowedLabels[1] = "Mount Partition"; ObjectID = "Yd4-Rh-oPW"; */
+"Yd4-Rh-oPW.ibShadowedLabels[1]" = "挂载分区";
+
+/* Class = "NSTextFieldCell"; title = "Volume UUID"; ObjectID = "ZmL-3I-KOU"; */
+"ZmL-3I-KOU.title" = "卷UUID";
+
+/* Class = "NSTextFieldCell"; title = "Mount Point"; ObjectID = "azg-58-iVC"; */
+"azg-58-iVC.title" = "挂载点";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "dXq-m8-waT"; */
+"dXq-m8-waT.title" = "容量：";
+
+/* Class = "NSButtonCell"; title = "Update Partitions"; ObjectID = "mri-4d-h4k"; */
+"mri-4d-h4k.title" = "更新分区";
+
+/* Class = "NSBox"; title = "Efi Partitions"; ObjectID = "tx8-c5-kb6"; */
+"tx8-c5-kb6.title" = "EFI分区";

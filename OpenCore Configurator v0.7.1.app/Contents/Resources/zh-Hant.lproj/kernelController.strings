@@ -1,0 +1,186 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "19Q-wm-aZQ"; */
+"19Q-wm-aZQ.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier"; ObjectID = "4ac-sL-evA"; */
+"4ac-sL-evA.headerCell.title" = "識別碼";
+
+/* Class = "NSTableColumn"; headerCell.title = "ExecutablePath"; ObjectID = "5Zf-0g-20b"; */
+"5Zf-0g-20b.headerCell.title" = "二進制文件路徑";
+
+/* Class = "NSTableColumn"; headerCell.title = "ExecutablePath"; ObjectID = "6KC-Ck-oJg"; */
+"6KC-Ck-oJg.headerCell.title" = "可執行路徑";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "70E-le-Wpc"; */
+"70E-le-Wpc.headerCell.title" = "最小 Kernel ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier*"; ObjectID = "838-ax-A45"; */
+"838-ax-A45.headerCell.title" = "*識別碼";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "8BF-rh-btZ"; */
+"8BF-rh-btZ.headerCell.title" = "替換次數";
+
+/* Class = "NSButtonCell"; title = "Download/Update kexts"; ObjectID = "8LM-uC-YZk"; */
+"8LM-uC-YZk.title" = "下載/更新 kexts驅動";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "8Qp-io-xPv"; */
+"8Qp-io-xPv.headerCell.title" = "架構";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "8fi-fb-Eq7"; */
+"8fi-fb-Eq7.headerCell.title" = "架構";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "9tr-6R-vGd"; */
+"9tr-6R-vGd.label" = "修補文件";
+
+/* Class = "NSTextFieldCell"; title = "SetApfsTrimTimeout"; ObjectID = "BeM-Py-QT3"; */
+"BeM-Py-QT3.title" = "SetApfsTrimTimeout";
+
+/* Class = "NSTabViewItem"; label = "Force"; ObjectID = "Dip-Qx-lAB"; */
+"Dip-Qx-lAB.label" = "強制載入";
+
+/* Class = "NSTextFieldCell"; title = "KernelArch"; ObjectID = "Edd-Fj-thV"; */
+"Edd-Fj-thV.title" = " Kernel 架構";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "GcD-Hq-Pnt"; */
+"GcD-Hq-Pnt.headerCell.title" = "尋找";
+
+/* Class = "NSTableColumn"; headerCell.title = "PlistPath"; ObjectID = "H8d-aU-LbU"; */
+"H8d-aU-LbU.headerCell.title" = "Plist文件路徑";
+
+/* Class = "NSTextFieldCell"; title = "MinKernel"; ObjectID = "Hvv-Zp-P5b"; */
+"Hvv-Zp-P5b.title" = "最小 Kernel ";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "IQk-iw-L5E"; */
+"IQk-iw-L5E.headerCell.title" = "最大 Kernel ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "IQu-iO-MYc"; */
+"IQu-iO-MYc.headerCell.title" = "Mask";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier*"; ObjectID = "IWc-Ff-bdQ"; */
+"IWc-Ff-bdQ.headerCell.title" = "識別碼*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "K9H-md-xVS"; */
+"K9H-md-xVS.headerCell.title" = "啟用";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "Kyb-jI-0pq"; */
+"Kyb-jI-0pq.headerCell.title" = "替換";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "N6C-NB-CMk"; */
+"N6C-NB-CMk.headerCell.title" = "架構";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "Ntg-7A-K1a"; */
+"Ntg-7A-K1a.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "BundlePath*"; ObjectID = "Oe6-LD-h7w"; */
+"Oe6-LD-h7w.headerCell.title" = "捆绑路徑 *";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "PdE-OW-Faw"; */
+"PdE-OW-Faw.headerCell.title" = "啟用";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "QBz-fY-8R7"; */
+"QBz-fY-8R7.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "TcN-ku-fY2"; */
+"TcN-ku-fY2.headerCell.title" = "啟用";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "WGU-Ke-n07"; */
+"WGU-Ke-n07.title" = "快照增加";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "aAH-qz-ikl"; */
+"aAH-qz-ikl.headerCell.title" = "跳過次數後開始替換";
+
+/* Class = "NSButtonCell"; title = "Check Kexts"; ObjectID = "aCc-4w-GcM"; */
+"aCc-4w-GcM.title" = "Check Kexts";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "aHq-mU-IMD"; */
+"aHq-mU-IMD.headerCell.title" = "最大 Kernel ";
+
+/* Class = "NSTextFieldCell"; title = "Cpuid1Data"; ObjectID = "aVm-Of-4z9"; */
+"aVm-Of-4z9.title" = "Cpuid1Data";
+
+/* Class = "NSTextFieldCell"; title = "MaxKernel"; ObjectID = "b9n-9m-IDX"; */
+"b9n-9m-IDX.title" = "最大 Kernel ";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "cUJ-Nj-uY7"; */
+"cUJ-Nj-uY7.headerCell.title" = "啟用";
+
+/* Class = "NSTableColumn"; headerCell.title = "Base"; ObjectID = "djM-Oe-omR"; */
+"djM-Oe-omR.headerCell.title" = "基本";
+
+/* Class = "NSTableColumn"; headerCell.title = "BundlePath*"; ObjectID = "eFP-6O-woi"; */
+"eFP-6O-woi.headerCell.title" = "捆绑路徑*";
+
+/* Class = "NSTableColumn"; headerCell.title = "PlistPath"; ObjectID = "ek6-EY-0uZ"; */
+"ek6-EY-0uZ.headerCell.title" = "Plist路徑";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "ewU-gZ-tet"; */
+"ewU-gZ-tet.title" = "正在載入資源";
+
+/* Class = "NSBox"; title = "Scheme"; ObjectID = "fHU-xs-V2l"; */
+"fHU-xs-V2l.title" = "方案";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "fUC-fp-4l5"; */
+"fUC-fp-4l5.headerCell.title" = "架構";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "fZ7-RW-fxf"; */
+"fZ7-RW-fxf.headerCell.title" = "最小 Kernel ";
+
+/* Class = "NSButtonCell"; title = "DummyPowerManagement"; ObjectID = "fbs-Rf-kXV"; */
+"fbs-Rf-kXV.title" = "DummyPowerManagement";
+
+/* Class = "NSTextFieldCell"; title = "KernelCache"; ObjectID = "g1H-e8-UUH"; */
+"g1H-e8-UUH.title" = " Kernel Cache";
+
+/* Class = "NSButtonCell"; title = "CustomKernel"; ObjectID = "g3S-OO-4Pp"; */
+"g3S-OO-4Pp.title" = "CustomKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "gFl-jZ-XPd"; */
+"gFl-jZ-XPd.headerCell.title" = "最大 Kernel ";
+
+/* Class = "NSTabViewItem"; label = "Block"; ObjectID = "gy1-1j-jtJ"; */
+"gy1-1j-jtJ.label" = "阻止";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "je9-Z0-9pa"; */
+"je9-Z0-9pa.title" = "正在載入線上資源文件";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "k5V-cd-PJd"; */
+"k5V-cd-PJd.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "kGJ-yd-xi8"; */
+"kGJ-yd-xi8.headerCell.title" = "注釋";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "lAD-ms-SMV"; */
+"lAD-ms-SMV.headerCell.title" = "替換Mask";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "lXN-nk-zjA"; */
+"lXN-nk-zjA.headerCell.title" = "最小 Kernel ";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "mWg-wh-eGt"; */
+"mWg-wh-eGt.label" = "增加";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "mup-PJ-Q4D"; */
+"mup-PJ-Q4D.title" = "掃描/瀏覽";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "nyt-5D-3es"; */
+"nyt-5D-3es.headerCell.title" = "限制";
+
+/* Class = "NSButtonCell"; title = "FuzzyMatch"; ObjectID = "srr-gQ-RrN"; */
+"srr-gQ-RrN.title" = "模糊匹配";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "tya-o0-N6w"; */
+"tya-o0-N6w.headerCell.title" = "最大 Kernel ";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "urM-4i-kap"; */
+"urM-4i-kap.title" = "修補文件列表";
+
+/* Class = "NSTextFieldCell"; title = "Multiple selection allowed"; ObjectID = "vgG-WU-Sc2"; */
+"vgG-WU-Sc2.title" = "允許多項選擇";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "w5E-ff-NpB"; */
+"w5E-ff-NpB.headerCell.title" = "最小 Kernel ";
+
+/* Class = "NSBox"; title = "Emulate"; ObjectID = "wEr-yw-cwt"; */
+"wEr-yw-cwt.title" = "仿冒CPU";
+
+/* Class = "NSTextFieldCell"; title = "Cpuid1Mask"; ObjectID = "xNJ-1G-bdS"; */
+"xNJ-1G-bdS.title" = "Cpuid1Mask";

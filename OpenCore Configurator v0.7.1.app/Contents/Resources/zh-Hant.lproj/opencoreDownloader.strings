@@ -1,0 +1,63 @@
+
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "1M1-gz-Hea"; */
+"1M1-gz-Hea.title" = "最新可用版本(正式版)：";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "564-pv-rZ2"; */
+"564-pv-rZ2.title" = "下載";
+
+/* Class = "NSWindow"; title = "Building resources for localization"; ObjectID = "5qz-XA-R3z"; */
+"5qz-XA-R3z.title" = "為繁體中文編譯資料";
+
+/* Class = "NSSegmentedCell"; BAJ-2N-Ers.ibShadowedLabels[0] = "Release"; ObjectID = "BAJ-2N-Ers"; */
+"BAJ-2N-Ers.ibShadowedLabels[0]" = "正式版";
+
+/* Class = "NSSegmentedCell"; BAJ-2N-Ers.ibShadowedLabels[1] = "Debug"; ObjectID = "BAJ-2N-Ers"; */
+"BAJ-2N-Ers.ibShadowedLabels[1]" = "Canary版";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "EN9-Xo-d0v"; */
+"EN9-Xo-d0v.title" = "位置：";
+
+/* Class = "NSWindow"; title = "OpenCore Downloader"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "OpenCore下載器";
+
+/* Class = "NSTextFieldCell"; title = "Distribution type:"; ObjectID = "FA6-VV-rx2"; */
+"FA6-VV-rx2.title" = "分配類型:";
+
+/* Class = "NSButtonCell"; title = "Build"; ObjectID = "FrE-YD-nkX"; */
+"FrE-YD-nkX.title" = "編譯";
+
+/* Class = "NSButtonCell"; title = "Add Other Resources (Docs, Utilities) to EFI"; ObjectID = "JXA-8Y-gP6"; */
+"JXA-8Y-gP6.title" = "增加其他 Resources (Docs, Utilities) 到 EFI";
+
+/* Class = "NSButtonCell"; title = "X64"; ObjectID = "Khp-lR-X8S"; */
+"Khp-lR-X8S.title" = "X64";
+
+/* Class = "NSTabViewItem"; label = "Development"; ObjectID = "LQw-uZ-Tso"; */
+"LQw-uZ-Tso.label" = "開發版";
+
+/* Class = "NSButtonCell"; title = "IA32"; ObjectID = "MtJ-63-glQ"; */
+"MtJ-63-glQ.title" = "IA32";
+
+/* Class = "NSTextFieldCell"; title = "Architecture type:"; ObjectID = "OIF-8Y-w7D"; */
+"OIF-8Y-w7D.title" = "編譯類型:";
+
+/* Class = "NSButtonCell"; title = "Add OcBinaryData"; ObjectID = "VW8-mt-1XL"; */
+"VW8-mt-1XL.title" = "增加 OC 二進制檔案";
+
+/* Class = "NSTextFieldCell"; title = "Current booted version:"; ObjectID = "WYE-0s-lZa"; */
+"WYE-0s-lZa.title" = "當前使用版本:";
+
+/* Class = "NSButtonCell"; title = "Backup files"; ObjectID = "cMH-BQ-DfF"; */
+"cMH-BQ-DfF.title" = "備份文件";
+
+/* Class = "NSTextFieldCell"; title = "Revision to install:"; ObjectID = "eYg-JR-lzC"; */
+"eYg-JR-lzC.title" = "最新可用版本(正式版)：";
+
+/* Class = "NSBox"; title = "Options"; ObjectID = "iny-U9-mNO"; */
+"iny-U9-mNO.title" = "選項";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "mYy-0A-70y"; */
+"mYy-0A-70y.title" = "現在檢查";
+
+/* Class = "NSTabViewItem"; label = "Stable"; ObjectID = "oau-gq-2SG"; */
+"oau-gq-2SG.label" = "穩定版";

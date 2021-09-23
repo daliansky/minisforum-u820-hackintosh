@@ -1,0 +1,18 @@
+
+/* Class = "NSWindow"; title = "Boot.log"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Boot.log";
+
+/* Class = "NSButtonCell"; title = "Copy to Clipboard"; ObjectID = "Tq6-rl-9sc"; */
+"Tq6-rl-9sc.title" = "Copy to Clipboard";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "jAZ-Ir-LHD"; */
+"jAZ-Ir-LHD.title" = "Search (⌘F)";
+
+/* Class = "NSBox"; title = "Bdmesg"; ObjectID = "mBA-VI-TPQ"; */
+"mBA-VI-TPQ.title" = "Bdmesg";
+
+/* Class = "NSButtonCell"; title = "Save boot.log to desktop"; ObjectID = "wSe-to-GTI"; */
+"wSe-to-GTI.title" = "Save boot.log to desktop";
+
+/* Class = "NSButtonCell"; title = "Generate log"; ObjectID = "wxt-kM-Dys"; */
+"wxt-kM-Dys.title" = "Generate log";

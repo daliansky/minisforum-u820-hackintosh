@@ -1,0 +1,186 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "19Q-wm-aZQ"; */
+"19Q-wm-aZQ.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier"; ObjectID = "4ac-sL-evA"; */
+"4ac-sL-evA.headerCell.title" = "Identifier";
+
+/* Class = "NSTableColumn"; headerCell.title = "ExecutablePath"; ObjectID = "5Zf-0g-20b"; */
+"5Zf-0g-20b.headerCell.title" = "ExecutablePath";
+
+/* Class = "NSTableColumn"; headerCell.title = "ExecutablePath"; ObjectID = "6KC-Ck-oJg"; */
+"6KC-Ck-oJg.headerCell.title" = "ExecutablePath";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "70E-le-Wpc"; */
+"70E-le-Wpc.headerCell.title" = "MinKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier*"; ObjectID = "838-ax-A45"; */
+"838-ax-A45.headerCell.title" = "Identifier*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "8BF-rh-btZ"; */
+"8BF-rh-btZ.headerCell.title" = "Count";
+
+/* Class = "NSButtonCell"; title = "Download/Update kexts"; ObjectID = "8LM-uC-YZk"; */
+"8LM-uC-YZk.title" = "Download/Update kexts";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "8Qp-io-xPv"; */
+"8Qp-io-xPv.headerCell.title" = "Arch";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "8fi-fb-Eq7"; */
+"8fi-fb-Eq7.headerCell.title" = "Arch";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "9tr-6R-vGd"; */
+"9tr-6R-vGd.label" = "Patch";
+
+/* Class = "NSTextFieldCell"; title = "SetApfsTrimTimeout"; ObjectID = "BeM-Py-QT3"; */
+"BeM-Py-QT3.title" = "SetApfsTrimTimeout";
+
+/* Class = "NSTabViewItem"; label = "Force"; ObjectID = "Dip-Qx-lAB"; */
+"Dip-Qx-lAB.label" = "Force";
+
+/* Class = "NSTextFieldCell"; title = "KernelArch"; ObjectID = "Edd-Fj-thV"; */
+"Edd-Fj-thV.title" = "KernelArch";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "GcD-Hq-Pnt"; */
+"GcD-Hq-Pnt.headerCell.title" = "Find";
+
+/* Class = "NSTableColumn"; headerCell.title = "PlistPath"; ObjectID = "H8d-aU-LbU"; */
+"H8d-aU-LbU.headerCell.title" = "PlistPath";
+
+/* Class = "NSTextFieldCell"; title = "MinKernel"; ObjectID = "Hvv-Zp-P5b"; */
+"Hvv-Zp-P5b.title" = "MinKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "IQk-iw-L5E"; */
+"IQk-iw-L5E.headerCell.title" = "MaxKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "IQu-iO-MYc"; */
+"IQu-iO-MYc.headerCell.title" = "Mask";
+
+/* Class = "NSTableColumn"; headerCell.title = "Identifier*"; ObjectID = "IWc-Ff-bdQ"; */
+"IWc-Ff-bdQ.headerCell.title" = "Identifier*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "K9H-md-xVS"; */
+"K9H-md-xVS.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "Kyb-jI-0pq"; */
+"Kyb-jI-0pq.headerCell.title" = "Replace";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "N6C-NB-CMk"; */
+"N6C-NB-CMk.headerCell.title" = "Arch";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "Ntg-7A-K1a"; */
+"Ntg-7A-K1a.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "BundlePath*"; ObjectID = "Oe6-LD-h7w"; */
+"Oe6-LD-h7w.headerCell.title" = "BundlePath*";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "PdE-OW-Faw"; */
+"PdE-OW-Faw.headerCell.title" = "Enabled";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "QBz-fY-8R7"; */
+"QBz-fY-8R7.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "TcN-ku-fY2"; */
+"TcN-ku-fY2.headerCell.title" = "Enabled";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "WGU-Ke-n07"; */
+"WGU-Ke-n07.title" = "Scan/Browse";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "aAH-qz-ikl"; */
+"aAH-qz-ikl.headerCell.title" = "Skip";
+
+/* Class = "NSButtonCell"; title = "Check Kexts"; ObjectID = "aCc-4w-GcM"; */
+"aCc-4w-GcM.title" = "Check Kexts";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "aHq-mU-IMD"; */
+"aHq-mU-IMD.headerCell.title" = "MaxKernel";
+
+/* Class = "NSTextFieldCell"; title = "Cpuid1Data"; ObjectID = "aVm-Of-4z9"; */
+"aVm-Of-4z9.title" = "Cpuid1Data";
+
+/* Class = "NSTextFieldCell"; title = "MaxKernel"; ObjectID = "b9n-9m-IDX"; */
+"b9n-9m-IDX.title" = "MaxKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "cUJ-Nj-uY7"; */
+"cUJ-Nj-uY7.headerCell.title" = "Enabled";
+
+/* Class = "NSTableColumn"; headerCell.title = "Base"; ObjectID = "djM-Oe-omR"; */
+"djM-Oe-omR.headerCell.title" = "Base";
+
+/* Class = "NSTableColumn"; headerCell.title = "BundlePath*"; ObjectID = "eFP-6O-woi"; */
+"eFP-6O-woi.headerCell.title" = "BundlePath*";
+
+/* Class = "NSTableColumn"; headerCell.title = "PlistPath"; ObjectID = "ek6-EY-0uZ"; */
+"ek6-EY-0uZ.headerCell.title" = "PlistPath";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "ewU-gZ-tet"; */
+"ewU-gZ-tet.title" = "Loading Resources";
+
+/* Class = "NSBox"; title = "Scheme"; ObjectID = "fHU-xs-V2l"; */
+"fHU-xs-V2l.title" = "Scheme";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arch"; ObjectID = "fUC-fp-4l5"; */
+"fUC-fp-4l5.headerCell.title" = "Arch";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "fZ7-RW-fxf"; */
+"fZ7-RW-fxf.headerCell.title" = "MinKernel";
+
+/* Class = "NSButtonCell"; title = "DummyPowerManagement"; ObjectID = "fbs-Rf-kXV"; */
+"fbs-Rf-kXV.title" = "DummyPowerManagement";
+
+/* Class = "NSTextFieldCell"; title = "KernelCache"; ObjectID = "g1H-e8-UUH"; */
+"g1H-e8-UUH.title" = "KernelCache";
+
+/* Class = "NSButtonCell"; title = "CustomKernel"; ObjectID = "g3S-OO-4Pp"; */
+"g3S-OO-4Pp.title" = "CustomKernel";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "gFl-jZ-XPd"; */
+"gFl-jZ-XPd.headerCell.title" = "MaxKernel";
+
+/* Class = "NSTabViewItem"; label = "Block"; ObjectID = "gy1-1j-jtJ"; */
+"gy1-1j-jtJ.label" = "Block";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "je9-Z0-9pa"; */
+"je9-Z0-9pa.title" = "Loading Resources";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "k5V-cd-PJd"; */
+"k5V-cd-PJd.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "kGJ-yd-xi8"; */
+"kGJ-yd-xi8.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "lAD-ms-SMV"; */
+"lAD-ms-SMV.headerCell.title" = "ReplaceMask";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "lXN-nk-zjA"; */
+"lXN-nk-zjA.headerCell.title" = "MinKernel";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "mWg-wh-eGt"; */
+"mWg-wh-eGt.label" = "Add";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "mup-PJ-Q4D"; */
+"mup-PJ-Q4D.title" = "Scan/Browse";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "nyt-5D-3es"; */
+"nyt-5D-3es.headerCell.title" = "Limit";
+
+/* Class = "NSButtonCell"; title = "FuzzyMatch"; ObjectID = "srr-gQ-RrN"; */
+"srr-gQ-RrN.title" = "FuzzyMatch";
+
+/* Class = "NSTableColumn"; headerCell.title = "MaxKernel"; ObjectID = "tya-o0-N6w"; */
+"tya-o0-N6w.headerCell.title" = "MaxKernel";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "urM-4i-kap"; */
+"urM-4i-kap.title" = "List Of Patches";
+
+/* Class = "NSTextFieldCell"; title = "Multiple selection allowed"; ObjectID = "vgG-WU-Sc2"; */
+"vgG-WU-Sc2.title" = "Multiple selection allowed";
+
+/* Class = "NSTableColumn"; headerCell.title = "MinKernel"; ObjectID = "w5E-ff-NpB"; */
+"w5E-ff-NpB.headerCell.title" = "MinKernel";
+
+/* Class = "NSBox"; title = "Emulate"; ObjectID = "wEr-yw-cwt"; */
+"wEr-yw-cwt.title" = "Emulate";
+
+/* Class = "NSTextFieldCell"; title = "Cpuid1Mask"; ObjectID = "xNJ-1G-bdS"; */
+"xNJ-1G-bdS.title" = "Cpuid1Mask";

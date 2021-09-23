@@ -1,0 +1,156 @@
+
+/* Class = "NSTextFieldCell"; title = "PointerSpeedMul"; ObjectID = "0MH-zm-tw2"; */
+"0MH-zm-tw2.title" = "PointerSpeedMul";
+
+/* Class = "NSTextFieldCell"; title = "AudioDevice"; ObjectID = "0gM-HU-fz5"; */
+"0gM-HU-fz5.title" = "AudioDevice";
+
+/* Class = "NSButtonCell"; title = "EnableJumpstart"; ObjectID = "133-jD-qYy"; */
+"133-jD-qYy.title" = "EnableJumpstart";
+
+/* Class = "NSTextFieldCell"; title = "TimerResolution"; ObjectID = "3Ql-TM-Oiv"; */
+"3Ql-TM-Oiv.title" = "TimerResolution";
+
+/* Class = "NSTabViewItem"; label = "Audio"; ObjectID = "5Gm-fv-IpR"; */
+"5Gm-fv-IpR.label" = "Audio";
+
+/* Class = "NSButtonCell"; title = "JumpstartHotPlug"; ObjectID = "6B4-NA-lHR"; */
+"6B4-NA-lHR.title" = "JumpstartHotPlug";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "6k6-uj-n97"; */
+"6k6-uj-n97.headerCell.title" = "Comment";
+
+/* Class = "NSTextFieldCell"; title = "MinVersion"; ObjectID = "7Ns-yB-e5j"; */
+"7Ns-yB-e5j.title" = "MinVersion";
+
+/* Class = "NSTabViewItem"; label = "ReservedMemory"; ObjectID = "8vC-O7-rpe"; */
+"8vC-O7-rpe.label" = "ReservedMemory";
+
+/* Class = "NSTextFieldCell"; title = "MinDate"; ObjectID = "9fO-yG-VWd"; */
+"9fO-yG-VWd.title" = "MinDate";
+
+/* Class = "NSTextFieldCell"; title = "KeyInitialDelay"; ObjectID = "Bng-Xc-8Qm"; */
+"Bng-Xc-8Qm.title" = "KeyInitialDelay";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "CLg-lY-N26"; */
+"CLg-lY-N26.title" = "Scan/Browse";
+
+/* Class = "NSTextFieldCell"; title = "KeySupportMode"; ObjectID = "EeU-wj-caf"; */
+"EeU-wj-caf.title" = "KeySupportMode";
+
+/* Class = "NSButtonCell"; title = "PointerSupport"; ObjectID = "Elq-pL-QTD"; */
+"Elq-pL-QTD.title" = "PointerSupport";
+
+/* Class = "NSTextFieldCell"; title = "VolumeAmplifier"; ObjectID = "En7-ww-Uj5"; */
+"En7-ww-Uj5.title" = "VolumeAmplifier";
+
+/* Class = "NSTextFieldCell"; title = "KeyForgetThreshold"; ObjectID = "ErN-ks-EzO"; */
+"ErN-ks-EzO.title" = "KeyForgetThreshold";
+
+/* Class = "NSTabViewItem"; label = "APFS"; ObjectID = "F1Q-I5-6w7"; */
+"F1Q-I5-6w7.label" = "APFS";
+
+/* Class = "NSTabViewItem"; label = "ProtocolOverrides"; ObjectID = "Ife-ug-MJ5"; */
+"Ife-ug-MJ5.label" = "ProtocolOverrides";
+
+/* Class = "NSTextFieldCell"; title = "KeySubsequentDelay"; ObjectID = "JWy-Kv-Tq6"; */
+"JWy-Kv-Tq6.title" = "KeySubsequentDelay";
+
+/* Class = "NSTextFieldCell"; title = "AudioCodec"; ObjectID = "L2f-gE-rBP"; */
+"L2f-gE-rBP.title" = "AudioCodec";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "McE-CL-fQD"; */
+"McE-CL-fQD.headerCell.title" = "Type";
+
+/* Class = "NSTextFieldCell"; title = "SetupDelay"; ObjectID = "N4u-Hw-eXM"; */
+"N4u-Hw-eXM.title" = "SetupDelay";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "NbU-Qi-Xhw"; */
+"NbU-Qi-Xhw.title" = "Resolution";
+
+/* Class = "NSButtonCell"; title = "KeyFiltering"; ObjectID = "Of8-Ba-FhQ"; */
+"Of8-Ba-FhQ.title" = "KeyFiltering";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "PVa-Cc-beC"; */
+"PVa-Cc-beC.title" = "Quirks";
+
+/* Class = "NSTextFieldCell"; title = "PlayChime"; ObjectID = "PpL-lt-ruw"; */
+"PpL-lt-ruw.title" = "PlayChime";
+
+/* Class = "NSTextFieldCell"; title = "TextRenderer"; ObjectID = "QQF-qM-yZS"; */
+"QQF-qM-yZS.title" = "TextRenderer";
+
+/* Class = "NSTextFieldCell"; title = "AppleEvent"; ObjectID = "SCl-CT-PaY"; */
+"SCl-CT-PaY.title" = "AppleEvent";
+
+/* Class = "NSButtonCell"; title = "GlobalConnect"; ObjectID = "SDU-Ok-pEv"; */
+"SDU-Ok-pEv.title" = "GlobalConnect";
+
+/* Class = "NSTabViewItem"; label = "Drivers"; ObjectID = "V9Z-z9-Ejd"; */
+"V9Z-z9-Ejd.label" = "Drivers";
+
+/* Class = "NSTextFieldCell"; title = "GopPassThrough"; ObjectID = "VKM-hk-vmW"; */
+"VKM-hk-vmW.title" = "GopPassThrough";
+
+/* Class = "NSTabViewItem"; label = "AppleInput"; ObjectID = "XuU-Ep-ZXb"; */
+"XuU-Ep-ZXb.label" = "AppleInput";
+
+/* Class = "NSButtonCell"; title = "Download/Update drivers"; ObjectID = "YW9-8V-SGH"; */
+"YW9-8V-SGH.title" = "Download/Update drivers";
+
+/* Class = "NSTextFieldCell"; title = "PointerSupportMode"; ObjectID = "anR-lZ-CjV"; */
+"anR-lZ-CjV.title" = "PointerSupportMode";
+
+/* Class = "NSButtonCell"; title = "ResetTrafficClass"; ObjectID = "cgf-ad-vIe"; */
+"cgf-ad-vIe.title" = "ResetTrafficClass";
+
+/* Class = "NSButtonCell"; title = "KeySupport"; ObjectID = "cia-MM-Epa"; */
+"cia-MM-Epa.title" = "KeySupport";
+
+/* Class = "NSButtonCell"; title = "HideVerbose"; ObjectID = "egr-8J-RIS"; */
+"egr-8J-RIS.title" = "HideVerbose";
+
+/* Class = "NSTextFieldCell"; title = "MinimumVolume"; ObjectID = "ehu-K3-gbY"; */
+"ehu-K3-gbY.title" = "MinimumVolume";
+
+/* Class = "NSTabViewItem"; label = "Output"; ObjectID = "gJG-UT-7D3"; */
+"gJG-UT-7D3.label" = "Output";
+
+/* Class = "NSButtonCell"; title = "KeySwap"; ObjectID = "h6b-rN-daY"; */
+"h6b-rN-daY.title" = "KeySwap";
+
+/* Class = "NSTextFieldCell"; title = "TscSyncTimeout"; ObjectID = "ifT-4Q-EvN"; */
+"ifT-4Q-EvN.title" = "TscSyncTimeout";
+
+/* Class = "NSTextFieldCell"; title = "Console Mode"; ObjectID = "k5b-42-EPT"; */
+"k5b-42-EPT.title" = "Console Mode";
+
+/* Class = "NSButtonCell"; title = "Connect Drivers"; ObjectID = "kBk-75-acl"; */
+"kBk-75-acl.title" = "Connect Drivers";
+
+/* Class = "NSTextFieldCell"; title = "AudioOut"; ObjectID = "kM6-tO-pns"; */
+"kM6-tO-pns.title" = "AudioOut";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address"; ObjectID = "ldi-uY-9wO"; */
+"ldi-uY-9wO.headerCell.title" = "Address";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "n2P-We-NTM"; */
+"n2P-We-NTM.headerCell.title" = "Enabled";
+
+/* Class = "NSButtonCell"; title = "AudioSupport"; ObjectID = "oT1-Q2-rhc"; */
+"oT1-Q2-rhc.title" = "AudioSupport";
+
+/* Class = "NSTabViewItem"; label = "Input"; ObjectID = "tiX-oG-c7h"; */
+"tiX-oG-c7h.label" = "Input";
+
+/* Class = "NSTableColumn"; headerCell.title = "Size"; ObjectID = "ufL-Er-oh9"; */
+"ufL-Er-oh9.headerCell.title" = "Size";
+
+/* Class = "NSTextFieldCell"; title = "PointerSpeedDiv"; ObjectID = "wcl-OF-wk6"; */
+"wcl-OF-wk6.title" = "PointerSpeedDiv";
+
+/* Class = "NSTextFieldCell"; title = "ExitBootServicesDelay"; ObjectID = "wxD-TC-lrQ"; */
+"wxD-TC-lrQ.title" = "ExitBootServicesDelay";
+
+/* Class = "NSButtonCell"; title = "CustomDelays"; ObjectID = "xPB-Sk-c8h"; */
+"xPB-Sk-c8h.title" = "CustomDelays";

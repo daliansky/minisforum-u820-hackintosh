@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Synchronize"; ObjectID = "5iE-R5-2f7"; */
+"5iE-R5-2f7.title" = "Synchronizuj";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "8PO-5E-yRJ"; */
+"8PO-5E-yRJ.title" = "Wyszukaj (⌘F)";
+
+/* Class = "NSSegmentedCell"; 8nO-vA-7qF.ibShadowedLabels[0] = "All"; ObjectID = "8nO-vA-7qF"; */
+"8nO-vA-7qF.ibShadowedLabels[0]" = "Wszystkie";
+
+/* Class = "NSSegmentedCell"; 8nO-vA-7qF.ibShadowedLabels[1] = "Replace"; ObjectID = "8nO-vA-7qF"; */
+"8nO-vA-7qF.ibShadowedLabels[1]" = "Zamień";
+
+/* Class = "NSButtonCell"; title = "Replace"; ObjectID = "CRw-jx-RlM"; */
+"CRw-jx-RlM.title" = "Zamień";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "Wd6-KD-rqx"; */
+"Wd6-KD-rqx.title" = "Wyszukaj (⌘F)";
+
+/* Class = "NSTextFieldCell"; title = "Opencore Configuration Properties"; ObjectID = "aIc-ln-iIV"; */
+"aIc-ln-iIV.title" = "Właściwości konfiguracyjne Opencore";
+
+/* Class = "NSButtonCell"; title = "Synchronize"; ObjectID = "cZ7-39-tJB"; */
+"cZ7-39-tJB.title" = "Synchronizuj";

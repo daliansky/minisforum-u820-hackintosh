@@ -1,0 +1,18 @@
+
+/* Class = "NSButtonCell"; title = "Validate"; ObjectID = "2zH-qH-pj9"; */
+"2zH-qH-pj9.title" = "驗證";
+
+/* Class = "NSButtonCell"; title = "Release Version"; ObjectID = "7JJ-LU-0Kh"; */
+"7JJ-LU-0Kh.title" = "Release版本";
+
+/* Class = "NSButtonCell"; title = "Development Version"; ObjectID = "7cN-jw-hrJ"; */
+"7cN-jw-hrJ.title" = "Development版本";
+
+/* Class = "NSWindow"; title = "OpenCore Validator"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "OpenCore官方驗證器";
+
+/* Class = "NSButtonCell"; title = "Import"; ObjectID = "xDg-wE-dNa"; */
+"xDg-wE-dNa.title" = "導入配置文件";
+
+/* Class = "NSButtonCell"; title = "Current Configuration"; ObjectID = "ydm-wl-I9F"; */
+"ydm-wl-I9F.title" = "當前配置文件";

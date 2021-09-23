@@ -1,0 +1,63 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "1Hp-YT-QB3"; */
+"1Hp-YT-QB3.headerCell.title" = "Key";
+
+/* Class = "NSMenuItem"; title = "STRING"; ObjectID = "2GE-aT-481"; */
+"2GE-aT-481.title" = "STRING";
+
+/* Class = "NSMenuItem"; title = "DATA"; ObjectID = "5S9-qs-ueO"; */
+"5S9-qs-ueO.title" = "DATA";
+
+/* Class = "NSMenuItem"; title = "NUMBER"; ObjectID = "C9A-DN-Ig8"; */
+"C9A-DN-Ig8.title" = "NUMBER";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "Eac-Nq-33R"; */
+"Eac-Nq-33R.headerCell.title" = "Value";
+
+/* Class = "NSButtonCell"; title = "LegacyOverwrite"; ObjectID = "Hrg-If-vgt"; */
+"Hrg-If-vgt.title" = "LegacyOverwrite";
+
+/* Class = "NSTableColumn"; headerCell.title = "UUID"; ObjectID = "Lmb-kn-JbT"; */
+"Lmb-kn-JbT.headerCell.title" = "UUID";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "NoT-Wv-Hn9"; */
+"NoT-Wv-Hn9.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "LegacyEnable"; ObjectID = "ORI-69-MG3"; */
+"ORI-69-MG3.title" = "LegacyEnable";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "dmH-cD-uzh"; */
+"dmH-cD-uzh.label" = "Delete";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "eSY-j6-jWD"; */
+"eSY-j6-jWD.label" = "Add";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "ia9-0E-fQ8"; */
+"ia9-0E-fQ8.headerCell.title" = "Key";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "imy-5n-EEC"; */
+"imy-5n-EEC.headerCell.title" = "Type";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key*"; ObjectID = "j1D-Eg-beZ"; */
+"j1D-Eg-beZ.headerCell.title" = "Key*";
+
+/* Class = "NSButtonCell"; title = "WriteFlash"; ObjectID = "oGQ-n7-FKX"; */
+"oGQ-n7-FKX.title" = "WriteFlash";
+
+/* Class = "NSTabViewItem"; label = "LegacySchema"; ObjectID = "oWw-vt-aiZ"; */
+"oWw-vt-aiZ.label" = "LegacySchema";
+
+/* Class = "NSTableColumn"; headerCell.title = "UUID"; ObjectID = "olA-O6-ChW"; */
+"olA-O6-ChW.headerCell.title" = "UUID";
+
+/* Class = "NSMenuItem"; title = "Get from 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14"; ObjectID = "pEK-IL-1zl"; */
+"pEK-IL-1zl.title" = "Get from 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14";
+
+/* Class = "NSTableColumn"; headerCell.title = "UUID"; ObjectID = "rFf-nE-Twf"; */
+"rFf-nE-Twf.headerCell.title" = "UUID";
+
+/* Class = "NSMenuItem"; title = "Get NVRAM data"; ObjectID = "rjh-HS-mRe"; */
+"rjh-HS-mRe.title" = "Get NVRAM data";
+
+/* Class = "NSMenuItem"; title = "Get from 7C436110-AB2A-4BBB-A880-FE41995C9F82"; ObjectID = "suf-bH-Wor"; */
+"suf-bH-Wor.title" = "Get from 7C436110-AB2A-4BBB-A880-FE41995C9F82";

@@ -1,0 +1,336 @@
+
+/* Class = "NSButtonCell"; title = "DEBUG_INFO in DEBUG, NOOPT"; ObjectID = "0hR-wG-mgt"; */
+"0hR-wG-mgt.title" = "DEBUG_INFO in DEBUG, NOOPT";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "1NZ-HO-WUF"; */
+"1NZ-HO-WUF.headerCell.title" = "Comment";
+
+/* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "1fY-U6-4KQ"; */
+"1fY-U6-4KQ.headerCell.title" = "Auxiliary";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "22Z-wl-E30"; */
+"22Z-wl-E30.headerCell.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Enable logging to Data Hub"; ObjectID = "2Qh-mc-sJw"; */
+"2Qh-mc-sJw.title" = "Enable logging to Data Hub";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "2dj-hB-QBF"; */
+"2dj-hB-QBF.title" = "모두 선택 취소";
+
+/* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "390-oq-BkL"; */
+"390-oq-BkL.headerCell.title" = "Flavour";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "3K9-EU-jse"; */
+"3K9-EU-jse.title" = "모두 선택";
+
+/* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "3a7-m4-eNo"; */
+"3a7-m4-eNo.headerCell.title" = "TextMode";
+
+/* Class = "NSTabViewItem"; label = "Boot"; ObjectID = "3fm-9G-OpP"; */
+"3fm-9G-OpP.label" = "부트";
+
+/* Class = "NSTabViewItem"; label = "Security"; ObjectID = "3fm-Nz-fHj"; */
+"3fm-Nz-fHj.label" = "보안";
+
+/* Class = "NSTextFieldCell"; title = "PickerVariant"; ObjectID = "4Mc-Dm-vYw"; */
+"4Mc-Dm-vYw.title" = "PickerVariant";
+
+/* Class = "NSButtonCell"; title = "Enable UEFI variable logging"; ObjectID = "6U3-np-fQe"; */
+"6U3-np-fQe.title" = "Enable UEFI variable logging";
+
+/* Class = "NSTextFieldCell"; title = "Timeout"; ObjectID = "6hf-UH-eBA"; */
+"6hf-UH-eBA.title" = "Timeout";
+
+/* Class = "NSButtonCell"; title = "HideAuxiliary"; ObjectID = "7BP-eo-vIZ"; */
+"7BP-eo-vIZ.title" = "HideAuxiliary";
+
+/* Class = "NSTableColumn"; headerCell.title = "RealPath"; ObjectID = "7JW-1n-ZBx"; */
+"7JW-1n-ZBx.headerCell.title" = "RealPath";
+
+/* Class = "NSButtonCell"; title = "Expose OpenCore version in boot picker menu title."; ObjectID = "7NC-lm-XEM"; */
+"7NC-lm-XEM.title" = "Expose OpenCore version in boot picker menu title.";
+
+/* Class = "NSTextFieldCell"; title = "PasswordSalt"; ObjectID = "8Xp-t8-QVB"; */
+"8Xp-t8-QVB.title" = "PasswordSalt";
+
+/* Class = "NSButtonCell"; title = "Disable WatchDog"; ObjectID = "9LG-wP-7Np"; */
+"9LG-wP-7Np.title" = "Disable WatchDog";
+
+/* Class = "NSTextFieldCell"; title = "ApECID"; ObjectID = "A2A-xj-Bmf"; */
+"A2A-xj-Bmf.title" = "ApECID";
+
+/* Class = "NSButtonCell"; title = "DEBUG_WARN in DEBUG, NOOPT, RELEASE"; ObjectID = "AEq-Xa-8FR"; */
+"AEq-Xa-8FR.title" = "DEBUG_WARN in DEBUG, NOOPT, RELEASE";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "Ai7-te-FXf"; */
+"Ai7-te-FXf.title" = "모두 선택";
+
+/* Class = "NSTextFieldCell"; title = "Picker Mode"; ObjectID = "BYc-kG-loi"; */
+"BYc-kG-loi.title" = "Picker Mode";
+
+/* Class = "NSButtonCell"; title = "Expose OpenCore version as an UEFI variable."; ObjectID = "Bcn-4Z-d2d"; */
+"Bcn-4Z-d2d.title" = "Expose OpenCore version as an UEFI variable.";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "Bpe-6y-ybA"; */
+"Bpe-6y-ybA.title" = "찾아보기";
+
+/* Class = "NSTextFieldCell"; title = "Expose Sensitive Data"; ObjectID = "DAS-KM-gwG"; */
+"DAS-KM-gwG.title" = "Expose Sensitive Data";
+
+/* Class = "NSButtonCell"; title = "Enable non-volatile UEFI variable logging"; ObjectID = "Da8-bR-9wd"; */
+"Da8-bR-9wd.title" = "Enable non-volatile UEFI variable logging";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_ESP"; ObjectID = "Edm-Vw-KuX"; */
+"Edm-Vw-KuX.title" = "OC_SCAN_ALLOW_FS_ESP";
+
+/* Class = "NSTextFieldCell"; title = "Display Delay"; ObjectID = "FHv-7q-Wq3"; */
+"FHv-7q-Wq3.title" = "Display Delay";
+
+/* Class = "NSButtonCell"; title = "SysReport"; ObjectID = "GOG-QD-oyI"; */
+"GOG-QD-oyI.title" = "SysReport";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "Gaf-gn-k6J"; */
+"Gaf-gn-k6J.title" = "모두선택";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_EXT"; ObjectID = "H6a-QA-xQu"; */
+"H6a-QA-xQu.title" = "OC_SCAN_ALLOW_FS_EXT";
+
+/* Class = "NSButtonCell"; title = "Enable serial port logging"; ObjectID = "HjZ-gH-Q0b"; */
+"HjZ-gH-Q0b.title" = "Enable serial port logging";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_PCI"; ObjectID = "I0K-dq-ofU"; */
+"I0K-dq-ofU.title" = "OC_SCAN_ALLOW_DEVICE_PCI";
+
+/* Class = "NSButtonCell"; title = "AllowNvramReset"; ObjectID = "Jpe-QB-x2r"; */
+"Jpe-QB-x2r.title" = "AllowNvramReset";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "KRE-fs-cVq"; */
+"KRE-fs-cVq.title" = "모두 선택취소";
+
+/* Class = "NSButtonCell"; title = "Provides custom rendered titles for boot entries"; ObjectID = "L3h-6q-xRi"; */
+"L3h-6q-xRi.title" = "Provides custom rendered titles for boot entries";
+
+/* Class = "NSButtonCell"; title = "Prefers builtin icons for certain icon categories to match the theme style"; ObjectID = "NFd-Yp-DAy"; */
+"NFd-Yp-DAy.title" = "Prefers builtin icons for certain icon categories to match the theme style";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "NXw-uw-Jsu"; */
+"NXw-uw-Jsu.headerCell.title" = "활성화";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "PDr-JO-EKf"; */
+"PDr-JO-EKf.title" = "모두 선택취소";
+
+/* Class = "NSTextFieldCell"; title = "ConsoleAttributes"; ObjectID = "PIX-Ia-ajs"; */
+"PIX-Ia-ajs.title" = "ConsoleAttributes";
+
+/* Class = "NSButtonCell"; title = "BlacklistAppleUpdate"; ObjectID = "PPp-Ea-yQN"; */
+"PPp-Ea-yQN.title" = "BlacklistAppleUpdate";
+
+/* Class = "NSButtonCell"; title = "Browse"; ObjectID = "Pkl-Zl-stw"; */
+"Pkl-Zl-stw.title" = "Browse";
+
+/* Class = "NSButtonCell"; title = "Expose OEM information as a set of UEFI variables."; ObjectID = "SLo-CJ-cas"; */
+"SLo-CJ-cas.title" = "Expose OEM information as a set of UEFI variables.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "SPw-C4-qwL"; */
+"SPw-C4-qwL.headerCell.title" = "활성화";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "SZj-0R-9Uu"; */
+"SZj-0R-9Uu.title" = "모두 선택취소";
+
+/* Class = "NSButtonCell"; title = "PollAppleHotKeys"; ObjectID = "TDv-Al-hb0"; */
+"TDv-Al-hb0.title" = "PollAppleHotKeys";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "ThF-JP-r8K"; */
+"ThF-JP-r8K.headerCell.title" = "Arguments";
+
+/* Class = "NSTextFieldCell"; title = "Hibernate Mode"; ObjectID = "TmR-t7-bmq"; */
+"TmR-t7-bmq.title" = "Hibernate Mode";
+
+/* Class = "NSButtonCell"; title = "Flavour icon, suitable for picking the best media across different content sets"; ObjectID = "Uy3-8a-yvD"; */
+"Uy3-8a-yvD.title" = "Flavour icon, suitable for picking the best media across different content sets";
+
+/* Class = "NSButtonCell"; title = "Enable logging to file"; ObjectID = "Uz7-yL-WDQ"; */
+"Uz7-yL-WDQ.title" = "Enable logging to file";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_FILE_SYSTEM_LOCK"; ObjectID = "Wnm-4q-QJ3"; */
+"Wnm-4q-QJ3.title" = "OC_SCAN_FILE_SYSTEM_LOCK";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_NTFS"; ObjectID = "WsC-yj-V3g"; */
+"WsC-yj-V3g.title" = "OC_SCAN_ALLOW_FS_NTFS";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SCSI"; ObjectID = "X1h-DD-gjM"; */
+"X1h-DD-gjM.title" = "OC_SCAN_ALLOW_DEVICE_SCSI";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "XRf-Yz-PVv"; */
+"XRf-Yz-PVv.headerCell.title" = "Name";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "XSQ-pS-WUn"; */
+"XSQ-pS-WUn.headerCell.title" = "Path*";
+
+/* Class = "NSButtonCell"; title = "Show Picker"; ObjectID = "YKi-Mp-w6e"; */
+"YKi-Mp-w6e.title" = "Show Picker";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_NVME"; ObjectID = "YQh-9A-q5Q"; */
+"YQh-9A-q5Q.title" = "OC_SCAN_ALLOW_DEVICE_NVME";
+
+/* Class = "NSTabViewItem"; label = "Debug"; ObjectID = "Yod-ne-FH8"; */
+"Yod-ne-FH8.label" = "디버그";
+
+/* Class = "NSButtonCell"; title = "Enable basic console (onscreen) logging"; ObjectID = "ZZP-5O-C0h"; */
+"ZZP-5O-C0h.title" = "Enable basic console (onscreen) logging";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SATA"; ObjectID = "aQY-Kx-ZCy"; */
+"aQY-Kx-ZCy.title" = "OC_SCAN_ALLOW_DEVICE_SATA";
+
+/* Class = "NSTextFieldCell"; title = "Scan Policy"; ObjectID = "aUx-rK-UTX"; */
+"aUx-rK-UTX.title" = "Scan Policy";
+
+/* Class = "NSButtonCell"; title = "Use minimal UI display"; ObjectID = "ak1-aD-NH7"; */
+"ak1-aD-NH7.title" = "Use minimal UI display";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "b27-wQ-s5W"; */
+"b27-wQ-s5W.title" = "모두선택";
+
+/* Class = "NSButtonCell"; title = "PickerAudioAssist"; ObjectID = "cN2-ao-nCB"; */
+"cN2-ao-nCB.title" = "PickerAudioAssist";
+
+/* Class = "NSTextFieldCell"; title = "PasswordHash"; ObjectID = "cz1-6R-TEf"; */
+"cz1-6R-TEf.title" = "PasswordHash";
+
+/* Class = "NSTextFieldCell"; title = "Display Level"; ObjectID = "dam-Nc-xFX"; */
+"dam-Nc-xFX.title" = "Display Level";
+
+/* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "deu-Ec-YkZ"; */
+"deu-Ec-YkZ.headerCell.title" = "TextMode";
+
+/* Class = "NSButtonCell"; title = "Provides predefined label images for boot entries without custom entries"; ObjectID = "dl8-kF-ipf"; */
+"dl8-kF-ipf.title" = "Provides predefined label images for boot entries without custom entries";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_USB"; ObjectID = "eFc-bE-Fl5"; */
+"eFc-bE-Fl5.title" = "OC_SCAN_ALLOW_DEVICE_USB";
+
+/* Class = "NSTextFieldCell"; title = "Picker Attributes"; ObjectID = "eaZ-uU-2Tt"; */
+"eaZ-uU-2Tt.title" = "Picker Attributes";
+
+/* Class = "NSTextFieldCell"; title = "Vault"; ObjectID = "fN9-q5-dg3"; */
+"fN9-q5-dg3.title" = "Vault";
+
+/* Class = "NSTextFieldCell"; title = "DmgLoading"; ObjectID = "fVY-aJ-OPc"; */
+"fVY-aJ-OPc.title" = "DmgLoading";
+
+/* Class = "NSTextFieldCell"; title = "Target"; ObjectID = "hAm-Ha-Meb"; */
+"hAm-Ha-Meb.title" = "Target";
+
+/* Class = "NSButtonCell"; title = "SerialInit"; ObjectID = "hRO-hk-wy8"; */
+"hRO-hk-wy8.title" = "SerialInit";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_ATAPI"; ObjectID = "i2m-65-2vq"; */
+"i2m-65-2vq.title" = "OC_SCAN_ALLOW_DEVICE_ATAPI";
+
+/* Class = "NSTextFieldCell"; title = "LauncherOption"; ObjectID = "i5B-oK-z1D"; */
+"i5B-oK-z1D.title" = "LauncherOption";
+
+/* Class = "NSButtonCell"; title = "Download/Update tools"; ObjectID = "i6P-Lb-eX2"; */
+"i6P-Lb-eX2.title" = "다운로드/도구 업데이트";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "jPS-Bu-Ar4"; */
+"jPS-Bu-Ar4.headerCell.title" = "Path*";
+
+/* Class = "NSButtonCell"; title = "EnablePassword"; ObjectID = "lLV-4d-gWP"; */
+"lLV-4d-gWP.title" = "EnablePassword";
+
+/* Class = "NSButtonCell"; title = "SkipCustomEntryCheck"; ObjectID = "mB0-8o-rL6"; */
+"mB0-8o-rL6.title" = "SkipCustomEntryCheck";
+
+/* Class = "NSButtonCell"; title = "DEBUG_VERBOSE in custom builds"; ObjectID = "mSr-7J-5Qp"; */
+"mSr-7J-5Qp.title" = "DEBUG_VERBOSE in custom builds";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_APFS"; ObjectID = "mpH-5M-L70"; */
+"mpH-5M-L70.title" = "OC_SCAN_ALLOW_FS_APFS";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_FIREWIRE"; ObjectID = "nmh-33-tbM"; */
+"nmh-33-tbM.title" = "OC_SCAN_ALLOW_DEVICE_FIREWIRE";
+
+/* Class = "NSButtonCell"; title = "AllowToggleSip"; ObjectID = "nsS-VU-gur"; */
+"nsS-VU-gur.title" = "AllowToggleSip";
+
+/* Class = "NSTabViewItem"; label = "Tools"; ObjectID = "oFg-pn-DgG"; */
+"oFg-pn-DgG.label" = "Tools";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "oL1-jF-NNm"; */
+"oL1-jF-NNm.title" = "모두 선택 취소";
+
+/* Class = "NSTextFieldCell"; title = "SecureBootModel"; ObjectID = "oef-cz-Kqc"; */
+"oef-cz-Kqc.title" = "SecureBootModel";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "pIV-PK-mVi"; */
+"pIV-PK-mVi.title" = "모두 선택";
+
+/* Class = "NSTextFieldCell"; title = "Halt Level"; ObjectID = "pqr-DX-ZAM"; */
+"pqr-DX-ZAM.title" = "Halt Level";
+
+/* Class = "NSButtonCell"; title = "AllowSetDefault"; ObjectID = "qpq-Le-cti"; */
+"qpq-Le-cti.title" = "AllowSetDefault";
+
+/* Class = "NSButtonCell"; title = "Enable pointer control in the picker when available"; ObjectID = "r8W-nu-W4X"; */
+"r8W-nu-W4X.title" = "Enable pointer control in the picker when available";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SDCARD"; ObjectID = "sti-pn-v4l"; */
+"sti-pn-v4l.title" = "OC_SCAN_ALLOW_DEVICE_SDCARD";
+
+/* Class = "NSButtonCell"; title = "AppleDebug"; ObjectID = "tBp-D4-d9x"; */
+"tBp-D4-d9x.title" = "AppleDebug";
+
+/* Class = "NSButtonCell"; title = "AuthRestart"; ObjectID = "tI2-d3-co4"; */
+"tI2-d3-co4.title" = "AuthRestart";
+
+/* Class = "NSButtonCell"; title = "Provides custom icons for boot entries"; ObjectID = "tLD-8o-zGU"; */
+"tLD-8o-zGU.title" = "Provides custom icons for boot entries";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "uSO-ne-MBg"; */
+"uSO-ne-MBg.headerCell.title" = "Comment";
+
+/* Class = "NSButtonCell"; title = "Enable logging, otherwise all log is discarded"; ObjectID = "uWH-Lw-aeI"; */
+"uWH-Lw-aeI.title" = "Enable logging, otherwise all log is discarded";
+
+/* Class = "NSTabViewItem"; label = "Entries"; ObjectID = "uks-Bw-Ph4"; */
+"uks-Bw-Ph4.label" = "Entries";
+
+/* Class = "NSTabViewItem"; label = "BlessOverride"; ObjectID = "uyb-X6-nFt"; */
+"uyb-X6-nFt.label" = "BlessOverride";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "wFf-6v-O3P"; */
+"wFf-6v-O3P.headerCell.title" = "Arguments";
+
+/* Class = "NSButtonCell"; title = "Enable display of additional timing and debug information, in Builtin picker in DEBUG and NOOPT builds only."; ObjectID = "xjK-fm-3ud"; */
+"xjK-fm-3ud.title" = "Enable display of additional timing and debug information, in Builtin picker in DEBUG and NOOPT builds only.";
+
+/* Class = "NSTextFieldCell"; title = "TakeoffDelay"; ObjectID = "yDl-hK-Eml"; */
+"yDl-hK-Eml.title" = "TakeoffDelay";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_DEVICE_LOCK"; ObjectID = "yNo-gi-9zr"; */
+"yNo-gi-9zr.title" = "OC_SCAN_DEVICE_LOCK";
+
+/* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "yTI-cV-qsU"; */
+"yTI-cV-qsU.headerCell.title" = "Auxiliary";
+
+/* Class = "NSButtonCell"; title = "ApplePanic"; ObjectID = "yaU-Lw-vco"; */
+"yaU-Lw-vco.title" = "ApplePanic";
+
+/* Class = "NSTextFieldCell"; title = "LauncherPath"; ObjectID = "ykx-r5-I09"; */
+"ykx-r5-I09.title" = "LauncherPath";
+
+/* Class = "NSButtonCell"; title = "Expose printable booter path as an UEFI variable."; ObjectID = "z6D-gM-UDa"; */
+"z6D-gM-UDa.title" = "Expose printable booter path as an UEFI variable.";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_HFS"; ObjectID = "zCH-tB-ca6"; */
+"zCH-tB-ca6.title" = "OC_SCAN_ALLOW_FS_HFS";
+
+/* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "zSZ-kM-AsF"; */
+"zSZ-kM-AsF.headerCell.title" = "Flavour";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SASEX"; ObjectID = "zj4-Hs-Xjk"; */
+"zj4-Hs-Xjk.title" = "OC_SCAN_ALLOW_DEVICE_SASEX";
+
+/* Class = "NSButtonCell"; title = "DEBUG_ERROR in DEBUG, NOOPT, RELEASE"; ObjectID = "zlC-gM-dIj"; */
+"zlC-gM-dIj.title" = "DEBUG_ERROR in DEBUG, NOOPT, RELEASE";

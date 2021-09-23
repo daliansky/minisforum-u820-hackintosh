@@ -1,0 +1,75 @@
+
+/* Class = "NSView"; ibShadowedToolTip = "2. Delete\nType: plist dict\nDescription: Removes device properties from a map (plist dict) of deivce paths to an array (plist array) of variable names in plist string format."; ObjectID = "1eh-jH-TX2"; */
+"1eh-jH-TX2.ibShadowedToolTip" = "Supprimez les attributs de périphérique du mappage de chemin de périphérique (dict plist) du tableau de noms de variables (tableau plist) au format de chaîne plist. Le paramètre ici équivaut à renommer ACPI dans Clover _DSM → XDSM + TgtBridge";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "6on-lJ-yiP"; */
+"6on-lJ-yiP.headerCell.title" = "Valeur";
+
+/* Class = "NSWindow"; title = "Presets"; ObjectID = "7dM-hm-O9O"; */
+"7dM-hm-O9O.title" = "Préconfigurations";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "9kg-WA-Eir"; */
+"9kg-WA-Eir.headerCell.title" = "Appareil";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key*"; ObjectID = "F6A-yy-QfQ"; */
+"F6A-yy-QfQ.headerCell.title" = "Clé*";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "JHu-SN-nN7"; */
+"JHu-SN-nN7.title" = "Liste des périphériques PCI";
+
+/* Class = "NSTabViewItem"; label = "Selected Platform"; ObjectID = "Lb7-g2-RyE"; */
+"Lb7-g2-RyE.label" = "Plate-forme sélectionnée";
+
+/* Class = "NSButtonCell"; title = "Spoof ID"; ObjectID = "LcB-f7-aNX"; */
+"LcB-f7-aNX.title" = "ID de phishing";
+
+/* Class = "NSTabViewItem"; label = "CPU Codenames"; ObjectID = "MD8-eq-jtV"; */
+"MD8-eq-jtV.label" = "Architecture CPU";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "NLq-sd-yYz"; */
+"NLq-sd-yYz.label" = "Ajouter";
+
+/* Class = "NSMenuItem"; title = "DATA"; ObjectID = "POL-aB-DNF"; */
+"POL-aB-DNF.title" = "DONNÉES";
+
+/* Class = "NSTabViewItem"; label = "Current System"; ObjectID = "QNk-Ut-xrk"; */
+"QNk-Ut-xrk.label" = "Système actuel";
+
+/* Class = "NSMenuItem"; title = "List of PCI Devices"; ObjectID = "V5x-oc-YnL"; */
+"V5x-oc-YnL.title" = "Liste des périphériques PCI";
+
+/* Class = "NSTableColumn"; headerCell.title = "Type"; ObjectID = "dpG-4m-Tya"; */
+"dpG-4m-Tya.headerCell.title" = "Type";
+
+/* Class = "NSTabViewItem"; label = "Device IDs"; ObjectID = "ej0-LP-73g"; */
+"ej0-LP-73g.label" = "ID de l'appareil";
+
+/* Class = "NSTabViewItem"; label = "Framebuffer"; ObjectID = "ews-BC-kwq"; */
+"ews-BC-kwq.label" = "Tampon de trame";
+
+/* Class = "NSMenuItem"; title = "Add all PCI devices"; ObjectID = "gGR-Wj-H5N"; */
+"gGR-Wj-H5N.title" = "Ajouter tous les périphériques PCI";
+
+/* Class = "NSMenuItem"; title = "NUMBER"; ObjectID = "lI7-XR-ash"; */
+"lI7-XR-ash.title" = "CHIFFRE";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "n3V-ht-3yU"; */
+"n3V-ht-3yU.label" = "Effacer";
+
+/* Class = "NSTabViewItem"; label = "Platform IDs"; ObjectID = "n7N-Fd-plx"; */
+"n7N-Fd-plx.label" = "ID de la plateforme";
+
+/* Class = "NSView"; ibShadowedToolTip = "1. Add\nType: plist dict\nDescription: Sets device properties from a map (plist dict) of deivce paths to a map (plist dict) of variable names and their values in plist metadata format. Device paths must be provided in canonic string format (e.g. PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)). Properties will only be set if not present and not deleted.\nNote: Currently properties may only be (formerly) added by the original driver, so unless a separate driver was installed, there is no reason to delete the variables."; ObjectID = "ogK-XX-Zb9"; */
+"ogK-XX-Zb9.ibShadowedToolTip" = "Cet élément est utilisé pour injecter votre appareil, principalement deux parties de la carte graphique et de la carte son. Vous pouvez également personnaliser certains périphériques pour votre liste de rapports du système local-PCI, bien que cela n'ait pas beaucoup de sens.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "pxh-MR-ISe"; */
+"pxh-MR-ISe.headerCell.title" = "Clé";
+
+/* Class = "NSTableColumn"; headerCell.title = "Devices"; ObjectID = "rqc-Sa-r83"; */
+"rqc-Sa-r83.headerCell.title" = "Appareil";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "sdh-x3-Y0z"; */
+"sdh-x3-Y0z.title" = "Ajouter";
+
+/* Class = "NSMenuItem"; title = "STRING"; ObjectID = "ycS-j8-cj1"; */
+"ycS-j8-cj1.title" = "CHAÎNE";

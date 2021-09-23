@@ -1,0 +1,45 @@
+
+/* Class = "NSTextFieldCell"; title = "N/A"; ObjectID = "8qh-Kt-MSO"; */
+"8qh-Kt-MSO.title" = "알수없음";
+
+/* Class = "NSButtonCell"; title = "unMount partition"; ObjectID = "9m5-em-cDq"; */
+"9m5-em-cDq.title" = "unMount 파티션";
+
+/* Class = "NSBox"; title = "Partition Scheme"; ObjectID = "Ags-Fc-odA"; */
+"Ags-Fc-odA.title" = "Partition Scheme";
+
+/* Class = "NSTextFieldCell"; title = "Device BSD Name"; ObjectID = "As9-X4-iHB"; */
+"As9-X4-iHB.title" = "Device BSD Name";
+
+/* Class = "NSTextFieldCell"; title = "Disk Type"; ObjectID = "Edn-Sq-BEn"; */
+"Edn-Sq-BEn.title" = "Disk 종류";
+
+/* Class = "NSTextFieldCell"; title = "Volume Name"; ObjectID = "K7n-YQ-8gF"; */
+"K7n-YQ-8gF.title" = "Volume Name";
+
+/* Class = "NSTextFieldCell"; title = "Disk UUID"; ObjectID = "NnL-DI-BWs"; */
+"NnL-DI-BWs.title" = "Disk UUID";
+
+/* Class = "NSWindow"; title = "Mount EFI"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Mount EFI";
+
+/* Class = "NSSegmentedCell"; Yd4-Rh-oPW.ibShadowedLabels[0] = "Open Partition"; ObjectID = "Yd4-Rh-oPW"; */
+"Yd4-Rh-oPW.ibShadowedLabels[0]" = "Open Partition";
+
+/* Class = "NSSegmentedCell"; Yd4-Rh-oPW.ibShadowedLabels[1] = "Mount Partition"; ObjectID = "Yd4-Rh-oPW"; */
+"Yd4-Rh-oPW.ibShadowedLabels[1]" = "Mount Partition";
+
+/* Class = "NSTextFieldCell"; title = "Volume UUID"; ObjectID = "ZmL-3I-KOU"; */
+"ZmL-3I-KOU.title" = "Volume UUID";
+
+/* Class = "NSTextFieldCell"; title = "Mount Point"; ObjectID = "azg-58-iVC"; */
+"azg-58-iVC.title" = "Mount 지점";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "dXq-m8-waT"; */
+"dXq-m8-waT.title" = "용량:";
+
+/* Class = "NSButtonCell"; title = "Update Partitions"; ObjectID = "mri-4d-h4k"; */
+"mri-4d-h4k.title" = "Partitions 업데이트";
+
+/* Class = "NSBox"; title = "Efi Partitions"; ObjectID = "tx8-c5-kb6"; */
+"tx8-c5-kb6.title" = "Efi 파티션";

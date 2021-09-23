@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Synchronize"; ObjectID = "5iE-R5-2f7"; */
+"5iE-R5-2f7.title" = "同步";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "8PO-5E-yRJ"; */
+"8PO-5E-yRJ.title" = "尋找（⌘F）";
+
+/* Class = "NSSegmentedCell"; 8nO-vA-7qF.ibShadowedLabels[0] = "All"; ObjectID = "8nO-vA-7qF"; */
+"8nO-vA-7qF.ibShadowedLabels[0]" = "全部";
+
+/* Class = "NSSegmentedCell"; 8nO-vA-7qF.ibShadowedLabels[1] = "Replace"; ObjectID = "8nO-vA-7qF"; */
+"8nO-vA-7qF.ibShadowedLabels[1]" = "替换";
+
+/* Class = "NSButtonCell"; title = "Make Independent"; ObjectID = "ACl-0t-GGH"; */
+"ACl-0t-GGH.title" = "獨立編輯器模式";
+
+/* Class = "NSButtonCell"; title = "Replace"; ObjectID = "CRw-jx-RlM"; */
+"CRw-jx-RlM.title" = "替换";
+
+/* Class = "NSTextFieldCell"; title = "Search (⌘F)"; ObjectID = "Wd6-KD-rqx"; */
+"Wd6-KD-rqx.title" = "尋找（⌘F）";
+
+/* Class = "NSTextFieldCell"; title = "Opencore Configuration Properties"; ObjectID = "aIc-ln-iIV"; */
+"aIc-ln-iIV.title" = "Opencore版本屬性";
+
+/* Class = "NSButtonCell"; title = "Synchronize"; ObjectID = "cZ7-39-tJB"; */
+"cZ7-39-tJB.title" = "同步";

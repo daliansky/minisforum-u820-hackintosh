@@ -1,0 +1,45 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "21B-Cb-fUA"; */
+"21B-Cb-fUA.headerCell.title" = "描述";
+
+/* Class = "NSButton"; ibShadowedToolTip = "reload data"; ObjectID = "3Ug-4D-KT5"; */
+"3Ug-4D-KT5.ibShadowedToolTip" = "刷新";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "65j-hw-8RJ"; */
+"65j-hw-8RJ.title" = "状态";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "B3V-wJ-Liu"; */
+"B3V-wJ-Liu.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "GKG-QM-bIL"; */
+"GKG-QM-bIL.title" = "下载";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Not Installed"; ObjectID = "LIE-Ta-kNn"; */
+"LIE-Ta-kNn.title" = "未添加的ACPI补丁文件";
+
+/* Class = "NSButton"; ibShadowedToolTip = "open partition"; ObjectID = "Pa0-us-lAL"; */
+"Pa0-us-lAL.ibShadowedToolTip" = "打开分区";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "PcY-xL-GAd"; */
+"PcY-xL-GAd.title" = "Box";
+
+/* Class = "NSWindow"; title = "ACPI Downloader"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "ACPI补丁下载器";
+
+/* Class = "NSTextFieldCell"; title = "target partition"; ObjectID = "Rpn-xn-uy7"; */
+"Rpn-xn-uy7.title" = "目标分区";
+
+/* Class = "NSButtonCell"; title = "Backup Acpi"; ObjectID = "WeO-Rr-T3c"; */
+"WeO-Rr-T3c.title" = "备份Acpi";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "eVi-uB-Nnf"; */
+"eVi-uB-Nnf.headerCell.title" = "删除";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "g7H-EN-grT"; */
+"g7H-EN-grT.headerCell.title" = "名称";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "jcQ-eq-FLX"; */
+"jcQ-eq-FLX.headerCell.title" = "已添加";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Installed"; ObjectID = "yDU-1k-6MS"; */
+"yDU-1k-6MS.title" = "添加Acpi补丁";

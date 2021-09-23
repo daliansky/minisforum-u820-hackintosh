@@ -1,0 +1,150 @@
+
+/* Class = "NSTextFieldCell"; title = "System"; ObjectID = "0hy-qF-InW"; */
+"0hy-qF-InW.title" = "System";
+
+/* Class = "NSButtonCell"; title = "Broadwell"; ObjectID = "1X8-Cg-iEw"; */
+"1X8-Cg-iEw.title" = "Broadwell";
+
+/* Class = "NSButtonCell"; title = "Kaby Lake"; ObjectID = "3Er-GI-574"; */
+"3Er-GI-574.title" = "Kaby Lake";
+
+/* Class = "NSButtonCell"; title = "Broadwell-E"; ObjectID = "3xB-Vt-95o"; */
+"3xB-Vt-95o.title" = "Broadwell-E";
+
+/* Class = "NSButtonCell"; title = "Lynnfield / Clarkdale"; ObjectID = "4L7-bL-SDd"; */
+"4L7-bL-SDd.title" = "Lynnfield / Clarkdale";
+
+/* Class = "NSButtonCell"; title = "Haswell / Broadwell"; ObjectID = "4xh-eS-Y7x"; */
+"4xh-eS-Y7x.title" = "Haswell / Broadwell";
+
+/* Class = "NSButtonCell"; title = "Make"; ObjectID = "5TB-vq-xrP"; */
+"5TB-vq-xrP.title" = "Make";
+
+/* Class = "NSTextFieldCell"; title = "Product Name Label"; ObjectID = "5nJ-S4-CEv"; */
+"5nJ-S4-CEv.title" = "Product Name Label";
+
+/* Class = "NSBox"; title = "Options"; ObjectID = "5th-MW-cis"; */
+"5th-MW-cis.title" = "Options";
+
+/* Class = "NSButtonCell"; title = "X64 architecture"; ObjectID = "5wH-77-4hg"; */
+"5wH-77-4hg.title" = "X64 architecture";
+
+/* Class = "NSButtonCell"; title = "Ivy Bridge"; ObjectID = "6mY-hC-ST2"; */
+"6mY-hC-ST2.title" = "Ivy Bridge";
+
+/* Class = "NSTabViewItem"; label = "CPU Family"; ObjectID = "7SG-xK-kPF"; */
+"7SG-xK-kPF.label" = "CPU Family";
+
+/* Class = "NSTextFieldCell"; title = "Product:"; ObjectID = "9MM-ME-k3B"; */
+"9MM-ME-k3B.title" = "Product:";
+
+/* Class = "NSButtonCell"; title = "Sandy Bridge"; ObjectID = "9sZ-2G-qSx"; */
+"9sZ-2G-qSx.title" = "Sandy Bridge";
+
+/* Class = "NSTextFieldCell"; title = "Laptop"; ObjectID = "9xb-Es-DFu"; */
+"9xb-Es-DFu.title" = "Laptop";
+
+/* Class = "NSButtonCell"; title = "Ice Lake"; ObjectID = "AWv-6G-k3I"; */
+"AWv-6G-k3I.title" = "Ice Lake";
+
+/* Class = "NSTextFieldCell"; title = "Board Product Label"; ObjectID = "BvC-Cg-3Bo"; */
+"BvC-Cg-3Bo.title" = "Board Product Label";
+
+/* Class = "NSButtonCell"; title = "Comet Lake"; ObjectID = "Dkd-rt-VfP"; */
+"Dkd-rt-VfP.title" = "Comet Lake";
+
+/* Class = "NSButtonCell"; title = "Haswell"; ObjectID = "G1E-RO-2rm"; */
+"G1E-RO-2rm.title" = "Haswell";
+
+/* Class = "NSTextFieldCell"; title = "Product Name:"; ObjectID = "IHo-gl-8zt"; */
+"IHo-gl-8zt.title" = "Product Name:";
+
+/* Class = "NSButtonCell"; title = "IA32 architecture"; ObjectID = "Ktg-i4-iIw"; */
+"Ktg-i4-iIw.title" = "IA32 architecture";
+
+/* Class = "NSButtonCell"; title = "SkyLake"; ObjectID = "MNk-7j-BLa"; */
+"MNk-7j-BLa.title" = "SkyLake";
+
+/* Class = "NSButtonCell"; title = "UEFI settings"; ObjectID = "MPx-Mf-cFN"; */
+"MPx-Mf-cFN.title" = "UEFI settings";
+
+/* Class = "NSButtonCell"; title = "Legacy settings"; ObjectID = "OnK-ES-uJC"; */
+"OnK-ES-uJC.title" = "Legacy settings";
+
+/* Class = "NSTextFieldCell"; title = "Family:"; ObjectID = "PLG-2z-yDJ"; */
+"PLG-2z-yDJ.title" = "Family:";
+
+/* Class = "NSWindow"; title = "EFI Maker"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "EFI Maker";
+
+/* Class = "NSTextFieldCell"; title = "AMD"; ObjectID = "RNN-MH-PKc"; */
+"RNN-MH-PKc.title" = "AMD";
+
+/* Class = "NSButtonCell"; title = "Skylake-X/W / Cascade Lake-X/W"; ObjectID = "SXz-2h-HgY"; */
+"SXz-2h-HgY.title" = "Skylake-X/W / Cascade Lake-X/W";
+
+/* Class = "NSButtonCell"; title = "Nehalem / Westmere"; ObjectID = "TdK-LN-kw6"; */
+"TdK-LN-kw6.title" = "Nehalem / Westmere";
+
+/* Class = "NSTextFieldCell"; title = "Desktop"; ObjectID = "UHA-g6-Fql"; */
+"UHA-g6-Fql.title" = "Desktop";
+
+/* Class = "NSButtonCell"; title = "Show all SMBIOS data"; ObjectID = "VDU-ek-zH9"; */
+"VDU-ek-zH9.title" = "Show all SMBIOS data";
+
+/* Class = "NSButtonCell"; title = "Ivy Bridge"; ObjectID = "WbU-MS-pMN"; */
+"WbU-MS-pMN.title" = "Ivy Bridge";
+
+/* Class = "NSTextFieldCell"; title = "Family Label"; ObjectID = "YCo-OI-pUS"; */
+"YCo-OI-pUS.title" = "Family Label";
+
+/* Class = "NSButtonCell"; title = "Sandy Bridge"; ObjectID = "avl-g5-lkh"; */
+"avl-g5-lkh.title" = "Sandy Bridge";
+
+/* Class = "NSButtonCell"; title = "Bulldozer / Jaguar"; ObjectID = "bNf-bi-wAW"; */
+"bNf-bi-wAW.title" = "Bulldozer / Jaguar";
+
+/* Class = "NSButtonCell"; title = "Haswell-E"; ObjectID = "bsg-dT-djX"; */
+"bsg-dT-djX.title" = "Haswell-E";
+
+/* Class = "NSButtonCell"; title = "Kaby Lake"; ObjectID = "g35-5B-Oaf"; */
+"g35-5B-Oaf.title" = "Kaby Lake";
+
+/* Class = "NSTextFieldCell"; title = "High-End Desktop"; ObjectID = "iI2-1V-zMu"; */
+"iI2-1V-zMu.title" = "High-End Desktop";
+
+/* Class = "NSButtonCell"; title = "Download related files, if needed (SSDT, Kext, Driver)"; ObjectID = "io4-qw-79S"; */
+"io4-qw-79S.title" = "Download related files, if needed (SSDT, Kext, Driver)";
+
+/* Class = "NSButtonCell"; title = "Ryzen / Threadripper"; ObjectID = "kFi-xg-eT8"; */
+"kFi-xg-eT8.title" = "Ryzen / Threadripper";
+
+/* Class = "NSButtonCell"; title = "SkyLake"; ObjectID = "orE-az-slA"; */
+"orE-az-slA.title" = "SkyLake";
+
+/* Class = "NSButtonCell"; title = "Yonah / Conroe / Penryn"; ObjectID = "pWs-tT-dtv"; */
+"pWs-tT-dtv.title" = "Yonah / Conroe / Penryn";
+
+/* Class = "NSButtonCell"; title = "Coffee Lake Plus / Comet Lake"; ObjectID = "pxK-dJ-29f"; */
+"pxK-dJ-29f.title" = "Coffee Lake Plus / Comet Lake";
+
+/* Class = "NSButtonCell"; title = "Coffee Lake / Whiskey Lake"; ObjectID = "rLh-HE-cMd"; */
+"rLh-HE-cMd.title" = "Coffee Lake / Whiskey Lake";
+
+/* Class = "NSButtonCell"; title = "Clarksfield / Arrandale"; ObjectID = "rQe-SE-Q4Z"; */
+"rQe-SE-Q4Z.title" = "Clarksfield / Arrandale";
+
+/* Class = "NSTabViewItem"; label = "SMBIOS"; ObjectID = "rSE-jg-gto"; */
+"rSE-jg-gto.label" = "SMBIOS";
+
+/* Class = "NSButtonCell"; title = "Show compatible SMBIOS data"; ObjectID = "rvT-wj-fXh"; */
+"rvT-wj-fXh.title" = "Show compatible SMBIOS data";
+
+/* Class = "NSButtonCell"; title = "Coffee Lake"; ObjectID = "wwQ-5u-aDh"; */
+"wwQ-5u-aDh.title" = "Coffee Lake";
+
+/* Class = "NSTextFieldCell"; title = "Board"; ObjectID = "yUq-BJ-IZl"; */
+"yUq-BJ-IZl.title" = "Board";
+
+/* Class = "NSButtonCell"; title = "Sandy Bridge-E / Ivy Bridge-E"; ObjectID = "zGs-0S-JGY"; */
+"zGs-0S-JGY.title" = "Sandy Bridge-E / Ivy Bridge-E";

@@ -1,0 +1,45 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "21B-Cb-fUA"; */
+"21B-Cb-fUA.headerCell.title" = "설명";
+
+/* Class = "NSButton"; ibShadowedToolTip = "reload data"; ObjectID = "3Ug-4D-KT5"; */
+"3Ug-4D-KT5.ibShadowedToolTip" = "데이터 리로드";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "65j-hw-8RJ"; */
+"65j-hw-8RJ.title" = "상태";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "B3V-wJ-Liu"; */
+"B3V-wJ-Liu.title" = "박스";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "GKG-QM-bIL"; */
+"GKG-QM-bIL.title" = "다운로드";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Not Installed"; ObjectID = "LIE-Ta-kNn"; */
+"LIE-Ta-kNn.title" = "ACPI 가 설치되어 있지 않습니다.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "open partition"; ObjectID = "Pa0-us-lAL"; */
+"Pa0-us-lAL.ibShadowedToolTip" = "파티션 열기";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "PcY-xL-GAd"; */
+"PcY-xL-GAd.title" = "박스";
+
+/* Class = "NSWindow"; title = "ACPI Downloader"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "ACPI 다운로더";
+
+/* Class = "NSTextFieldCell"; title = "target partition"; ObjectID = "Rpn-xn-uy7"; */
+"Rpn-xn-uy7.title" = "target 파티션";
+
+/* Class = "NSButtonCell"; title = "Backup Acpi"; ObjectID = "WeO-Rr-T3c"; */
+"WeO-Rr-T3c.title" = "ACPI 백업";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "eVi-uB-Nnf"; */
+"eVi-uB-Nnf.headerCell.title" = "삭제";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "g7H-EN-grT"; */
+"g7H-EN-grT.headerCell.title" = "이름";
+
+/* Class = "NSTableColumn"; headerCell.title = "Installed"; ObjectID = "jcQ-eq-FLX"; */
+"jcQ-eq-FLX.headerCell.title" = "설치됨";
+
+/* Class = "NSTextFieldCell"; title = "Acpi Installed"; ObjectID = "yDU-1k-6MS"; */
+"yDU-1k-6MS.title" = "Acpi 설치됨";

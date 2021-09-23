@@ -1,0 +1,114 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Mask"; ObjectID = "4j9-uJ-Gbu"; */
+"4j9-uJ-Gbu.headerCell.title" = "Маска";
+
+/* Class = "NSButtonCell"; title = "NormalizeHeaders"; ObjectID = "6NS-cZ-NZu"; */
+"6NS-cZ-NZu.title" = "NormalizeHeaders";
+
+/* Class = "NSTextFieldCell"; title = "Loading Resources"; ObjectID = "7g0-XW-xjy"; */
+"7g0-XW-xjy.title" = "Загрузка ресурсов";
+
+/* Class = "NSButtonCell"; title = "SyncTableIds"; ObjectID = "7nt-3d-eth"; */
+"7nt-3d-eth.title" = "SyncTableIds";
+
+/* Class = "NSTableColumn"; headerCell.title = "Skip"; ObjectID = "A4Q-If-0AG"; */
+"A4Q-If-0AG.headerCell.title" = "Пропустить";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "CVl-gt-v4L"; */
+"CVl-gt-v4L.headerCell.title" = "Длина таблицы";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "CbM-86-go4"; */
+"CbM-86-go4.headerCell.title" = "Путь*";
+
+/* Class = "NSBox"; title = "Quirks"; ObjectID = "DxA-Lh-I4Q"; */
+"DxA-Lh-I4Q.title" = "Quirks";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "FLp-3q-DSv"; */
+"FLp-3q-DSv.headerCell.title" = "Включено";
+
+/* Class = "NSButtonCell"; title = "EnableForAll"; ObjectID = "HdU-pu-zKX"; */
+"HdU-pu-zKX.title" = "EnableForAll";
+
+/* Class = "NSTableColumn"; headerCell.title = "Count"; ObjectID = "Ite-rF-5H2"; */
+"Ite-rF-5H2.headerCell.title" = "Счетчик";
+
+/* Class = "NSTableColumn"; headerCell.title = "ReplaceMask"; ObjectID = "JFF-S2-t99"; */
+"JFF-S2-t99.headerCell.title" = "Заменить маску";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "JjS-7V-0PV"; */
+"JjS-7V-0PV.headerCell.title" = "Комментарий";
+
+/* Class = "NSTableColumn"; headerCell.title = "Find"; ObjectID = "K4n-vm-jxn"; */
+"K4n-vm-jxn.headerCell.title" = "Найти";
+
+/* Class = "NSMenuItem"; title = "List Of Patches"; ObjectID = "Kbb-Cq-tfz"; */
+"Kbb-Cq-tfz.title" = "Список патчей";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableLength"; ObjectID = "MtH-av-7W0"; */
+"MtH-av-7W0.headerCell.title" = "Длина таблицы";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "Ndv-7C-25y"; */
+"Ndv-7C-25y.title" = "Сканирование/Просмотр";
+
+/* Class = "NSTableColumn"; headerCell.title = "Replace"; ObjectID = "NtB-gi-4nw"; */
+"NtB-gi-4nw.headerCell.title" = "Заменить";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "Nxc-pO-D4k"; */
+"Nxc-pO-D4k.headerCell.title" = "OemTableId";
+
+/* Class = "NSButtonCell"; title = "RebaseRegions"; ObjectID = "OG6-fc-Q9m"; */
+"OG6-fc-Q9m.title" = "RebaseRegions";
+
+/* Class = "NSButtonCell"; title = "ResetHwSig"; ObjectID = "Z6k-wb-4yC"; */
+"Z6k-wb-4yC.title" = "ResetHwSig";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "c8a-dM-DNw"; */
+"c8a-dM-DNw.headerCell.title" = "Включено";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "cAx-1U-xJ9"; */
+"cAx-1U-xJ9.headerCell.title" = "Комментарий";
+
+/* Class = "NSButtonCell"; title = "ResetLogoStatus"; ObjectID = "fCv-Py-taQ"; */
+"fCv-Py-taQ.title" = "ResetLogoStatus";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "gIS-d5-pG5"; */
+"gIS-d5-pG5.headerCell.title" = "Комментарий";
+
+/* Class = "NSTableColumn"; headerCell.title = "Limit"; ObjectID = "ger-9o-NnS"; */
+"ger-9o-NnS.headerCell.title" = "Лимит";
+
+/* Class = "NSTableColumn"; headerCell.title = "Base"; ObjectID = "h4B-GA-PeX"; */
+"h4B-GA-PeX.headerCell.title" = "Основа";
+
+/* Class = "NSTableColumn"; headerCell.title = "BaseSkip"; ObjectID = "hIr-Vr-rVp"; */
+"hIr-Vr-rVp.headerCell.title" = "BaseSkip";
+
+/* Class = "NSTableColumn"; headerCell.title = "All"; ObjectID = "iwn-0u-n3y"; */
+"iwn-0u-n3y.headerCell.title" = "Все";
+
+/* Class = "NSTabViewItem"; label = "Patch"; ObjectID = "jB3-Fa-Mq9"; */
+"jB3-Fa-Mq9.label" = "Патч";
+
+/* Class = "NSButtonCell"; title = "Download/Update Acpi"; ObjectID = "l2s-yf-wZB"; */
+"l2s-yf-wZB.title" = "Загрузить/Обновить Acpi";
+
+/* Class = "NSButtonCell"; title = "FadtEnableReset"; ObjectID = "l7b-Bk-2B3"; */
+"l7b-Bk-2B3.title" = "FadtEnableReset";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "mHJ-L1-J8M"; */
+"mHJ-L1-J8M.headerCell.title" = "TableSignature*";
+
+/* Class = "NSTableColumn"; headerCell.title = "OemTableId"; ObjectID = "qk5-w1-h2Q"; */
+"qk5-w1-h2Q.headerCell.title" = "OemTableId";
+
+/* Class = "NSTabViewItem"; label = "Delete"; ObjectID = "swX-ck-WbC"; */
+"swX-ck-WbC.label" = "Удалить";
+
+/* Class = "NSTableColumn"; headerCell.title = "TableSignature*"; ObjectID = "wld-sU-lGp"; */
+"wld-sU-lGp.headerCell.title" = "TableSignature*";
+
+/* Class = "NSTabViewItem"; label = "Add"; ObjectID = "y3O-8J-sex"; */
+"y3O-8J-sex.label" = "Добавить";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "z8k-hB-WoQ"; */
+"z8k-hB-WoQ.headerCell.title" = "Включено";

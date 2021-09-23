@@ -1,0 +1,66 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Last Update"; ObjectID = "1lJ-Gq-wfz"; */
+"1lJ-Gq-wfz.headerCell.title" = "Last Update";
+
+/* Class = "NSTextFieldCell"; title = "Partition:"; ObjectID = "3Oi-0Q-hbH"; */
+"3Oi-0Q-hbH.title" = "Partition:";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "43f-g7-wu4"; */
+"43f-g7-wu4.title" = "Download";
+
+/* Class = "NSButtonCell"; title = "Set as default"; ObjectID = "5xX-7N-4Pi"; */
+"5xX-7N-4Pi.title" = "Set as default";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "8nv-uX-5Ip"; */
+"8nv-uX-5Ip.headerCell.title" = "Author";
+
+/* Class = "NSTabViewItem"; label = "1"; ObjectID = "Bm0-0t-5Lz"; */
+"Bm0-0t-5Lz.label" = "1";
+
+/* Class = "NSTableColumn"; headerCell.title = "Preview"; ObjectID = "KZt-YJ-Bqf"; */
+"KZt-YJ-Bqf.headerCell.title" = "Preview";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reload Data"; ObjectID = "MWO-1d-HAf"; */
+"MWO-1d-HAf.ibShadowedToolTip" = "Reload Data";
+
+/* Class = "NSWindow"; title = "Themes Downloader"; ObjectID = "S8M-dA-IOh"; */
+"S8M-dA-IOh.title" = "Themes Downloader";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "VdQ-Vm-3jd"; */
+"VdQ-Vm-3jd.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Compatibility"; ObjectID = "bK5-I9-Imf"; */
+"bK5-I9-Imf.headerCell.title" = "Compatibility";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "bYe-Ym-Oiv"; */
+"bYe-Ym-Oiv.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "g13-ie-ifT"; */
+"g13-ie-ifT.headerCell.title" = "Name";
+
+/* Class = "NSBox"; title = "Status"; ObjectID = "hRh-os-HKE"; */
+"hRh-os-HKE.title" = "Status";
+
+/* Class = "NSTableColumn"; headerCell.title = "Author"; ObjectID = "hUm-ED-2PT"; */
+"hUm-ED-2PT.headerCell.title" = "Author";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Folder"; ObjectID = "ppx-bm-rJC"; */
+"ppx-bm-rJC.ibShadowedToolTip" = "Open Folder";
+
+/* Class = "NSTabViewItem"; label = "2"; ObjectID = "rYe-we-jwm"; */
+"rYe-we-jwm.label" = "2";
+
+/* Class = "NSTableColumn"; headerCell.title = "Preview"; ObjectID = "sHS-9P-uFS"; */
+"sHS-9P-uFS.headerCell.title" = "Preview";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "sWo-zR-QGy"; */
+"sWo-zR-QGy.title" = "Download";
+
+/* Class = "NSTableColumn"; headerCell.title = "Compatibility"; ObjectID = "tRK-3m-DuH"; */
+"tRK-3m-DuH.headerCell.title" = "Compatibility";
+
+/* Class = "NSButtonCell"; title = "Set as default"; ObjectID = "trK-Ji-Qid"; */
+"trK-Ji-Qid.title" = "Set as default";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "zIw-Dg-X4C"; */
+"zIw-Dg-X4C.headerCell.title" = "Name";

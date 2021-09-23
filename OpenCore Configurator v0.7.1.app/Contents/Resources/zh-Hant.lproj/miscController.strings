@@ -1,0 +1,336 @@
+
+/* Class = "NSButtonCell"; title = "DEBUG_INFO in DEBUG, NOOPT"; ObjectID = "0hR-wG-mgt"; */
+"0hR-wG-mgt.title" = "DEBUG，NOOPT中的 DEBUG 訊息";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "1NZ-HO-WUF"; */
+"1NZ-HO-WUF.headerCell.title" = "說明";
+
+/* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "1fY-U6-4KQ"; */
+"1fY-U6-4KQ.headerCell.title" = "輔助";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "22Z-wl-E30"; */
+"22Z-wl-E30.headerCell.title" = "名稱";
+
+/* Class = "NSButtonCell"; title = "Enable logging to Data Hub"; ObjectID = "2Qh-mc-sJw"; */
+"2Qh-mc-sJw.title" = "啟用紀錄到Data Hub";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "2dj-hB-QBF"; */
+"2dj-hB-QBF.title" = "取消全選";
+
+/* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "390-oq-BkL"; */
+"390-oq-BkL.headerCell.title" = "Flavour";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "3K9-EU-jse"; */
+"3K9-EU-jse.title" = "全選";
+
+/* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "3a7-m4-eNo"; */
+"3a7-m4-eNo.headerCell.title" = "文字模式";
+
+/* Class = "NSTabViewItem"; label = "Boot"; ObjectID = "3fm-9G-OpP"; */
+"3fm-9G-OpP.label" = "Boot";
+
+/* Class = "NSTabViewItem"; label = "Security"; ObjectID = "3fm-Nz-fHj"; */
+"3fm-Nz-fHj.label" = "Security";
+
+/* Class = "NSTextFieldCell"; title = "PickerVariant"; ObjectID = "4Mc-Dm-vYw"; */
+"4Mc-Dm-vYw.title" = "PickerVariant\n啟動界面主題";
+
+/* Class = "NSButtonCell"; title = "Enable UEFI variable logging"; ObjectID = "6U3-np-fQe"; */
+"6U3-np-fQe.title" = "啟用UEFI變量紀錄";
+
+/* Class = "NSTextFieldCell"; title = "Timeout"; ObjectID = "6hf-UH-eBA"; */
+"6hf-UH-eBA.title" = "Timeout\n等待時間";
+
+/* Class = "NSButtonCell"; title = "HideAuxiliary"; ObjectID = "7BP-eo-vIZ"; */
+"7BP-eo-vIZ.title" = "HideAuxiliary\n項目輔助項目";
+
+/* Class = "NSTableColumn"; headerCell.title = "RealPath"; ObjectID = "7JW-1n-ZBx"; */
+"7JW-1n-ZBx.headerCell.title" = "真實路徑";
+
+/* Class = "NSButtonCell"; title = "Expose OpenCore version in boot picker menu title."; ObjectID = "7NC-lm-XEM"; */
+"7NC-lm-XEM.title" = "在啟動選單標題中顯示OpenCore版本.";
+
+/* Class = "NSTextFieldCell"; title = "PasswordSalt"; ObjectID = "8Xp-t8-QVB"; */
+"8Xp-t8-QVB.title" = "PasswordSalt\n鹽(密碼學)";
+
+/* Class = "NSButtonCell"; title = "Disable WatchDog"; ObjectID = "9LG-wP-7Np"; */
+"9LG-wP-7Np.title" = "Disable WatchDog";
+
+/* Class = "NSTextFieldCell"; title = "ApECID"; ObjectID = "A2A-xj-Bmf"; */
+"A2A-xj-Bmf.title" = "ApECID";
+
+/* Class = "NSButtonCell"; title = "DEBUG_WARN in DEBUG, NOOPT, RELEASE"; ObjectID = "AEq-Xa-8FR"; */
+"AEq-Xa-8FR.title" = "DEBUG，NOOPT和DEBUG中的DEBUG警告";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "Ai7-te-FXf"; */
+"Ai7-te-FXf.title" = "全選";
+
+/* Class = "NSTextFieldCell"; title = "Picker Mode"; ObjectID = "BYc-kG-loi"; */
+"BYc-kG-loi.title" = "Picker Mode\n啟動界面模式";
+
+/* Class = "NSButtonCell"; title = "Expose OpenCore version as an UEFI variable."; ObjectID = "Bcn-4Z-d2d"; */
+"Bcn-4Z-d2d.title" = "將OpenCore版本公開為UEFI變量.";
+
+/* Class = "NSButtonCell"; title = "Scan/Browse"; ObjectID = "Bpe-6y-ybA"; */
+"Bpe-6y-ybA.title" = "掃描/瀏覽";
+
+/* Class = "NSTextFieldCell"; title = "Expose Sensitive Data"; ObjectID = "DAS-KM-gwG"; */
+"DAS-KM-gwG.title" = "Expose Sensitive Data";
+
+/* Class = "NSButtonCell"; title = "Enable non-volatile UEFI variable logging"; ObjectID = "Da8-bR-9wd"; */
+"Da8-bR-9wd.title" = "啟用非易失性UEFI變量日誌紀錄";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_ESP"; ObjectID = "Edm-Vw-KuX"; */
+"Edm-Vw-KuX.title" = "允許掃描EFI系统分區檔案系統。";
+
+/* Class = "NSTextFieldCell"; title = "Display Delay"; ObjectID = "FHv-7q-Wq3"; */
+"FHv-7q-Wq3.title" = "延遲顯示";
+
+/* Class = "NSButtonCell"; title = "SysReport"; ObjectID = "GOG-QD-oyI"; */
+"GOG-QD-oyI.title" = "SysReport";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "Gaf-gn-k6J"; */
+"Gaf-gn-k6J.title" = "全選";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_EXT"; ObjectID = "H6a-QA-xQu"; */
+"H6a-QA-xQu.title" = "允許掃描EXT(Linux)檔案系統。";
+
+/* Class = "NSButtonCell"; title = "Enable serial port logging"; ObjectID = "HjZ-gH-Q0b"; */
+"HjZ-gH-Q0b.title" = "啟用串行端口日誌紀錄";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_PCI"; ObjectID = "I0K-dq-ofU"; */
+"I0K-dq-ofU.title" = "允許掃描PCI裝置";
+
+/* Class = "NSButtonCell"; title = "AllowNvramReset"; ObjectID = "Jpe-QB-x2r"; */
+"Jpe-QB-x2r.title" = "AllowNvramReset\n啟用重置Nvram功能";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "KRE-fs-cVq"; */
+"KRE-fs-cVq.title" = "取消全選";
+
+/* Class = "NSButtonCell"; title = "Provides custom rendered titles for boot entries"; ObjectID = "L3h-6q-xRi"; */
+"L3h-6q-xRi.title" = "提供引導項目的自訂渲染標題";
+
+/* Class = "NSButtonCell"; title = "Prefers builtin icons for certain icon categories to match the theme style"; ObjectID = "NFd-Yp-DAy"; */
+"NFd-Yp-DAy.title" = "設定某些圖標類别的內建圖標以匹配主題";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "NXw-uw-Jsu"; */
+"NXw-uw-Jsu.headerCell.title" = "啟用";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "PDr-JO-EKf"; */
+"PDr-JO-EKf.title" = "取消全選";
+
+/* Class = "NSTextFieldCell"; title = "ConsoleAttributes"; ObjectID = "PIX-Ia-ajs"; */
+"PIX-Ia-ajs.title" = "ConsoleAttributes\n文字啟動選單顏色";
+
+/* Class = "NSButtonCell"; title = "BlacklistAppleUpdate"; ObjectID = "PPp-Ea-yQN"; */
+"PPp-Ea-yQN.title" = "BlacklistAppleUpdate\n停用Apple韌體更新";
+
+/* Class = "NSButtonCell"; title = "Browse"; ObjectID = "Pkl-Zl-stw"; */
+"Pkl-Zl-stw.title" = "瀏覽EFI";
+
+/* Class = "NSButtonCell"; title = "Expose OEM information as a set of UEFI variables."; ObjectID = "SLo-CJ-cas"; */
+"SLo-CJ-cas.title" = "將OEM訊息公開為一組UEFI變量.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Enabled"; ObjectID = "SPw-C4-qwL"; */
+"SPw-C4-qwL.headerCell.title" = "啟用";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "SZj-0R-9Uu"; */
+"SZj-0R-9Uu.title" = "取消全選";
+
+/* Class = "NSButtonCell"; title = "PollAppleHotKeys"; ObjectID = "TDv-Al-hb0"; */
+"TDv-Al-hb0.title" = "PollAppleHotKeys\n啟用模擬蘋果hotkey";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "ThF-JP-r8K"; */
+"ThF-JP-r8K.headerCell.title" = "参數";
+
+/* Class = "NSTextFieldCell"; title = "Hibernate Mode"; ObjectID = "TmR-t7-bmq"; */
+"TmR-t7-bmq.title" = "Hibernate Mode\n休眠模式";
+
+/* Class = "NSButtonCell"; title = "Provides flexible boot entry content description"; ObjectID = "Uy3-8a-yvD"; */
+"Uy3-8a-yvD.title" = "提供靈活的啟動項內容描述";
+
+/* Class = "NSButtonCell"; title = "Enable logging to file"; ObjectID = "Uz7-yL-WDQ"; */
+"Uz7-yL-WDQ.title" = "啟用紀錄到文件";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_FILE_SYSTEM_LOCK"; ObjectID = "Wnm-4q-QJ3"; */
+"Wnm-4q-QJ3.title" = "掃描已知檔案系統";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_NTFS"; ObjectID = "WsC-yj-V3g"; */
+"WsC-yj-V3g.title" = "允許掃描NTFS檔案系統。";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SCSI"; ObjectID = "X1h-DD-gjM"; */
+"X1h-DD-gjM.title" = "允許掃描SCSI裝置";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "XRf-Yz-PVv"; */
+"XRf-Yz-PVv.headerCell.title" = "名稱";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "XSQ-pS-WUn"; */
+"XSQ-pS-WUn.headerCell.title" = "路徑*";
+
+/* Class = "NSButtonCell"; title = "Show Picker"; ObjectID = "YKi-Mp-w6e"; */
+"YKi-Mp-w6e.title" = "Show Picker\n顯示引導選單";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_NVME"; ObjectID = "YQh-9A-q5Q"; */
+"YQh-9A-q5Q.title" = "允許掃描NVMe裝置";
+
+/* Class = "NSTabViewItem"; label = "Debug"; ObjectID = "Yod-ne-FH8"; */
+"Yod-ne-FH8.label" = "Debug";
+
+/* Class = "NSButtonCell"; title = "Enable basic console (onscreen) logging"; ObjectID = "ZZP-5O-C0h"; */
+"ZZP-5O-C0h.title" = "啟用基本控制台(螢幕上)日誌紀錄";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SATA"; ObjectID = "aQY-Kx-ZCy"; */
+"aQY-Kx-ZCy.title" = "允許掃描SATA裝置";
+
+/* Class = "NSTextFieldCell"; title = "Scan Policy"; ObjectID = "aUx-rK-UTX"; */
+"aUx-rK-UTX.title" = "Scan Policy";
+
+/* Class = "NSButtonCell"; title = "Use minimal UI display"; ObjectID = "ak1-aD-NH7"; */
+"ak1-aD-NH7.title" = "使用最小 UI 顯示";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "b27-wQ-s5W"; */
+"b27-wQ-s5W.title" = "全選";
+
+/* Class = "NSButtonCell"; title = "PickerAudioAssist"; ObjectID = "cN2-ao-nCB"; */
+"cN2-ao-nCB.title" = "PickerAudioAssist\n啟用語音輔助";
+
+/* Class = "NSTextFieldCell"; title = "PasswordHash"; ObjectID = "cz1-6R-TEf"; */
+"cz1-6R-TEf.title" = "PasswordHash\n密碼哈希";
+
+/* Class = "NSTextFieldCell"; title = "Display Level"; ObjectID = "dam-Nc-xFX"; */
+"dam-Nc-xFX.title" = "Display Level";
+
+/* Class = "NSTableColumn"; headerCell.title = "TextMode"; ObjectID = "deu-Ec-YkZ"; */
+"deu-Ec-YkZ.headerCell.title" = "文字模式";
+
+/* Class = "NSButtonCell"; title = "Provides predefined label images for boot entries without custom entries"; ObjectID = "dl8-kF-ipf"; */
+"dl8-kF-ipf.title" = "為引導項提供預先定義的標籤圖像，而無需自訂項目";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_USB"; ObjectID = "eFc-bE-Fl5"; */
+"eFc-bE-Fl5.title" = "允許掃描USB裝置";
+
+/* Class = "NSTextFieldCell"; title = "Picker Attributes"; ObjectID = "eaZ-uU-2Tt"; */
+"eaZ-uU-2Tt.title" = "Picker Attributes\nGUI界面設定屬性";
+
+/* Class = "NSTextFieldCell"; title = "Vault"; ObjectID = "fN9-q5-dg3"; */
+"fN9-q5-dg3.title" = "Vault";
+
+/* Class = "NSTextFieldCell"; title = "DmgLoading"; ObjectID = "fVY-aJ-OPc"; */
+"fVY-aJ-OPc.title" = "DmgLoading";
+
+/* Class = "NSTextFieldCell"; title = "Target"; ObjectID = "hAm-Ha-Meb"; */
+"hAm-Ha-Meb.title" = "目標t";
+
+/* Class = "NSButtonCell"; title = "SerialInit"; ObjectID = "hRO-hk-wy8"; */
+"hRO-hk-wy8.title" = "SerialInit";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_ATAPI"; ObjectID = "i2m-65-2vq"; */
+"i2m-65-2vq.title" = "允許掃描CD/DVD裝置";
+
+/* Class = "NSTextFieldCell"; title = "LauncherOption"; ObjectID = "i5B-oK-z1D"; */
+"i5B-oK-z1D.title" = "LauncherOption";
+
+/* Class = "NSButtonCell"; title = "Download/Update tools"; ObjectID = "i6P-Lb-eX2"; */
+"i6P-Lb-eX2.title" = "下載/更新 EFI工具";
+
+/* Class = "NSTableColumn"; headerCell.title = "Path*"; ObjectID = "jPS-Bu-Ar4"; */
+"jPS-Bu-Ar4.headerCell.title" = "路徑*";
+
+/* Class = "NSButtonCell"; title = "EnablePassword"; ObjectID = "lLV-4d-gWP"; */
+"lLV-4d-gWP.title" = "EnablePassword\n啟用密碼保護";
+
+/* Class = "NSButtonCell"; title = "SkipCustomEntryCheck"; ObjectID = "mB0-8o-rL6"; */
+"mB0-8o-rL6.title" = "SkipCustomEntryCheck";
+
+/* Class = "NSButtonCell"; title = "DEBUG_VERBOSE in custom builds"; ObjectID = "mSr-7J-5Qp"; */
+"mSr-7J-5Qp.title" = "自訂版本中的DEBUG_VERBOSE";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_APFS"; ObjectID = "mpH-5M-L70"; */
+"mpH-5M-L70.title" = "允許掃描APFS檔案系統";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_FIREWIRE"; ObjectID = "nmh-33-tbM"; */
+"nmh-33-tbM.title" = "允許掃描FireWire裝置";
+
+/* Class = "NSButtonCell"; title = "AllowToggleSip"; ObjectID = "nsS-VU-gur"; */
+"nsS-VU-gur.title" = "AllowToggleSip";
+
+/* Class = "NSTabViewItem"; label = "Tools"; ObjectID = "oFg-pn-DgG"; */
+"oFg-pn-DgG.label" = "Tools-增加附加工具";
+
+/* Class = "NSButtonCell"; title = "Unselect All"; ObjectID = "oL1-jF-NNm"; */
+"oL1-jF-NNm.title" = "取消全選";
+
+/* Class = "NSTextFieldCell"; title = "SecureBootModel"; ObjectID = "oef-cz-Kqc"; */
+"oef-cz-Kqc.title" = "SecureBootModel";
+
+/* Class = "NSButtonCell"; title = "Select All"; ObjectID = "pIV-PK-mVi"; */
+"pIV-PK-mVi.title" = "全選";
+
+/* Class = "NSTextFieldCell"; title = "Halt Level"; ObjectID = "pqr-DX-ZAM"; */
+"pqr-DX-ZAM.title" = "Halt Level";
+
+/* Class = "NSButtonCell"; title = "AllowSetDefault"; ObjectID = "qpq-Le-cti"; */
+"qpq-Le-cti.title" = "AllowSetDefault\n啟用設定預設啟動項";
+
+/* Class = "NSButtonCell"; title = "Enable pointer control in the picker when available"; ObjectID = "r8W-nu-W4X"; */
+"r8W-nu-W4X.title" = "啟用啟動選單中的指針控制(如果可用)";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SDCARD"; ObjectID = "sti-pn-v4l"; */
+"sti-pn-v4l.title" = "允許掃描讀卡器裝置";
+
+/* Class = "NSButtonCell"; title = "AppleDebug"; ObjectID = "tBp-D4-d9x"; */
+"tBp-D4-d9x.title" = "AppleDebug";
+
+/* Class = "NSButtonCell"; title = "AuthRestart"; ObjectID = "tI2-d3-co4"; */
+"tI2-d3-co4.title" = "AuthRestart\n身份驗證重新啟動";
+
+/* Class = "NSButtonCell"; title = "Provides custom icons for boot entries"; ObjectID = "tLD-8o-zGU"; */
+"tLD-8o-zGU.title" = "為引導項提供自訂圖示";
+
+/* Class = "NSTableColumn"; headerCell.title = "Comment"; ObjectID = "uSO-ne-MBg"; */
+"uSO-ne-MBg.headerCell.title" = "說明";
+
+/* Class = "NSButtonCell"; title = "Enable logging, otherwise all log is discarded"; ObjectID = "uWH-Lw-aeI"; */
+"uWH-Lw-aeI.title" = "啟用日誌紀錄，否則所有日誌將被丟棄";
+
+/* Class = "NSTabViewItem"; label = "Entries"; ObjectID = "uks-Bw-Ph4"; */
+"uks-Bw-Ph4.label" = "Entries-自訂項目";
+
+/* Class = "NSTabViewItem"; label = "BlessOverride"; ObjectID = "uyb-X6-nFt"; */
+"uyb-X6-nFt.label" = "BlessOverride-設定自訂啟動項絕對路徑";
+
+/* Class = "NSTableColumn"; headerCell.title = "Arguments"; ObjectID = "wFf-6v-O3P"; */
+"wFf-6v-O3P.headerCell.title" = "参數";
+
+/* Class = "NSButtonCell"; title = "Enable display of additional timing and debug information, in Builtin picker in DEBUG and NOOPT builds only."; ObjectID = "xjK-fm-3ud"; */
+"xjK-fm-3ud.title" = "啟用顯示其他時間和 Debug 訊息的功能，僅在Debug和NOOPT構建的內建選取器中有用.";
+
+/* Class = "NSTextFieldCell"; title = "TakeoffDelay"; ObjectID = "yDl-hK-Eml"; */
+"yDl-hK-Eml.title" = "TakeoffDelay\n啟用快速鍵延遲";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_DEVICE_LOCK"; ObjectID = "yNo-gi-9zr"; */
+"yNo-gi-9zr.title" = "掃描已知裝置類型";
+
+/* Class = "NSTableColumn"; headerCell.title = "Auxiliary"; ObjectID = "yTI-cV-qsU"; */
+"yTI-cV-qsU.headerCell.title" = "輔助";
+
+/* Class = "NSButtonCell"; title = "ApplePanic"; ObjectID = "yaU-Lw-vco"; */
+"yaU-Lw-vco.title" = "ApplePanic";
+
+/* Class = "NSTextFieldCell"; title = "LauncherPath"; ObjectID = "ykx-r5-I09"; */
+"ykx-r5-I09.title" = "LauncherPath";
+
+/* Class = "NSButtonCell"; title = "Expose printable booter path as an UEFI variable."; ObjectID = "z6D-gM-UDa"; */
+"z6D-gM-UDa.title" = "將可列印的引導程式路徑公開為UEFI變量.";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_FS_HFS"; ObjectID = "zCH-tB-ca6"; */
+"zCH-tB-ca6.title" = "允許掃描HFS檔案系统";
+
+/* Class = "NSTableColumn"; headerCell.title = "Flavour"; ObjectID = "zSZ-kM-AsF"; */
+"zSZ-kM-AsF.headerCell.title" = "Flavour（風格）";
+
+/* Class = "NSButtonCell"; title = "OC_SCAN_ALLOW_DEVICE_SASEX"; ObjectID = "zj4-Hs-Xjk"; */
+"zj4-Hs-Xjk.title" = "允許掃描SAS和Mac NVMe裝置";
+
+/* Class = "NSButtonCell"; title = "DEBUG_ERROR in DEBUG, NOOPT, RELEASE"; ObjectID = "zlC-gM-dIj"; */
+"zlC-gM-dIj.title" = "DEBUG，NOOPT和RELEASE中的DEBUG_ERROR";
