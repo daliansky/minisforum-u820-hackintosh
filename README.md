@@ -15,7 +15,7 @@
 |   显卡    |                 Intel Iris Plus Graphics 655                 |
 |  显示器   |                              无                              |
 |   声卡    |                  Realtek ALC255 `alcid=82`                   |
-| 无线网卡  | m.2 NGFF插槽，默认出厂为 `Intel AX200` 已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
+| 无线网卡  | m.2 NGFF插槽，默认出厂为 `Intel AX200`/'Intel 7260' 已更换为[BCM94360Z4](https://blog.daliansky.net/uploads/WeChatandShop.png) |
 | 有线网卡1 |      **Intel I225-V 2.5G Gigabit Ethernet Controller**       |
 | 有线网卡2 |   **Realtek RTL8168H/8111H PCI Express Gigabit Ethernet**    |
 
@@ -28,9 +28,9 @@
 
 ## 更新日志
 
-- 10-21-2021
+- 10-22-2021
   
-  - Release `v1.7.0`
+  - Release `v1.8.0`
   - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
   - 更新 `OpenCore` 为 `v0.7.5`
   
