@@ -19,6 +19,13 @@
 | 有线网卡1 |      **Intel I225-V 2.5G Gigabit Ethernet Controller**       |
 | 有线网卡2 |   **Realtek RTL8168H/8111H PCI Express Gigabit Ethernet**    |
 
+## 网卡使用情况
+
+- Intel AX200/7260
+  - 为板载无线网卡，默认出厂自带，黑苹果支持接力，不支持隔空
+- BCM94360Z4
+  - 选配，支持隔空、接力、热点等
+
 ## 更新日志
 
 - 10-21-2021
@@ -124,9 +131,9 @@
 
 ![clover](./screenshots/OC.png)
 
-![U820_Sensei](screenshots/U820_Sensei.png)
-
 ![Hackintool](./screenshots/Hackintool.png)
+
+![Kexts](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/Kexts.png)![U820_Sensei](screenshots/U820_Sensei.png)
 
 ![Hackintool_Miscs](./screenshots/Hackintool_Miscs.png)
 
@@ -136,7 +143,9 @@
 
 ![DualDisplays](./screenshots/DualDisplays.png)
 
-![HDMI_Audio](./screenshots/HDMI_Audio.png)
+![HDMI_Audio](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/AirDrop.png)
+
+![Handoff](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/Handoff.png)
 
 ![Monitors](./screenshots/Monitors.png)
 
