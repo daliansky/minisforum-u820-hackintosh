@@ -28,6 +28,14 @@
 
 ## 更新日志
 
+- 10-27-2021
+  
+  - Release `v2.0.0`
+  - 修正 `Intel` 蓝牙驱动，支持 `Monterey` 安装使用
+  - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
+  - 更新 `OpenCore` 为 `v0.7.5`
+  - 请使用工具  [OCAT_Mac.dmg](./OCAT_Mac.dmg) 编辑 `config.plist` 
+  
 - 10-22-2021
   
   - Release `v1.8.0`

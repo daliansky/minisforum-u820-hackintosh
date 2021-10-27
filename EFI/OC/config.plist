@@ -401,7 +401,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7</string>
+                    <string>V1.5.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -419,7 +419,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -437,7 +437,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.6</string>
+                    <string>V1.6.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -529,7 +529,7 @@
                     <key>Comment</key>
                     <string>V2.6.1 | DW1820A DW1560 DW1830 BT</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
@@ -547,7 +547,7 @@
                     <key>Comment</key>
                     <string>V2.6.1 | DW1820A DW1560 DW1830 BT</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
@@ -633,15 +633,15 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
+                    <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
                     <string>V2.0.1 | Intel BT</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
                     <string></string>
+                    <key>MaxKernel</key>
+                    <string>20.99.99</string>
                     <key>MinKernel</key>
                     <string></string>
                     <key>PlistPath</key>
@@ -651,13 +651,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
+                    <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
                     <string>V2.0.1 | Intel BT</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string></string>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -689,7 +689,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -707,7 +707,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -743,7 +743,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.5</string>
+                    <string>V1.5.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1107,7 +1107,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-revsbvmm dk.e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
+                    <string>-v -revsbvmm dk.e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
