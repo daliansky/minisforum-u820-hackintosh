@@ -1,6 +1,7 @@
 # minisforum-u820-hackintosh
 
-![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh) [![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.0.1%2021A559-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.1%2020G224-informational.svg)](https://www.apple.com/macos)
+![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.0.1%2021A559-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.1%2020G224-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
