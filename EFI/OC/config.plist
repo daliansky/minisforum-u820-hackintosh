@@ -271,6 +271,8 @@
                     <data>AAQAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
                     <key>model</key>
                     <string>Intel Iris Plus Graphics 655</string>
                 </dict>
@@ -307,8 +309,6 @@
                 <dict>
                     <key># 说明</key>
                     <string>TYPE-C加DP双显输出，HDMI不工作</string>
-                    <key>#No-hda-gfx</key>
-                    <string>onboard-1</string>
                     <key>AAPL,ig-platform-id</key>
                     <data>CQClPg==</data>
                     <key>device-id</key>
@@ -333,6 +333,8 @@
                     <data>AAgAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
                     <key>model</key>
                     <string>Intel Iris Plus Graphics 655</string>
                 </dict>
@@ -523,7 +525,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
@@ -541,7 +543,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
@@ -613,11 +615,11 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>itlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0 | Intel WIFI</string>
+                    <string>V2.1.0 | Intel WIFI + HeliPort</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -631,7 +633,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Monterey.kext</string>
                     <key>Comment</key>
@@ -649,7 +651,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_BigSur.kext</string>
                     <key>Comment</key>
@@ -743,7 +745,7 @@
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V1.0 | USBPorts for U820</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -775,7 +777,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
@@ -793,7 +795,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
@@ -1388,6 +1390,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1449,6 +1453,8 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
+                <false/>
+                <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
