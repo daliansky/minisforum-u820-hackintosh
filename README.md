@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.6-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.0.1%2021A559-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.1%2020G224-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.7-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.2%2021D49-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.3%2020G415-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -31,6 +31,12 @@
 
 ## 更新日志
 
+- 1-30-2022
+  
+  - Release `v2.1.0`
+  - 更新 `OpenCore` `v0.7.7`
+  - 支持 `Monterey` `12.3Beta`
+  
 - 10-27-2021
   
   - Release `v2.0.0`

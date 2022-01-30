@@ -403,7 +403,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.8</string>
+                    <string>V1.5.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -439,7 +439,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.6</string>
+                    <string>V1.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -799,7 +799,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.5</string>
+                    <string>V1.0.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1145,7 +1145,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v -revsbvmm dk.e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
+                    <string>-revsbvmm dk.e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1274,6 +1274,12 @@
                 <integer>50</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerPollMask</key>
+                <integer>-1</integer>
+                <key>PointerPollMax</key>
+                <integer>80</integer>
+                <key>PointerPollMin</key>
+                <integer>10</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1285,19 +1291,23 @@
                 <integer>0</integer>
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
-                <key>AudioOut</key>
-                <integer>0</integer>
+                <key>AudioOutMask</key>
+                <integer>1</integer>
                 <key>AudioSupport</key>
                 <false/>
-                <key>MinimumVolume</key>
-                <integer>20</integer>
+                <key>DisconnectHda</key>
+                <false/>
+                <key>MaximumGain</key>
+                <integer>-15</integer>
+                <key>MinimumAssistGain</key>
+                <integer>-30</integer>
+                <key>MinimumAudibleGain</key>
+                <integer>-55</integer>
                 <key>PlayChime</key>
                 <string>Auto</string>
                 <key>ResetTrafficClass</key>
                 <false/>
                 <key>SetupDelay</key>
-                <integer>0</integer>
-                <key>VolumeAmplifier</key>
                 <integer>0</integer>
             </dict>
             <key>ConnectDrivers</key>
