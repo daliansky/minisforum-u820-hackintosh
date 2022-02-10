@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.7-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.2%2021D49-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.3%2020G415-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey Beta-12.3%2021E5206e-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.3%2020G415-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                       minisforum U820                        |
-| 操作系统  |                 macOS `Big Sur` / `Monterey`                 |
+| 操作系统  |     macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey`     |
 |  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
 |   内存    |                        16 GB 2400MHz                         |
 |   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
@@ -31,59 +31,64 @@
 
 ## 更新日志
 
-- 1-30-2022
+- 2-10-2022
   
+  - 更新 `OpenCore` `v0.7.8`
+  - 调整 `config.plist` 请执行 `reset NVRAM` 后食用
+  
+- 1-30-2022
+
   - Release `v2.1.0`
   - 更新 `OpenCore` `v0.7.7`
   - 支持 `Monterey` `12.3Beta`
-  
+
 - 10-27-2021
-  
+
   - Release `v2.0.0`
   - 修正 `Intel` 蓝牙驱动，支持 `Monterey` 安装使用
   - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
   - 更新 `OpenCore` 为 `v0.7.5`
   - 请使用工具  [OCAT_Mac.dmg](./OCAT_Mac.dmg) 编辑 `config.plist` 
-  
+
 - 10-22-2021
-  
+
   - Release `v1.8.0`
   - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
   - 更新 `OpenCore` 为 `v0.7.5`
-  
+
 - 9-8-2021
-  
+
   - Release `v1.7.0`
   - 默认支持 `HDMI` + `DP` 双显输出，如果需要使用 `TYPE-C` + `DP` 双显请参考下面的截图修改
   - 更新 `OpenCore` 为 `v0.7.3`
   - 请使用工具  [OCAT_Mac.dmg](./OCAT_Mac.dmg) 编辑 `config.plist` 
-  
+
 - 9-3-2021
-  
+
   - Release `v1.6.0`
     - 适配 `Monterey`
-  
+
 - 7-30-2021
-  
+
   - Release `v1.5.0`
     - 修复了`TYPE-C`显示输出问题
     - 修复了`Intel I225-V`的驱动问题，支持`Catalina` / `Bigsur` / `Monterey`
-  
+
 - 7-19-2021
 
   - Release `v1.4.0`
     - 支持`macOS Monterey`的安装使用
-  
+
 - 5-18-2021
 
   - Release `v1.3.0`
     - 修复了睡眠唤醒问题
-  
+
 - 5-17-2021
 
   - OpenCore `v0.6.9`
   - Release `v1.2.0`
-  
+
 - 4-17-2021
 
   - CLOVER `v5127`
@@ -162,9 +167,15 @@ SATA 接口中有一条属于光驱位，因此可能导致无法抹盘，安装
 
 ![DualDisplays](./screenshots/DualDisplays.png)
 
-![HDMI_Audio](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/AirDrop.png)
+![AirDrop](./screenshots/AirDrop.png)
 
-![Handoff](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/Handoff.png)
+![Handoff](./screenshots/Handoff.png)
+
+### 支持通用控制
+
+![Handoff](screenshots/uc1.jpg)
+
+![uc2](screenshots/uc2.jpg)
 
 ![Monitors](./screenshots/Monitors.png)
 
