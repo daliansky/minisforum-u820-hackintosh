@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey%20Beta-12.3%2021E5206e-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.3%2020G415-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey%20Beta-12.3.1%2021E258-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.5%2020G517-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -31,11 +31,16 @@
 
 ## 更新日志
 
-- 2-10-2022
+- 4-14-2022
   
+  - 更新 `OpenCore` `v0.7.9`
+  - 优化核显性能
+  
+- 2-10-2022
+
   - 更新 `OpenCore` `v0.7.8`
   - 调整 `config.plist` 请执行 `reset NVRAM` 后食用
-  
+
 - 1-30-2022
 
   - Release `v2.1.0`
