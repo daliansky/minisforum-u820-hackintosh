@@ -35,6 +35,7 @@
   
   - 更新 `OpenCore` `v0.8.0`
   - 修复了 `v2.1.0` 黑屏问题
+  - 修复了 `HDMI` / `DP` 音频输出的问题
   - 新增 `minisforum` 主题
   
 - 4-14-2022
@@ -173,7 +174,7 @@
 
 ![Hackintool](./screenshots/Hackintool.png)
 
-![Kexts](/Volumes/Big Sur 1/Users/sky/git/minisforum-u820-hackintosh/screenshots/Kexts.png)![U820_Sensei](screenshots/U820_Sensei.png)
+![Kexts](./screenshots/Kexts.png)![U820_Sensei](screenshots/U820_Sensei.png)
 
 ![Hackintool_Miscs](./screenshots/Hackintool_Miscs.png)
 
