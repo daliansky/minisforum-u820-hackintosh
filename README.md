@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.7.9-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey%20Beta-12.3.1%2021E258-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.5%2020G517-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.4%2021F79-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.6%2020G624-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -12,7 +12,7 @@
 | 电脑型号  |                       minisforum U820                        |
 | 操作系统  |     macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey`     |
 |  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
-|   内存    |                        16 GB 2400MHz                         |
+|   内存    |              16 GB 2400MHz(兼容2400MHz-3200MHz)              |
 |   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
 |  硬盘2/3  |                    可接SATA 2.5寸硬盘/SSD                    |
 |   显卡    |                 Intel Iris Plus Graphics 655                 |
@@ -31,11 +31,17 @@
 
 ## 更新日志
 
-- 4-14-2022
+- 5-20-2022
   
+  - 更新 `OpenCore` `v0.8.0`
+  - 修复了 `v2.1.0` 黑屏问题
+  - 新增 `minisforum` 主题
+  
+- 4-14-2022
+
   - 更新 `OpenCore` `v0.7.9`
   - 优化核显性能
-  
+
 - 2-10-2022
 
   - 更新 `OpenCore` `v0.7.8`
@@ -152,13 +158,18 @@
 
 登录 `Apple ID` 之前，请务必重新生成三码，否则有可能会导致无法登录 `App Store`，教程详见群公告里的链接
 
-SATA 接口中有一条属于光驱位，因此可能导致无法抹盘，安装时如果遇到此情况请使用另外一个 SATA 接口
+- 清空网络设备，重新排序为`en0` / `en1` / `en2`，以便可以顺利登录`app store`
 
+- 打开终端，输入命令：
+
+	```shell
+	sudo rm -rf /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist*
+	```
 
 
 ## 截屏
 
-![clover](./screenshots/OC.png)
+![clover](./screenshots/screenshot.png)
 
 ![Hackintool](./screenshots/Hackintool.png)
 
