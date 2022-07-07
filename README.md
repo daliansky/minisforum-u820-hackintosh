@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.0-informational.svg)](https://github.com/acidanthera/OpenCorePkg) [![MacOS version](https://img.shields.io/badge/Monterey-12.4%2021F79-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.6%2020G624-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.8.2-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.0-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.4%2021F79-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.6.6%2020G624-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -10,9 +10,9 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                       minisforum U820                        |
-| 操作系统  |     macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey`     |
+| 操作系统  | macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey` / `Ventura` |
 |  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
-|   内存    |              16 GB 2400MHz(兼容2400MHz-3200MHz)              |
+|   内存    |          最高支持64 GB 2400MHz(兼容2400MHz-3200MHz)          |
 |   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
 |  硬盘2/3  |                    可接SATA 2.5寸硬盘/SSD                    |
 |   显卡    |                 Intel Iris Plus Graphics 655                 |
@@ -31,13 +31,18 @@
 
 ## 更新日志
 
-- 5-20-2022
+- 7-7-2022
   
+  - 更新 `OpenCore` `v0.8.2`
+  - 支持 `Ventura` 安装使用
+  
+- 5-20-2022
+
   - 更新 `OpenCore` `v0.8.0`
   - 修复了 `v2.1.0` 黑屏问题
   - 修复了 `HDMI` / `DP` 音频输出的问题
   - 新增 `minisforum` 主题
-  
+
 - 4-14-2022
 
   - 更新 `OpenCore` `v0.7.9`
