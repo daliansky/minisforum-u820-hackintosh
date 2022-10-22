@@ -931,7 +931,7 @@
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapper</key>
                 <true/>
                 <key>DisableLinkeditJettison</key>
@@ -1308,7 +1308,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C071532074NKXPG1H</string>
+                <string>C07837108QXKXPGFB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1322,9 +1322,9 @@
                 <key>SystemProductName</key>
                 <string>Macmini8,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C07GXUYUJYVX</string>
+                <string>C07XD08HJYVX</string>
                 <key>SystemUUID</key>
-                <string>358EC00C-44C7-4844-9260-6234453A2DF4</string>
+                <string>4FACCA8B-EBDC-4D71-9131-33898E24B352</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1333,7 +1333,7 @@
             <key>UpdateSMBIOS</key>
             <true/>
             <key>UpdateSMBIOSMode</key>
-            <string>Create</string>
+            <string>Custom</string>
             <key>UseRawUuidEncoding</key>
             <false/>
         </dict>
