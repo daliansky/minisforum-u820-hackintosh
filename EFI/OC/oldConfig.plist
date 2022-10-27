@@ -38,14 +38,6 @@
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-I225V_for_U820.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -348,7 +340,7 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
                 <dict>
-                    <key>#device-id</key>
+                    <key>device-id</key>
                     <data>8xWGgA==</data>
                     <key>model</key>
                     <string>Intel I225-V 2.5G Gigabit Ethernet Controller</string>
@@ -1265,7 +1257,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>e1000=0 -revsbvmm alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
+                    <string>dk.e1000=0 -revsbvmm e1000=0 alcid=82 igfxonln=1 -igfxmpc -cdfon -igfxsku -lilubetaall brcmfx-country=#a</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>

@@ -38,6 +38,14 @@
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-I225V_for_U820.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -305,6 +313,13 @@
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                 </dict>
+                <key>#PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>device-id</key>
+                    <data>8xWGgA==</data>
+                    <key>model</key>
+                    <string>Intel I225-V 2.5G Gigabit Ethernet Controller</string>
+                </dict>
                 <key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key># 说明</key>
@@ -337,13 +352,6 @@
                     <string>onboard-1</string>
                     <key>model</key>
                     <string>Intel Iris Plus Graphics 655</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>device-id</key>
-                    <data>8xWGgA==</data>
-                    <key>model</key>
-                    <string>Intel I225-V 2.5G Gigabit Ethernet Controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
