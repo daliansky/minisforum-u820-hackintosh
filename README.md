@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.4-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Ventura-13.5.1-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Somona-14.3.1-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-13.5.1-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-12.6.3%2021G419-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-11.7.3%2020G1116-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -31,12 +31,16 @@
 
 ## 更新日志
 
-- 8-31-2023
+- 2-20-2024
   
+  - 更新 `OpenCore` `v0.9.8` 正式版
+  
+- 8-31-2023
+
   - 更新 `OpenCore` `v0.9.4` 正式版
   - 支持 `sonoma`
   - 整合 `ventura` / `bigsur` 配置文件
-  
+
 - 1-30-2023
 
   - 更新 `OpenCore` `v0.8.9` 开发版
