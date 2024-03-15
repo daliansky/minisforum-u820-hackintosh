@@ -513,7 +513,7 @@
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -529,9 +529,9 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Ventura.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0 | Intel WIFI for Ventura</string>
+                    <string>V2.3.0 | Intel WIFI for Ventura</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -547,9 +547,9 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Monterey.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0 | Intel WIFI for Monterey</string>
+                    <string>V2.3.0 | Intel WIFI for Monterey</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -567,7 +567,7 @@
                     <key>Comment</key>
                     <string>V2.2.0 | Intel WIFI for BigSur</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -639,7 +639,7 @@
                     <key>Comment</key>
                     <string>V2.4.0 | Intel BT</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
@@ -657,7 +657,7 @@
                     <key>Comment</key>
                     <string>V2.4.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
                     <key>MaxKernel</key>
@@ -1100,7 +1100,7 @@
                 <key>BlacklistAppleUpdate</key>
                 <true/>
                 <key>DmgLoading</key>
-                <string>Disabled</string>
+                <string>Signed</string>
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
@@ -1114,7 +1114,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
