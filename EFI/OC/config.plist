@@ -529,7 +529,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Ventura.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | Intel WIFI for Ventura</string>
+                    <string>V2.2.0 | Intel WIFI for Ventura</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -547,7 +547,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm_for_Monterey.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | Intel WIFI for Monterey</string>
+                    <string>V2.2.0 | Intel WIFI for Monterey</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -619,7 +619,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0 | Intel BT</string>
+                    <string>V2.5.0 | Intel BT</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -637,7 +637,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0 | Intel BT</string>
+                    <string>V2.5.0 | Intel BT</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>

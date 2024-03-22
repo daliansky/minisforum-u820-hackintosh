@@ -15,13 +15,13 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.4.0</string>
+	<string>2.5.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.4.0</string>
+	<string>2.5.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -82,6 +82,36 @@
 			<string>IOUSBHostDevice</string>
 			<key>idProduct</key>
 			<integer>53</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+		<key>0036</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOProbeScore</key>
+			<integer>3000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>54</integer>
+			<key>idVendor</key>
+			<integer>32903</integer>
+		</dict>
+		<key>0038</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>BroadcomBluetoothHostControllerUSBTransport</string>
+			<key>IOProbeScore</key>
+			<integer>3000</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>56</integer>
 			<key>idVendor</key>
 			<integer>32903</integer>
 		</dict>
