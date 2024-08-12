@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-0.9.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg)![MacOS version](https://img.shields.io/badge/Somona-14.4-informational.svg)![MacOS version](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS version](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.1-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg) ![MacOS Sonoma](https://img.shields.io/badge/Somona-informational.svg) ![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                       minisforum U820                        |
-| 操作系统  | macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey` / `Ventura` |
+| 操作系统  | macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey` / </br>`Ventura` / `Sonoma` / `Sequoia` |
 |  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
 |   内存    |          最高支持64 GB 2400MHz(兼容2400MHz-3200MHz)          |
 |   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
@@ -31,13 +31,18 @@
 
 ## 更新日志
 
-- 3-23-2024
+- 8-12-2024
   
+  - 更新 `OpenCore` `v1.0.1`
+  - 支持 `Sequoia`
+  
+- 3-23-2024
+
   - 更新 `OpenCore` `v0.9.9`
   - 更新 `AirportItlwm` 驱动，支持 `Sonoma` `14.4`
   - 更新 `IOSkywalkFamily.kext` 到 `v1.1.0`
   - `Sonoma` 如果想更新到 `14.4` 请务必先更新 `EFI` ，然后再安装 [OCLP](https://pan.daliansky.net/APPS/OCLP/OCLP.md)，重启后，再升级到 `14.4` 否则会出现 `WIFI` 无法启用的问题
-  
+
 - 2-20-2024
 
   - 更新 `OpenCore` `v0.9.8` 正式版
