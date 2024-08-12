@@ -46,14 +46,6 @@
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-I225V_for_U820.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -455,9 +447,27 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>AMFIPass.kext</string>
+                    <key>Comment</key>
+                    <string>V1.4.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AMFIPass</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.0</string>
+                    <string>V1.9.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -509,78 +519,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AirportItlwm_for_Sonoma.kext</string>
-                    <key>Comment</key>
-                    <string>V2.3.0</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string>23.99.99</string>
-                    <key>MinKernel</key>
-                    <string>23.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm_for_Ventura.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0 | Intel WIFI for Ventura</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string>22.99.99</string>
-                    <key>MinKernel</key>
-                    <string>22.00.00</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm_for_Monterey.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0 | Intel WIFI for Monterey</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string>21.99.99</string>
-                    <key>MinKernel</key>
-                    <string>21.00.00</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm_for_BigSur.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0 | Intel WIFI for BigSur</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string>20.99.99</string>
-                    <key>MinKernel</key>
-                    <string>20.00.00</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
                     <string>V2.6.9 | BT for Monterey &amp; Ventura</string>
@@ -608,60 +546,6 @@
                     <string></string>
                     <key>MaxKernel</key>
                     <string>20.99.99</string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
-                    <key>Comment</key>
-                    <string>V2.5.0 | Intel BT</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string>20.99.99</string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
-                    <key>Comment</key>
-                    <string>V2.5.0 | Intel BT</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBTPatcher.kext</string>
-                    <key>Comment</key>
-                    <string>V2.4.0</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBTPatcher</string>
-                    <key>MaxKernel</key>
-                    <string></string>
                     <key>MinKernel</key>
                     <string></string>
                     <key>PlistPath</key>
@@ -853,7 +737,7 @@
                     <key>BundlePath</key>
                     <string>AppleIGC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3d1 | I225-V</string>
+                    <string>V1.5d1 | I225-V</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
