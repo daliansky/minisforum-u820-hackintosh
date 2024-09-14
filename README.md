@@ -31,11 +31,16 @@
 
 ## 更新日志
 
-- 8-12-2024
+- 9-14-2024
   
+  - 更新 `IOSkywalkFamily.kext` `v1.2.0`
+  - 调整  `config.plist` 设置选项
+  
+- 8-12-2024
+
   - 更新 `OpenCore` `v1.0.1`
   - 支持 `Sequoia`
-  
+
 - 3-23-2024
 
   - 更新 `OpenCore` `v0.9.9`
