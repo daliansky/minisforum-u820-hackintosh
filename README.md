@@ -31,11 +31,17 @@
 
 ## 更新日志
 
-- 9-14-2024
+- 4-23-2025
   
+  - 更新 `OpenCore` `v1.0.5`
+  - 更新 `RealtekRTL8111` `v2.5.0`
+  - 更换 Intel I225-V 驱动为 `SimpleVGBE`
+  
+- 9-14-2024
+
   - 更新 `IOSkywalkFamily.kext` `v1.2.0`
   - 调整  `config.plist` 设置选项
-  
+
 - 8-12-2024
 
   - 更新 `OpenCore` `v1.0.1`
