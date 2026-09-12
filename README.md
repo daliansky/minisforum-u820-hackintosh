@@ -1,7 +1,7 @@
 # minisforum-u820-hackintosh
 
 ![release version](https://img.shields.io/github/v/release/daliansky/minisforum-u820-hackintosh?style=for-the-badge) 
-[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.5-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg) ![MacOS Sonoma](https://img.shields.io/badge/Somona-informational.svg) ![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
+[![OpenCore version](https://img.shields.io/badge/OpenCore-1.0.8-informational.svg)](https://github.com/acidanthera/OpenCorePkg) ![MacOS Tahoe](https://img.shields.io/badge/Tahoe-informational.svg) ![MacOS Sequoia](https://img.shields.io/badge/Sequoia-informational.svg) ![MacOS Sonoma](https://img.shields.io/badge/Somona-informational.svg) ![MacOS Ventura](https://img.shields.io/badge/Ventura-informational.svg) [![MacOS Monterey](https://img.shields.io/badge/Monterey-informational.svg)](https://www.apple.com/macos) [![MacOS version](https://img.shields.io/badge/Bigsur-informational.svg)](https://www.apple.com/macos)
 
 [![U820](screenshots/U820.jpg)](https://hackintosher.taobao.com)
 
@@ -10,7 +10,7 @@
 |   规格    |                           详细信息                           |
 | :-------: | :----------------------------------------------------------: |
 | 电脑型号  |                       minisforum U820                        |
-| 操作系统  | macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey` / </br>`Ventura` / `Sonoma` / `Sequoia` |
+| 操作系统  | macOS `Mojave` / `Catalina` / `Big Sur` / `Monterey` / </br>`Ventura` / `Sonoma` / `Sequoia` / `Tahoe` |
 |  处理器   |               英特尔 酷睿 i5-8259U / i5-8279U                |
 |   内存    |          最高支持64 GB 2400MHz(兼容2400MHz-3200MHz)          |
 |   硬盘1   |                   KINGSTON OM8PDP3256B-A01                   |
@@ -31,6 +31,11 @@
 
 ## 更新日志
 
+- 9-12-2026
+  
+  - 更新 `OpenCore` `v1.0.8`
+  - 支持 `Tahoe`
+  
 - 4-23-2025
   
   - 更新 `OpenCore` `v1.0.5`
@@ -218,7 +223,11 @@
 
 ## 截屏
 
-![clover](./screenshots/screenshot.png)
+![OpenCore](./screenshots/OpenCore.png)
+
+![Tahoe](/Users/sky/git/minisforum-u820-hackintosh/screenshots/Tahoe.png)
+
+![Tahoe_About](/Users/sky/git/minisforum-u820-hackintosh/screenshots/Tahoe_About.png)
 
 ![Hackintool](./screenshots/Hackintool.png)
 
