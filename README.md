@@ -225,9 +225,9 @@
 
 ![OpenCore](./screenshots/OpenCore.png)
 
-![Tahoe](/Users/sky/git/minisforum-u820-hackintosh/screenshots/Tahoe.png)
+![Tahoe](./screenshots/Tahoe.png)
 
-![Tahoe_About](/Users/sky/git/minisforum-u820-hackintosh/screenshots/Tahoe_About.png)
+![Tahoe_About](./screenshots/Tahoe_About.png)
 
 ![Hackintool](./screenshots/Hackintool.png)
 
